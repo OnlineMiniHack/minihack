@@ -52,7 +52,7 @@ If you fill that in, we'll try and match you with other people that
 say the same.  Obviously, if you say that you only want to code in Ook,
 there's a possibility that we won't be able to find a match.
 
-## I'm a busy person - how long will this take
+## I'm a Busy Person - How Long Will This Take
 
 It's a mini-hackathon, so we'll try and keep the whole thing to 
 under two hours - that's:
@@ -84,12 +84,12 @@ and random points
 
 It goes in here.
 
-## What if we don't finish?
+## What if we Don't Finish?
 
 Doesn't matter - it's all for fun - so if you learn something, have a laugh,
 and have a talk to other people, it's a successful event.
 
-# Are there any rules?
+# Are There any Rules?
 
 Yes: be excellent to each other!  
 Any discrimination or abuse will get you removed from your team.
