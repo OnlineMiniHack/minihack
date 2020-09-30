@@ -94,7 +94,13 @@ and have a talk to other people, it's a successful event.
 Yes: be excellent to each other!  
 Any discrimination or abuse will get you removed from your team.
 
+# Pre-Requisites
 
+The following would be useful:
+
+A code editor, for example <a href="https://code.visualstudio.com/download">VS Code</a>.
+
+A git client, for example <a href="https://git-scm.com/downloads">git bash</a>.
 
 
 
