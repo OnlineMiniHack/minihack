@@ -17,7 +17,7 @@ CLI,Command line interpreter
 CPE,Customer premises equipment
 CPU,Central processing Unit
 CRC,Cyclic redundancy check
-CRC-16-CCITT,Cyclic redundancy check (X.25, HDLC)
+CRC-16-CCITT,"Cyclic redundancy check (X.25, HDLC)"
 CRT,Cathode Ray Tube
 CSMA/CA,Carrier sense multiple access / collision avoidance
 CSMA/CD,Carrier sense multiple access / collision detection

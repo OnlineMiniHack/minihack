@@ -1,0 +1,97 @@
+AWS, Amazon Web Services
+AES, Amazon Elastic search
+AMI, Amazon Machine Image
+API, Application Programming Interface
+AI,Artificial Intelligence
+ACL,Access Control List
+ARN,Amazon Resource Name
+AZ,Availability Zone
+ASG,Auto Scaling Group
+AES,Advanced Encryption System
+ADFS,Active Directory Federation Service
+CDN,Content Delivery Network
+CLI,Command Line Interface
+CIDR,Classless Inter Domain Routing
+CORS,Cross Origin Resource Sharing
+DMS,Database Migration Service
+DNS,Domain Name System
+DDoS,Distributed Denial of Service
+DoS,Denial of Service
+DaaS, Desktop as a Service
+EC2,Elastic Compute Cloud
+ECS,EC2 Container Service
+EFS,Elastic File System
+EBS,Elastic Block Store
+EMR,Elastic MapReduce
+ELB,Elastic Load Balancer
+EIP,Elastic IP
+ENI,Elastic Network Interface
+FIFO,First In First Out
+FaaS,Function as a Service
+HPC,High Performance Compute
+HVM,Hardware Virtual Machine
+HTTP,Hypertext Transfer Protocol
+HTTPS,HTTP Secure
+IAM,Identity & Access Management
+iOT,Internet Of Things
+S3 IA, S3 Infrequent Access
+iSCSI,Internet Small Computer Storage Interface
+IOPS,Input  Output Operation Per Second
+IGW,Internet Gateway
+ICMP, Internet Control Message Protocol
+IP,Internet Protocol
+IPSec,Internet Protocol Security
+IaaS,Infrastructure as a Service
+JSON,JavaScript Object Notation
+KMS,Key Management Service
+LB,Load Balancer
+MFA,Multi Factor Authentication
+MSTSC,Microsoft Terminal Service Client
+MPP, Massive Parallel Processing
+MITM,Man in the Middle Attack
+MPLS,Multi Protocol Label Switching
+NFS,Network File System
+NS,Name Server
+NAT, Network Address Translation
+OLTP,Online Transaction Processing
+OLAP,Online Analytics Processing
+PCI, Payment Card Industry
+DSS, Data Security Standard
+PV,ParaVirtual
+PaaS,Platform as a Service
+RDS,Relational Database Service
+RRS,Reduced Redundancy Storage
+RAID,Redundant Array of Independent Disk
+RAM,Random access Memory
+S3,Simple Storage Service
+SMS,Server Migration Service
+SWF,Simple Workflow Service
+SNS,Simple Notification Service
+SQS,Simple Queue Service
+SES,Simple Email Service
+SLA,Service Level Agreement
+SSL,Secure Socket Layer
+SSE,Server Side Encryption
+SOA,Start of Authority
+SDK,Software Development Kit
+SSH, Secure Shell
+SOAP,Simple Object Access Protocol
+SSO,Single Sign On
+SAML,Security Assertion Markup Language
+SaaS,Software as a Service
+SaaS,Security as a Service
+STS,Security Token Service
+TTL,Time To Live
+TLS,Transport Layer Security
+TPM,Trusted Platform Module
+TPM,Technical Program Manager
+TPS,Transaction Per Second
+TCP,Transmission Control Protocol
+VPC, Virtual Private Cloud
+VM,Virtual Machine
+VTL,Virtual Tape Library
+VPN,Virtual Private Network
+VLAN,Virtual Local Area Network
+VDI,Virtual Desktop Infrastructure
+VPG,Virtual Private Gateway
+WAF,Web Application Firewall
