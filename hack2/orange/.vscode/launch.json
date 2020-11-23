@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "vslsRemoteLaunch",
+            "name": "ConsoleApp29",
+            "request": "attach",
+            "projectID": "ed0a8d32-13b2-4b62-ae3f-358010c5cccb"
+        }
+    ]
+}
