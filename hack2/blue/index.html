@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Memory Game</title>
+    <script src="app.js" defer></script>
+    <style>
+
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Fruit Memory Game</h1>
+    <button onclick="start()">Start</button>
+    <br />
+    <br />
+    <br />
+    <form id="inputForm" onsubmit="onSubmitAnswer()">
+      <input
+        type="text"
+        id="input"
+        name="input"
+        cols="400"
+        rows="1"
+        style="width: 400px; height: 60px"
+        autocomplete="off"
+      />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>
+      Enter your answer with a comma and a space between words:<br>
+      <pre>kiwi, banana, kiwi</pre>
+    </p>
+  </body>
+</html>
