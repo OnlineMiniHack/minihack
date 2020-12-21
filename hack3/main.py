@@ -40,3 +40,5 @@ print(requestUrl)
 
 response = request(requestUrl);
 print(response)
+
+# 403 for some reason? why is a mystery
