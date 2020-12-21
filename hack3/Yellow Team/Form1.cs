@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AdventCountDown
@@ -28,21 +22,7 @@ namespace AdventCountDown
             _headingColour = new SolidBrush(Color.Red);
             _digitColour = new SolidBrush(Color.Gold);
             _boxColour = new Pen(Color.Gold);
-
             this.Text = "Time until Christmas";
-
-
-            // Display Days in binary
-
-            //  
-
-            // Progress Bar
-
-            // Count down to Christmas 2021 display more digits
-
-            // Red background.  Lighter -> Darker
-
-            // ASCII Art
         }
 
         private int DaysUntil(DateTime currentDate, DateTime targetDate)
@@ -75,14 +55,12 @@ namespace AdventCountDown
             var currentDate = DateTime.Now;
             var targetDate = new DateTime(2020, 12, 25);
 
-
-
             var currentContext = BufferedGraphicsManager.Current;
             using (var myBuffer = currentContext.Allocate(this.CreateGraphics(), this.DisplayRectangle))
             {
                 var g = myBuffer.Graphics;
                 g.Clear(this.BackColor);
-                g.DrawImage(_image,this.DisplayRectangle);
+                g.DrawImage(_image, this.DisplayRectangle);
 
                 var headingFont = new Font(this.Font.Name, 45);
                 var font = new Font(this.Font.Name, 60);
