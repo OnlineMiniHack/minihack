@@ -19,7 +19,7 @@ The following are some suggestions to give a feel for the sort of thing you migh
 * Web scrape articles/pages
 * Grab article of "on this day" for that day
 * ML - sentiment of the article and do something based on that (happy message/sad message)
-* https://www.onthisday.com/events/december/20 - declarative, which makes it easier
+* https://www.onthisday.com/events/december/21 - declarative, which makes it easier
 * Happy/Sad/Don't Care (default) prompt
   * happy - returns a birth
   * sad - returns a death
