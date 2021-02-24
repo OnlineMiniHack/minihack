@@ -5,11 +5,11 @@ The theme for MiniHack 5 is Valentines Day.  Your friend has forgotten about val
 Whatever you produce must either be virtual (i.e. transmittable by e-mail), or small enough to fit in a jiffy bag.
 
 ## Team Members
-@blueboxes
-@ljdyer
+@blueboxes  
+@ljdyer  
 Andrew
 
 ## Our Solution 
 To create a web based love poem with audio, url animation and console images.
 
-You can run the html file locally or view [demo.mp4](demo.mp4)
+![Screenshot](./screenshot.jpg "Screenshot")
