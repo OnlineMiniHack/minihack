@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title>A Lovely Poem for You '❤'</title>
+</head>
+<body>
+<div>
+
+    <style>
+
+body, body * {
+  margin: 0;
+  padding: 0;
+  color: lightgrey;
+  font-size: 80px;
+  cursor: pointer;
+  font-family: 'Lovers Quarrel', cursive;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink {
+    color:hotpink;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+ background-color: blue;
+}
+
+.hearts{
+    background-image: url("heart-bg.jpg");
+    background-size: cover;
+}
+</style>
+    
+<section class="red" id="line1">
+    <p>Broken builds are red</p>
+</section>
+<section class="green" id="line2">
+    <p class="pink">URL links are blue</p>
+</section>
+<section class="hearts"  id="line3">
+    <p style="background-color: white; color: black">This page goes on forever.</p>
+</section>
+<section class="hearts"  id="line4">
+    <p style="background-color: white; color: black">This page goes on forever.</p>
+</section>
+<section class="hearts"  id="line5">
+    <p style="background-color: white; color: black">This page goes on forever.</p>
+</section>
+
+<section  id="line6">
+    <p>Just like my love for you!!!</p>
+</section>
+
+</div>
+
+<script>
+//reset
+location.hash = ''
+document.body.scrollTop = 0;
+
+var f = ['💙','❤'];
+
+function flashURL() {
+    location.hash = f[Math.floor((Date.now()/100)%f.length)].repeat(20);
+    setTimeout(flashURL, 250);
+}
+
+function speakText(textToSay) {
+    const synth = window.speechSynthesis;
+    const utterThis = new SpeechSynthesisUtterance(textToSay);
+    synth.speak(utterThis);
+}
+
+function firstLine() {
+    speakText("Broken builds are red");
+}
+
+function secondLine() {
+    speakText("URL links are blue");
+}
+
+function thirdLine() {
+    speakText("This page goes on forever");
+    setTimeout(function(){speakText("Just like my love for you!")}, 2000);
+}
+
+ 
+
+    function PrintRose() {
+        console.log("%c       __   __", "color:red")
+        console.info("%c      /  \\./  \\/\\_", "color:red")
+        console.info("%c  __{^\\_ _}_   )  }/^\\", "color:red")
+        console.info("%c /  /\\_/^\\._}_/  //  /", "color:red")
+        console.info("%c(  (__{(@)}\\__}.//_/__A____A_______A________A________A_____A___A___A______", "color:red")
+        console.info("%c \\__/{/(_)\\_}  )\\\\ \\\\---v-----V-----V---Y-----v----Y------v-----V-----v---", "color:red")
+        console.info("%c   (   (__)_)_/  ) \\  \\>", "color:red")
+        console.info("%c    \\__/     \\__/ \\/ \\/", "color:red")
+        console.info("%c       \\__,--'", "color:red")
+    }
+
+const sections = document.querySelectorAll("section")
+  
+sections[0].addEventListener('click', function(event) {
+    firstLine();
+    PrintRose();
+    setTimeout(function(){sections[1].scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});}, 3000);
+});
+
+sections[1].addEventListener('click', function(event) {
+    secondLine();
+    flashURL();
+    setTimeout(function(){sections[2].scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});}, 3000);
+});
+
+sections[2].addEventListener('click', function(event) {
+    thirdLine();
+    sections[5].scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+});
+
+window.onscroll = function(ev) {
+  
+  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+      if(document.querySelectorAll("section").length < 50){
+          var section = document.createElement('section');
+          section.classList.add("hearts");
+          document.body.append(section);
+          section.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+      } 
+  }
+  
+}
+
+
+</script>
+
+</body>
+</html>
