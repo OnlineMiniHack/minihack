@@ -1,0 +1,40 @@
+.roll {
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+
+.roll-setup {}
+
+.fall {
+    transition: transform 2s;
+    transform: translate(0px, 100vh);
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* unvisited link */
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: black;
+}
+
+/* selected link */
+
+a:active {
+    color: black;
+}
