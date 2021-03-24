@@ -14,6 +14,7 @@ var d = 0;
 var x = 0;
 var s = 0;
 var s2 = 0;
+var el;
 
 function tap() {
     myVar = setInterval(tapStep, 10);
@@ -23,7 +24,7 @@ function tap() {
 }
 
 function tapStep() {
-    var el = document.getElementById('main');
+    el = document.getElementById('main');
     el.style = "transform: translate(" + x + "px, 0);";
     x = x + d;
     s2 = s2 - 1;
@@ -40,14 +41,20 @@ function tapStep() {
 // Easter egg 3: Make main div rotate 360 degrees
 
 function roll() {
-    var el = document.getElementById('main');
+    el = document.getElementById('main');
     el.classList.add('roll');
+    setTimeout(removeRoll, 2000);
+}
+
+function removeRoll(){
+    el = document.getElementById('main');
+    el.classList.remove('roll');
 }
 
 // Easter egg 4: Make image fall
 
 function fall() {
-    var el = document.getElementById('fall');
+    el = document.getElementById('fall');
     el.classList.add('fall');
 }
 
