@@ -36,6 +36,12 @@ function tapStep() {
     if (s == 0) {
         clearInterval(myVar);
     }
+    setTimeout(removeTap, 2000);
+}
+
+function removeTap(){
+    el = document.getElementById('main');
+    el.style = "";
 }
 
 // Easter egg 3: Make main div rotate 360 degrees
