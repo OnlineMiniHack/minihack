@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--Created by Andrew, Peter & Nuh -->
+<script>
+    const questions = [
+        "What is your Name?",
+        "What's your favourite meal?",
+        "Have you got a job?",
+        "What did you have for breakfast this morning?",
+        "Tea or coffee?",
+        "Beer or wine?",
+        "Which football team do you like most?",
+        "Which holiday destination would you recommend?",
+        "What is your greatest fear?",
+        "What makes you angry?",
+        "Is there a point to this?",
+        "who inspires you?",
+        "What's the capital of Peru?",
+        "What's the answer to life, the universe and everything?",
+        "Knock knock",
+        "Which musical instrument can you play best?",
+        "What was the last song you can remember hearing?",
+        "Who wrote Wuthering Heights?",
+        "Who sang Wuthering Heights?",
+        "Guybrush Threepwood is a mighty what?",
+        "What's red backwards?",
+        "Who's milkshake brings the boys to the yard?",
+        "Ou est la gare?",
+        "What does not belong on a pizza?",
+        "What's your favourite murder weapon?",
+        "Which website could you not do without?",
+        "Name a Tarantino film",
+        "Name a famous Charles"
+    
+    ];
+    var eggs = ["lucky", "bunny", "chocolate"];
+
+    var answers = "";
+   
+    var foundWord = "";
+    var found = false;
+
+    function Submit() {
+        var i =  Math.round(Math.random()*questions.length);
+        var answer = document.querySelector('input').value;
+
+        answers+=answer;
+        console.log("answers:"+answers);
+        var questionBox = document.querySelector('.question');
+        
+        for(var j=0; j<eggs.length; j++){
+            var value = 0;
+            console.log("egg j:"+eggs[j]);
+            for(var k=0; k<eggs[j].length;k++){
+                if(answers.includes(eggs[j][k])){ value+=1 }
+                if(value==3){ found = true; foundWord = eggs[j]; break }
+                console.log("value: "+value)
+            }
+            value=0;
+            if(found){ break; }
+        }
+        
+        if( found ){ 
+
+            questionBox.innerHTML = "You found an egg! it is ..."+ foundWord;
+            found = false;
+            foundWord = "";
+            answers="";
+
+            document.querySelector('input').style="visibility:hidden;";
+            document.querySelector('label').innerHTML = "Next Question";
+
+        }
+        else{
+            document.querySelector('label').innerHTML = "Answer";
+
+            questionBox.innerHTML = questions[i];
+            document.querySelector('input').style="visibility:visible;"
+        }
+
+        document.querySelector('input').value="";
+    }
+</script>
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css" media="screen">
+        html {
+            height:100vh;
+            background-color:pink;
+            display:flex;
+            flex-direction:column;
+        }
+        body {
+            margin:20% auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Hello! Welcome to a Quest of a Kind
+    </h2>
+    <div class="container">
+        <div class="question">
+            "What is your Name?"
+        </div>
+        <input />
+    </div>
+    <button type="button" onclick="Submit()" class="button"> <label> Answer </label> </button>
+    
+</body>
+</html>
