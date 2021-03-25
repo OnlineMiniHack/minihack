@@ -56,6 +56,12 @@ function removeRoll(){
 function fall() {
     el = document.getElementById('fall');
     el.classList.add('fall');
+    setTimeout(removeFaller, 2000);
+}
+
+function removeFaller(){
+    el = document.getElementById('fall');
+    el.remove();
 }
 
 // Easter egg 5: Change background and text to random colours
