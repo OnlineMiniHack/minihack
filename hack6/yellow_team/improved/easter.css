@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+/* Page effects */
+
+.roll {
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+
+.fall {
+    transition: transform 2s;
+    transform: translate(0px, 100vh);
+}
+
+/* Link styles */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.blue-link {
+    color: blue !important;
+}
+
+.bold-link {
+    font-weight: bold;
+}
+
+.italic-link {
+    font-style: italic;
+}
+
+.highlighted-link {
+    background-color: yellow;
+}
+
+.big-link{
+    font-size: 24px;
+}
