@@ -1,0 +1,67 @@
+.train {
+    position: fixed;
+    height: 80px;
+    width: 50px;
+}
+
+.track {
+    left: 100px;
+    top: 100px;
+    border: 6px solid red;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+}
+
+:root {
+    --per10: 20;
+  }
+  
+.man_eus {
+    transition-duration: calc((2*60+10)/var(--persec))s;
+}
+
+.man_bns {
+    transition-duration: calc((1*60+30)/var(--persec))s;
+}
+
+.eus_man {
+    transition-duration: calc((2*60+10)/var(--persec))s;
+}
+
+.eus_bns {
+    transition-duration: calc((1*60+40)/var(--persec))s;
+}
+
+.bns_man {
+    transition-duration: calc((1*60+30)/var(--persec))s;
+}
+
+.bns_eus {
+    transition-duration: calc((1*60+40)/var(--persec))s;
+}
+
+div{
+    font-family:'Orbitron'
+}
+.clock{
+    font-size:50px;
+    text-align: center;
+    padding:30px;
+}
+.boards{
+    display: flex;
+}
+.board{
+    border:solid 1px; border-radius: 20px;
+    padding: 15px 5px 15px;
+    margin:10px;
+    width:25%
+}
+.station{
+position: absolute;
+width:40px;
+border-radius: 30px;
+height: 30px;
+border:5px solid red;
+}
