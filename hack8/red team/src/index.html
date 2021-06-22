@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <script src="code.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+      
+    </head>
+    <body>
+        <div class="clock" id="clock">
+
+        </div>
+
+        <div class="boards">
+        <div class="board">
+            <h1>Manchester</h1>
+            <div id="clock-MAN">
+                <h2>Departures</h2>
+                <div id="dep-MAN"></div>
+                <div></div>
+                <h2>Arrivals</h2>
+                <div id="arv-MAN"></div>
+            </div>
+        </div>
+
+        <div class="board">
+            <h1>Euston</h1>
+        <div id="clock-EUS">
+            <h2>Departures</h2>
+            <div id="dep-EUS"></div>
+            <h2>Arrivals</h2>
+            <div id="arv-EUS"></div>
+        </div>
+    </div>
+
+    
+    <div class="board">
+        <h1>Birmingham</h1>
+        <div id="clock-BNS">
+            <h2>Departures</h2>
+            <div id="dep-BNS"></div>
+            <h2>Arrivals</h2>
+            <div id="arv-BNS"></div>
+        </div>
+    </div>
+</div>
+
+        <div class="station" style="top:500px;left:100px;"></div>
+        <div class="station" style="top:600px;left:700px;"></div>
+        <div class="station" style="top:900px;left:200px;"></div>
+
+
+    
+    <script>
+        
+        var time = 15;
+        setInterval(function(){
+            var d = new Date();
+            d.setMinutes(time);
+            time+=10;
+            
+            document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+
+            document.getElementById("dep-MAN").innerHTML = GetNextDept(time, "MAN");
+            document.getElementById("dep-EUS").innerHTML = GetNextDept(time, "EUS");
+            document.getElementById("dep-BNS").innerHTML = GetNextDept(time, "BNS");
+
+            document.getElementById("arv-MAN").innerHTML = GetNextArrival(time, "MAN");
+            document.getElementById("arv-EUS").innerHTML = GetNextArrival(time, "EUS");
+            document.getElementById("arv-BNS").innerHTML = GetNextArrival(time, "BNS");
+
+         }, 500);
+
+         setInterval(MoveTrains, 50);
+        
+
+      
+AddTrain(traffic[0]);
+AddTrain(traffic[2]);
+AddTrain(traffic[4]);
+    </script>
+    </body>
+</html>
+
+
