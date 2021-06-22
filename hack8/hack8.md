@@ -33,6 +33,7 @@ The following are some suggestions to give a feel for the sort of thing you migh
 * Create an AI algorythm to calculate the best times to run the trains
 * Create an interactive board that allows a user to edit the times and projects passenger numbers
 * Create a game that lets you play with stations and times
+* An Excel sheet that contains the times and provides projected journey length
 
 
 # Resources
