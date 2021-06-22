@@ -1,0 +1,23 @@
+body {
+    background: black;
+    color: rgb(0, 227, 0);
+    text-align: center;
+    justify-content: center;
+    padding-top: 10em;
+    background-image: url("/images/backdoor.png");
+    font-family: 'Staatliches', cursive;
+    font-size: larger;
+ /* need to sort the background, doing the main page first */
+}
+
+button{
+    margin:20px;
+    border-radius: 20px;
+}
+
+.answer
+{
+    font-size:90px;
+    padding: 50px;
+}
+

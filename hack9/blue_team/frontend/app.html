@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.app.css">
+    <title>Secret App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+<script>
+if(!document.cookie.split('; ').find((a)=>a=="auth=loggedIn"))
+{
+    window.location.href = "index.html"
+}
+</script>
+<h1 class="header">Super Secret Number Adder!</h1>
+    <form>
+        Pop a number in here <input type="number" id="numberA"><br>
+        ...and another in here <input type="number" id="numberB"><br>
+        <button type="button"
+                onclick="addTwo(document.getElementById('numberA').value,document.getElementById('numberB').value)">SHOW
+                ME</button>
+    </form>
+
+    <div class="answer" id="answer"></div>
+<!-- logout button... just delete thecookie? -->
+    <button type="button" onclick=logout()>LOG OUT</button>
+
+    <script src="./appscripts.js">
+    </script>
+ 
+</body>
+</html>
