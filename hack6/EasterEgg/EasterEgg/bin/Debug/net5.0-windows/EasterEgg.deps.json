@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EasterEgg/4.10": {
+        "runtime": {
+          "EasterEgg.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasterEgg/4.10": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

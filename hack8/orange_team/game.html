@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <img id="train_ontime" width="220" height="277" src="train_ontime.png" alt="OK" style="display: none;">
+  <img id="train_delayed" width="220" height="277" src="train_delayed.png" alt="Late" style="display: none;">
+
+
+  <canvas id="myCanvas" width="1000" height="900" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML canvas tag.</canvas>
+
+  <script>
+
+    var c = document.getElementById("myCanvas");
+    var imgOnTime = document.getElementById("train_ontime");
+    var imgDelayed = document.getElementById("train_delayed");
+
+    var ctx = c.getContext("2d");
+    var background = new Image();
+    background.src = "smallmap.png";
+
+
+    const eus = {
+      code: "EUS",
+      x: 776,
+      y: 728
+    }
+    const man = {
+      code: "MAN",
+      x: 572,
+      y: 360
+    }
+    const bns = {
+      code: "BNS",
+      x: 570,
+      y: 496
+    }
+
+    const stations = [eus, man, bns]
+
+    let trains = []
+
+    let journeyNumber = 0
+
+    const timeTables = [
+      { from:man, to:eus, time:130, delayed:false },
+      { from:bns, to:eus, time:100, delayed:false },
+      { from:man, to:eus, time:100, delayed:true },
+    ]
+
+    const newJourney = () => {
+      const journey = timeTables[journeyNumber]
+      journeyNumber = (journeyNumber + 1) % timeTables.length
+
+      trains.push({
+        delayed: journey.delayed,
+        x: journey.from.x,
+        y: journey.from.y,
+        from: journey.from,
+        to: journey.to,
+        travelled: 0,
+        totalTimeInMinutes: journey.time
+      })
+    }
+
+
+
+    newJourney()
+    newJourney()
+
+    const moveTrain = (train) => {
+      const totalX = Math.abs(train.to.x - train.from.x)
+      const totalY = Math.abs(train.to.y - train.from.y)
+      const xPerMin = totalX / train.totalTimeInMinutes
+      const yPerMin = totalY / train.totalTimeInMinutes
+      xOffset = train.travelled * xPerMin
+      yOffset = train.travelled * yPerMin
+      train.x = train.from.x + xOffset
+      train.y = train.from.y + yOffset
+      train.travelled = train.travelled + 20
+    }
+
+    const drawTrain = (train) => {
+      ctx.translate(train.x, train.y);
+      ctx.rotate(45 * Math.PI / 180);
+
+      if (train.delayed) {
+        ctx.drawImage(imgDelayed, 0, 0, 60, 40)
+      }
+      else {
+        ctx.drawImage(imgOnTime, 0, 0, 60, 40)
+      }
+
+      ctx.translate(-train.x, -train.y);
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+    }
+
+    const drawFrame = () => {
+      ctx.clearRect(0, 0, 1000, 900);
+
+      ctx.drawImage(background, 0, 0);
+
+
+      for (let i = 0; i < stations.length - 1; i++) {
+        for (let j = i + 1; j < stations.length; j++) {
+          ctx.moveTo(stations[i].x, stations[i].y);
+          ctx.lineTo(stations[j].x, stations[j].y);
+          ctx.stroke();
+        }
+      }
+
+      ctx.font = "30px Arial";
+      stations.forEach(station => {
+        ctx.fillText(station.code, station.x, station.y);
+      })
+
+
+      trains.forEach(train => {
+        drawTrain(train)
+        moveTrain(train)
+      })
+
+      trains = trains.filter(train => train.travelled <= train.totalTimeInMinutes)
+      if (trains.length < 2) {
+        newJourney()
+      }
+      setTimeout(drawFrame, 1000);
+    }
+
+    background.onload = function () {
+      drawFrame()
+    }
+
+  </script>
+
+</body>
+
+</html>
