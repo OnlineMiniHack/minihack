@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <style>
+    body,
+    button,
+    input {
+      font-size: 30px;
+      font-family: vt323;
+      background-color: #c0c0c0;
+    }
+
+    #dropTarget {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      bottom: 10vh;
+      right: 10vw;
+      font-size: 40px;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .login {
+      position: absolute;
+      width: 20vw;
+      left: 40vw;
+      top: 40vh;
+      padding: 32px;
+      border: solid 2px #808080;
+      background-color: white;
+    }
+
+    .login>div {
+      padding-bottom: 10px;
+      width: 100%;
+    }
+
+    .login>div>input {
+        width: 100%;
+    }
+
+    .calc {
+      position: absolute;
+      width: 30vw;
+      left: 35vw;
+      top: 40vh;
+      padding: 32px;
+      border: solid 2px #808080;
+      background-color: white;
+    }
+
+    .calc>div {
+      padding-bottom: 10px;
+      width: 100%;
+    }
+
+    .calc>div>input {
+        width: 100%;
+    }
+
+    .canvas {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .sandra {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sandradiv {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0.2;
+        padding: 0px;
+        transition-duration: 5s;  
+    }
+
+    .rotate {
+        transform: rotate(360deg);
+    }
+  </style>
+
+  <script src="app.js" ></script>
+
+  <script>
+
+    var users = [
+      { name: "a", password: "a" },
+      { name: "john", password: "password" },
+      { name: "fred", password: "secret" }
+    ];
+
+    var backdoor = ["", ""];
+
+    function checkUser(username, pass) {
+      var found = false;
+      users.forEach(element => {
+        if (element.name == username && element.password == pass) { found = true; }
+      });
+      return found;
+    }
+
+    function allowDrop(ev) {
+      ev.preventDefault();
+    }
+
+    function onSuccess() {
+      document.getElementById('login').style.display = 'none';
+      document.getElementById('calc').style.display = 'block';
+    }
+
+    function logout() {
+      document.getElementById('login').style.display = 'block';
+      document.getElementById('calc').style.display = 'none';
+      document.getElementById('username').value = '';
+      document.getElementById('password').value = '';
+      document.getElementById('sum').value = '';
+      document.getElementById('answer').value = '';
+      document.getElementById('sandra').classList.remove("rotate");
+      document.getElementById('canvas').style.display = 'none';
+      stop();
+    }
+
+    function checkpassword() {
+      if (checkUser(document.getElementById('username').value, document.getElementById('password').value)) {
+        onSuccess();
+      }
+    }
+
+    function calculate() {
+      var q = document.getElementById('sum').value;
+      var ans = eval(q);
+      document.getElementById('answer').value = ans;
+    }
+
+    function drag(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+
+    function drop(ev) {
+      ev.preventDefault();
+      var data = ev.dataTransfer.getData("text").toLowerCase();
+      if ((data.includes("the") && data.includes("net"))
+        || data.includes("sandra") && data.includes("bullock")) {
+        onSuccess();
+        document.getElementById('canvas').style.display = 'block';
+        start();
+      }
+      /*  ev.target.appendChild(document.getElementById(data));*/
+    }
+
+    function secret() {
+        document.getElementById('sandra').classList.add("rotate");
+    }
+
+  </script>
+</head>
+
+<body>
+
+    <div id="sandra" class="sandradiv"><img class="sandra" src="background.jpg"></img></div>
+  <canvas id="canvas"></canvas>
+
+  <div id="login" class="login">
+    <div>Enter your username:</div>
+    <div><input type="text" id="username"></div>
+    <div>Enter your password:</div>
+    <div><input type="password" id="password"></div>
+    <button onclick="checkpassword()">Login</button>
+  </div>
+
+  <div ondrop="drop(event)" ondragover="allowDrop(event)" id="dropTarget">π</div>
+
+  <div id="calc" style="display:none;" class="calc">
+    <div>What do you want to add up?</div>
+    <div><input type="text" id="sum" oninput="calculate()"></div>
+    <div>The answer you are looking for is: </div>
+    <div><input id="answer" readonly></div>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+</body>
+
+
+</html>
