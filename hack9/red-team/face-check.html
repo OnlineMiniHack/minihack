@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Face Check</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="face-check.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+
+
+    <!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body style="text-align:center">
+    <div>
+        <video id="webcam" autoplay playsinline width="320" height="240"></video>
+        <canvas id="canvas" class="d-none"></canvas>
+        <audio id="snapSound" src="audio/snap.wav" preload="auto"></audio>
+    </div>
+    <div id="you"></div>
+    <input type="button" value="TAKE PICTURE" onclick="sayCheese();"></input>
+    <p id="result" style="color: red;"></p>
+</body>
+
+</html>
