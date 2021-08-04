@@ -4,14 +4,59 @@
     <script src="https://kaboomjs.com/lib/0.6.0/kaboom.js"></script>
     <script type="module">
       // initialize kaboom context
-      const k = kaboom({ fullscreen: true });
-      k.loadSprite("balloon", "assets/balloon.png");
-      k.add([k.sprite("balloon"), k.scale(0.5)]);
-      // add a text of size 32 at position (100, 100)
-      k.add([k.text("oh hi", 32), k.pos(100, 100)]);
-      // or
-      //
-      k.addText("oh hi", 32, { pos: k.vec2(100, 100) });
+      const JUMP_FORCE = 100;
+
+      const k = kaboom({ fullscreen: true, global: true });
+
+      layers(["bg", "obj", "ui"], "obj");
+      gravity(60);
+
+      const ground = add([
+        rect(width(), 1),
+        pos(0, height()),
+        color(0, 1, 1),
+        layer("obj"),
+        solid(),
+      ]);
+      const top = add([
+        rect(width(), 1),
+        pos(0, 0),
+        color(0, 1, 1),
+        layer("obj"),
+        solid(),
+      ]);
+
+      loadSprite("background", "assets/mountains.jpg");
+      loadSprite("balloon", "assets/Balloon4.png");
+      const balloon = add([
+        sprite("balloon"),
+        scale(2),
+        pos(width() / 2, height() - 150),
+        body({ jumpForce: 640 }),
+        layer("obj"),
+      ]);
+      const background = add([
+        sprite("background"),
+        pos(0, 0),
+        layer("bg"),
+        scale(4),
+      ]);
+
+      add(
+        [text("balloon story", 32), pos(width() / 2, height() / 2)],
+        layer("ui")
+      );
+      balloon.move(100, 0);
+
+      keyPress("space", () => {
+        balloon.jump(JUMP_FORCE);
+        burp();
+      });
+
+      // collides("balloon", "top", () => { add(
+      //   [text("this would be a story if we had s", 32), pos(width() / 2, height() / 2)],
+      //   layer("ui")
+      // );
     </script>
   </body>
 </html>
