@@ -1,0 +1,92 @@
+.caterpillarBody {
+    border: #008000 solid 2px;
+    background-color: #00c000;
+    border-radius:100px;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+}
+
+.food {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 32px;
+}
+
+.food .hole {
+    position: relative;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+    left: 40px;
+    top: 40px;
+    display: none;
+}
+
+.head {
+    background-color: #800;
+}
+
+.eye1, .eye2 {
+    position: relative;
+    background-color: green;
+    border: yellow solid 2px;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+}
+
+.eye1 {
+    left: 20%;
+}
+
+.eye2{
+    left :50%;
+}
+
+.fullscreen {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 200px;
+}
+
+.fullscreen img {
+    width: 100%;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cocoon {
+    0% { transform : rotate(0); opacity: 1;}
+    20% { transform: rotate(-10deg);}
+    25% { transform: rotate(10deg);}
+    30% { transform: rotate(-10deg);}
+    35% { transform: rotate(10deg);}
+    40% { transform: rotate(-10deg);}
+    45% { transform: rotate(10deg);}
+    50% { transform: rotate(0); opacity: 1;}
+    55% { opacity: 0;}
+    100% { opacity: 0;}
+}
+
+@keyframes butterfly {
+    0% { opacity: 0; transform: scale(1);}
+    50% { opacity: 0;}
+    55% { transform: rotate(-10deg); opacity: 1;}
+    60% { transform: rotate(10deg);}
+    65% { transform: rotate(-10deg);}
+    70% { transform: rotate(10deg);}
+    75% { transform: rotate(-10deg); }
+    80% { transform: rotate(10deg);}
+    85% { transform: rotate(-10deg);}
+    90% { transform: rotate(10deg);}
+    95% { transform: rotate(0); opacity: 1;}
+    100% { opacity: 1; transform: scale(3);}
+}
