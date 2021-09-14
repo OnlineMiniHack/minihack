@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <script src="code.js"></script>
+    </head>
+    <body>
+        <div class="planet-box planet-box-1">
+            <div id="day" class="planet planet-1">1</div>
+        </div>
+        <div class="planet-box planet-box-2">
+            <div id="month" class="planet planet-2">Jan</div>
+        </div>
+        <div class="planet-box planet-box-3">
+            <div id="year" class="planet planet-3">2021</div>
+        </div>
+        <div id="sun" class="sun"></div>
+    </body>
+</html>
+
+<script>
+document.getElementById('day').addEventListener('click', dayClick);
+document.getElementById('month').addEventListener('click', monthClick);
+document.getElementById('year').addEventListener('click', yearClick);
+document.getElementById('sun').addEventListener('click', checkAvailability);
+</script>

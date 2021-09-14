@@ -1,0 +1,82 @@
+body {
+    background-image: url("1024x512.png");
+    background-size: cover;
+}
+
+.planet {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 2;
+    cursor:pointer;
+}
+
+.planet-1 {
+    background-color: red;
+}
+
+.planet-2 {
+    background-color: green;
+}
+
+.planet-3 {
+    background-color: purple;
+}
+
+.sun {
+    position: fixed;
+    height:10vh;
+    width:10vw;
+    top:45vh;
+    left:45vw;
+    border-radius: 100px;
+    background-color: yellow;
+}
+
+.planet-box {
+    position: fixed;
+    animation-name: rotate-planet;    
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 1;
+    border: 1px solid #fff;
+}
+
+.planet-box-1 {
+    animation-duration: 42s;
+    animation-delay: -5s;
+    height: 70vh;
+    width: 70vw;
+    top: 15vh;
+    left: 15vw;
+}
+
+.planet-box-2 {
+    animation-duration: 30s;
+    animation-delay: -15s;
+    height: 50vh;
+    width: 50vw;
+    top: 25vh;
+    left: 25vw;
+}
+
+.planet-box-3 {
+    animation-duration: 42s;
+    height: 30vh;
+    width: 30vw;
+    top: 35vh;
+    left: 35vw;
+}
+
+
+@keyframes rotate-planet {
+    
+	from { transform: rotate(0deg); }
+	to	 { transform: rotate(360deg); }
+}
+
