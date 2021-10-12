@@ -2,7 +2,7 @@
 
 ## Overall Story so far
 
-You and some friends are planning to steal a huge diamond from a very expensive jewelry shop.
+You and some friends are planning to steal a huge diamond from a very expensive jewellery shop.
 
 ### Planning Phase
 
