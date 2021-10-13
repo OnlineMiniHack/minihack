@@ -1,0 +1,59 @@
+.desk {
+    position: fxied;
+    top: 5vh;
+    height: 90vh;
+    left: 5vh;
+}
+
+img {height:100%;}
+
+.man {
+    position: fixed;
+    top: 30vh;
+    left: 70vh;
+    height: 50vh;
+    animation-name: manmove;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.plans {
+    position: fixed;
+    left: 15vh;
+    top: 45vh;
+    height: 20vh;
+    animation-name: plansmove;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.static {
+    position: fixed;
+    left: 9vh;
+    height: 18vh;
+    animation-name: staticmove;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes manmove {
+    0% { left: 70vh;}
+    40% { left: 40vh;}
+    60% { left: 40vh;}
+    100% {left: 60vh;}
+}
+
+@keyframes plansmove {
+    0% { left: 15vh;}
+    40% {left: 15vh;}
+    60% {left: 35vh;}
+    100% {left: 55vh;}
+}
+
+@keyframes staticmove {
+    0% { top: 70vh;}
+    100% {top: 10vh;}
+}
