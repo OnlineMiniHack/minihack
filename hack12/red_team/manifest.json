@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": " ",
+  "version": "0.0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "thirdParty/jquery-3.6.0.min.js",
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "img/extensionIcon16.png",
+    "48": "img/extensionIcon48.png",
+    "128": "img/extensionIcon128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "img/browserIcon16.png", 
+      "24": "img/browserIcon24.png", 
+      "32": "img/browserIcon32.png" 
+    }
+  }
+}
