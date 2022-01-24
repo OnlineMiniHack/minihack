@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Route Planner</title>
+    <script type="text/javascript" src="./pathfinding-browser.js"></script>
+</head>
+<body>
+   
+    <button onclick="flip()">Send Police</button>
+    <button onclick="route()">Route</button>
+<canvas id="mapCanvas" width="1000" height="1000">
+    
+</canvas>
+
+<script> 
+
+
+var matrix = [
+    [0, 0, 0, 1, 0, 0, 1, 0, 0, 1,0, 0, 0, 1, 0, 0, 1, 0, 0, 1],
+    [1, 0, 0, 0, 1, 0, 0, 1, 0, 0,1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+    [0, 0, 1, 0, 0, 1, 1, 0, 1, 1,0, 0, 1, 0, 0, 1, 1, 0, 1, 1],
+    [0, 0, 1, 1, 0, 0, 0, 0, 1, 0,0, 0, 1, 1, 0, 0, 0, 0, 1, 0],
+    [1, 0, 1, 0, 0, 0, 0, 0, 1, 0,1, 0, 1, 0, 0, 0, 0, 0, 1, 0],
+    [0, 0, 0, 1, 0, 0, 1, 0, 0, 1,0, 0, 0, 1, 0, 0, 1, 0, 0, 1],
+    [0, 0, 0, 0, 1, 0, 1, 1, 0, 1,0, 0, 0, 0, 1, 0, 1, 1, 0, 1],
+    [0, 0, 0, 0, 1, 0, 1, 0, 0, 0,0, 0, 0, 0, 1, 0, 1, 0, 0, 0],
+    [0, 0, 0, 0, 1, 0, 1, 1, 0, 1,0, 0, 0, 0, 1, 0, 1, 1, 0, 1],
+    [0, 0, 0, 0, 1, 0, 1, 0, 0, 0,0, 0, 0, 0, 1, 0, 1, 0, 0, 0],
+    [0, 0, 0, 1, 0, 0, 1, 0, 0, 1,0, 0, 0, 1, 0, 0, 1, 0, 0, 1],
+    [1, 0, 0, 0, 1, 0, 0, 1, 0, 0,1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+    [0, 0, 1, 0, 0, 1, 1, 0, 1, 1,0, 0, 1, 0, 0, 1, 1, 0, 1, 1],
+    [0, 0, 1, 1, 0, 0, 0, 0, 1, 0,0, 0, 1, 1, 0, 0, 0, 0, 1, 0],
+    [1, 0, 1, 0, 0, 0, 0, 0, 1, 0,1, 0, 1, 0, 0, 0, 0, 0, 1, 0],
+    [0, 0, 0, 1, 0, 0, 1, 0, 0, 1,0, 0, 0, 1, 0, 0, 1, 0, 0, 1],
+    [0, 0, 0, 0, 1, 0, 1, 1, 0, 1,0, 0, 0, 0, 1, 0, 1, 1, 0, 1],
+    [0, 0, 0, 0, 1, 0, 1, 0, 0, 0,0, 0, 0, 0, 1, 0, 1, 0, 0, 0],
+    [0, 0, 0, 0, 1, 0, 1, 1, 0, 1,0, 0, 0, 0, 1, 0, 1, 1, 0, 1],
+    [0, 0, 0, 0, 1, 0, 1, 0, 0, 0,0, 0, 0, 0, 1, 0, 1, 0, 0, 0],
+    
+];
+
+function flip(){
+    let temp1=0, temp2=0;
+    temp1 = Math.floor(Math.random() * 19);
+    temp2 = Math.floor(Math.random() * 19);
+    matrix[temp1][temp2] = 3;
+    draw();
+}
+
+var w = 50;
+var h = 50;
+
+function draw()
+{
+    var c = document.getElementById("mapCanvas");
+    var ctx = c.getContext("2d");
+    
+    for(y = 0;y< matrix.length;y++)
+    {
+        for(x = 0;x< matrix[0].length;x++)
+        {
+            if(matrix[y][x] === 0){  
+            ctx.fillStyle = 'white';  
+            }else if (matrix[y][x] === 3){  
+                ctx.fillStyle = 'blue';  
+            }else{
+            ctx.fillStyle = 'Gray';
+            }
+
+            ctx.fillRect(x * (w), y * (h), w, h);
+        }
+    }
+}
+
+function route(){
+    var c = document.getElementById("mapCanvas");
+    var ctx = c.getContext("2d");
+ 
+    var grid = new PF.Grid(matrix);
+    var finder = new PF.AStarFinder();
+    var path = finder.findPath(0, 0, 19,  19, grid);
+
+    if(path.length==0)
+    {
+        alert("Game Over");
+    }
+
+    path.forEach(item => {
+        ctx.fillStyle = 'Red';
+        ctx.fillRect(item[0] * (w), item[1] * (h), w, h);    
+    });
+
+}
+
+draw()
+
+</script>
+
+</body>
+</html>
