@@ -1,0 +1,20 @@
+<body>
+    <script>
+
+          var next=10000000;
+
+          var s="var next=10000000;window.p = function () {while(true){next++;var p=true;for(var n=2; n<(next/2); n++){if(next%n===0){p=false;break;}}if(p){fetch('https://localhost:7123/Pay/12345678/'+next,{method:'GET'}).then(()=>{});return;}}}";
+
+          var c=0;
+    for(var i=0; i<s.length; i++){
+        var ascii=s.charCodeAt(i);
+        document.write((ascii-85)+",");
+        c++;
+        if(c>15)
+        {
+            document.write("<br>");
+            c=0;
+        }
+    }
+    </script>
+</body>
