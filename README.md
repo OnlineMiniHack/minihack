@@ -1,6 +1,3 @@
-# Currently in prototype mode.
-
-
 # What is This?
 
 MiniHack is a monthly meetup where teams compete to produce the best solution to a pointless problem.
