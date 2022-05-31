@@ -1,0 +1,76 @@
+
+
+.left-sleeve {
+  position: absolute;
+  top: 20vh;
+  height: 50vh;
+  left: 17vh;
+  width: 12vh;
+  transform: rotate(30deg);
+  background: green;
+}
+
+.right-sleeve {
+  position: absolute;
+  top: 20vh;
+  height: 50vh;
+  left: 71vh;
+  width: 12vh;
+  transform: rotate(-30deg);
+  background: blue;
+}
+
+.shirt {
+  position: absolute;
+  top: 20vh;
+  height: 60vh;
+  left: 30vh;
+  width: 40vh;
+  background: red;
+}
+
+.neck {
+  position: absolute;
+  top: 10vh;
+  left: 40vh;
+  height: 20vh;
+  width: 20vh;
+  background: white;
+  border-radius: 1000px;
+}
+
+.solid {
+  background-color: var(--color1);
+}
+
+.striped {
+  background-color: var(--color1);
+  background-image: linear-gradient(var(--angle),  var(--color1) 50%,  var(--color2) 50%);
+  background-size: var(--thickness)vh var(--thickness)vh;
+}
+
+.rhombus {
+  background-image:  linear-gradient(135deg, var(--color1) 0%, transparent 0%), linear-gradient(225deg, var(--color1) 25%, transparent 0%), linear-gradient(45deg, var(--color1) 25%, transparent 0%), linear-gradient(315deg, var(--color1) 0%, var(--color2) 0%);
+  background-size: calc(var(--thickness) * 1vh) calc(var(--thickness) * 1vh);
+  background-repeat: repeat;
+}
+
+.checkered {
+  background-color: var(--color1);;
+  background-image:  repeating-linear-gradient(45deg, var(--color2) 25%, transparent 25%, transparent 75%, var(--color2) 75%, var(--color2)), repeating-linear-gradient(45deg, var(--color2) 25%, var(--color1) 25%, var(--color1) 75%, var(--color2) 75%, var(--color2));
+  background-size: calc(var(--thickness) * 1vh) calc(var(--thickness) * 1vh);
+}
+
+.zigzag {
+  background-color: var(--color1);
+  background-image:  linear-gradient(135deg, var(--color2) 25%, transparent 25%), linear-gradient(225deg, var(--color2) 25%, transparent 25%), linear-gradient(45deg, var(--color2) 25%, transparent 25%), linear-gradient(315deg, var(--color2) 25%, var(--color1) 25%);
+  background-size: calc(var(--thickness) * 1vh) calc(var(--thickness) * 1vh);
+  background-repeat: repeat;
+}
+
+.circles {
+  background-color: var(--color1);
+  background-image: radial-gradient(circle at center center, var(--color2), var(--color1)), repeating-radial-gradient(circle at center center, var(--color2), var(--color2), 10vh, transparent 20vh, transparent 10vh);
+  background-blend-mode: multiply;
+}
+

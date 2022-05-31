@@ -1,0 +1,67 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="code.js"></script>
+</head>
+
+<body>
+    <!-- style="--shirt-color: red;" -->
+
+
+<div id="left-sleeve" class="left-sleeve solid" style="--color1: grey;" onclick="clickSleeve()"></div>
+<div id="right-sleeve" class="right-sleeve solid" style="--color1: grey;" onclick="clickSleeve()"></div>
+<div id="shirt" class="shirt solid" style="--color1: grey;" onclick="clickShirt()"></div>
+<div id="neck" class="neck"></div>
+
+<div id="chat" class="chat"></div>
+
+</body>
+
+<script>
+    var colors = ["#e04040", "#40e040", "#4040e0", "#e0e040", "#f0a040", "#e040e0", "#40e0e0", "black", "#e0e080", "#e080e0", "#80e0e0", "#77DDB4"];
+    var patterns = ["striped", "solid","rhombus","checkered", "zigzag","circles"];
+    var angles = ["0deg", "45deg", "90deg"];
+    var thicknesses = ["5", "20", "40"];
+
+    function clickSleeve() {
+        var patClass = patterns[Math.floor(Math.random()*patterns.length)];
+        var style = randomStyle();
+        var el1 = document.getElementById("left-sleeve");
+        el1.style = style;
+        el1.className = "left-sleeve "+patClass;
+        var el2 = document.getElementById("right-sleeve");
+        el2.style = style;
+        el2.className = "right-sleeve "+patClass;
+    }
+
+    function clickShirt(){
+        var patClass = patterns[Math.floor(Math.random() * patterns.length)];
+        var style = randomStyle();
+        var el1 = document.getElementById("shirt");
+        el1.style = style;
+        el1.className = "shirt " + patClass;
+    }
+    
+    function randomStyle() {
+        var color1 = colors[Math.floor(Math.random()*colors.length)];
+        var color2 = colors[Math.floor(Math.random()*colors.length)];
+        var angle = angles[Math.floor(Math.random()*angles.length)];
+        var thickness = thicknesses[Math.floor(Math.random()*thicknesses.length)];
+        // var style = "--color1: "+color1+"; --color2: hsl(calc(var(--color1) + 120)); --angle: "+angle+"; --thickness: "+thickness+";";
+        var style = "--color1: "+color1+"; --color2: "+color2+"; --angle: "+angle+"; --thickness: "+thickness+";";
+        return style;
+    }
+
+    function randomColor() {
+        var color1 = colors[Math.floor(Math.random()*colors.length)];
+        var color2 = colors[Math.floor(Math.random()*colors.length)];
+        var angle = angles[Math.floor(Math.random()*angles.length)];
+        var thickness = thicknesses[Math.floor(Math.random()*thicknesses.length)];
+        var style = "--color1: "+color1+"; --color2: "+color2+"; --angle: "+angle+"; --thickness: "+thickness+";";
+        return style;
+    }
+
+    window.onload=() => {
+        
+    }
+</script>
+
