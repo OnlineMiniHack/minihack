@@ -1,0 +1,1496 @@
+Name,MeetingName,MeetingTime,IsWearingBlinkers,Place,Going
+Kauai King,Aintree,25/04/2021 15:00,FALSE,4,Firm
+Gallant Fox,Aintree,25/04/2021 15:00,FALSE,6,Firm
+Seabiscuit,Aintree,25/04/2021 15:00,FALSE,7,Firm
+Omaha,Aintree,25/04/2021 15:00,FALSE,8,Firm
+Greyhound,Aintree,25/04/2021 15:00,TRUE,5,Firm
+Messenger,Aintree,25/04/2021 15:00,FALSE,2,Firm
+Real Quiet,Aintree,25/04/2021 15:00,FALSE,1,Firm
+Bret Hanover,Aintree,25/04/2021 15:00,FALSE,3,Firm
+Isinglass,Newcastle,25/04/2021 16:20,FALSE,4,Firm
+Smarty Jones,Newcastle,25/04/2021 16:20,FALSE,7,Firm
+Pretty Polly,Newcastle,25/04/2021 16:20,TRUE,8,Firm
+Tim Tam,Newcastle,25/04/2021 16:20,FALSE,1,Firm
+War Admiral,Newcastle,25/04/2021 16:20,FALSE,2,Firm
+Red Fox,Newcastle,25/04/2021 16:20,FALSE,3,Firm
+Affirmed,Newcastle,25/04/2021 16:20,FALSE,5,Firm
+Carry Back,Newcastle,25/04/2021 16:20,FALSE,6,Firm
+Omaha,Epsom Downs,27/04/2021 13:40,FALSE,5,Good
+Pretty Polly,Epsom Downs,27/04/2021 13:40,FALSE,2,Good
+Real Quiet,Epsom Downs,27/04/2021 13:40,FALSE,1,Good
+Secretariat,Epsom Downs,27/04/2021 13:40,FALSE,4,Good
+Sunday Silence,Epsom Downs,27/04/2021 13:40,TRUE,3,Good
+Spectacular Bid,Wolverhapton,01/05/2021 12:50,FALSE,9,Good
+Izanami,Wolverhapton,01/05/2021 12:50,FALSE,8,Good
+Bahram,Wolverhapton,01/05/2021 12:50,FALSE,6,Good
+Fifinella,Wolverhapton,01/05/2021 12:50,FALSE,7,Good
+War Emblem,Wolverhapton,01/05/2021 12:50,FALSE,2,Good
+Citation,Wolverhapton,01/05/2021 12:50,FALSE,3,Good
+Seattle Slew,Wolverhapton,01/05/2021 12:50,FALSE,1,Good
+Smarty Jones,Wolverhapton,01/05/2021 12:50,FALSE,4,Good
+Pretty Polly,Wolverhapton,01/05/2021 12:50,TRUE,5,Good
+Native Dancer,Ludlow,03/05/2021 12:05,FALSE,2,Good
+Blue Peter,Ludlow,03/05/2021 12:05,TRUE,1,Good
+Northern Dancer,Ludlow,03/05/2021 12:05,FALSE,3,Good
+Charismatic,Ludlow,03/05/2021 12:05,FALSE,6,Good
+Gainsborough,Ludlow,03/05/2021 12:05,FALSE,5,Good
+Sunday Silence,Ludlow,03/05/2021 12:05,FALSE,4,Good
+Slow Dance,Wolverhapton,03/05/2021 12:25,FALSE,4,Firm
+War Admiral,Wolverhapton,03/05/2021 12:25,FALSE,3,Firm
+Party Politics,Wolverhapton,03/05/2021 12:25,FALSE,1,Firm
+Kincsem,Wolverhapton,03/05/2021 12:25,FALSE,6,Firm
+Red Marauder,Wolverhapton,03/05/2021 12:25,FALSE,2,Firm
+Brigadier Gerard,Wolverhapton,03/05/2021 12:25,FALSE,5,Firm
+Funny Cide,Ludlow,06/05/2021 13:45,FALSE,5,Firm
+Affirmed,Ludlow,06/05/2021 13:45,FALSE,2,Firm
+Party Politics,Ludlow,06/05/2021 13:45,FALSE,1,Firm
+Last Orders,Ludlow,06/05/2021 13:45,FALSE,3,Firm
+Gainsborough,Ludlow,06/05/2021 13:45,FALSE,4,Firm
+Sir Barton,Haydock,06/05/2021 12:05,FALSE,8,Firm
+Fifinella,Haydock,06/05/2021 12:05,TRUE,7,Firm
+Exterminator,Haydock,06/05/2021 12:05,FALSE,5,Firm
+Native Dancer,Haydock,06/05/2021 12:05,FALSE,6,Firm
+Slow Dance,Haydock,06/05/2021 12:05,FALSE,2,Firm
+Last Orders,Haydock,06/05/2021 12:05,FALSE,4,Firm
+Red Fox,Haydock,06/05/2021 12:05,FALSE,3,Firm
+Swaps,Haydock,06/05/2021 12:05,FALSE,1,Firm
+Native Dancer,Sedgefield,07/05/2021 13:25,FALSE,8,Firm
+Last Orders,Sedgefield,07/05/2021 13:25,FALSE,5,Firm
+Dan Patch,Sedgefield,07/05/2021 13:25,FALSE,1,Firm
+Funny Cide,Sedgefield,07/05/2021 13:25,FALSE,10,Firm
+Brigadier Gerard,Sedgefield,07/05/2021 13:25,FALSE,4,Firm
+Swaps,Sedgefield,07/05/2021 13:25,FALSE,2,Firm
+Spectacular Bid,Sedgefield,07/05/2021 13:25,FALSE,9,Firm
+Exterminator,Sedgefield,07/05/2021 13:25,TRUE,7,Firm
+Niatross,Sedgefield,07/05/2021 13:25,FALSE,3,Firm
+Hambletonian,Sedgefield,07/05/2021 13:25,FALSE,6,Firm
+Native Dancer,Epsom Downs,08/05/2021 14:45,FALSE,9,Good
+Bret Hanover,Epsom Downs,08/05/2021 14:45,FALSE,6,Good
+Affirmed,Epsom Downs,08/05/2021 14:45,FALSE,7,Good
+Tim Tam,Epsom Downs,08/05/2021 14:45,FALSE,4,Good
+Blue Peter,Epsom Downs,08/05/2021 14:45,FALSE,2,Good
+Count Fleet,Epsom Downs,08/05/2021 14:45,FALSE,1,Good
+Citation,Epsom Downs,08/05/2021 14:45,FALSE,8,Good
+Sunday Silence,Epsom Downs,08/05/2021 14:45,FALSE,10,Good
+Omaha,Epsom Downs,08/05/2021 14:45,FALSE,11,Good
+Whirlaway,Epsom Downs,08/05/2021 14:45,TRUE,5,Good
+Messenger,Epsom Downs,08/05/2021 14:45,TRUE,3,Good
+Pretty Polly,Redcar,11/05/2021 14:50,FALSE,6,Good
+Red Fox,Redcar,11/05/2021 14:50,FALSE,3,Good
+Majestic Prince,Redcar,11/05/2021 14:50,FALSE,2,Good
+Amberlee House,Redcar,11/05/2021 14:50,FALSE,8,Good
+Kincsem,Redcar,11/05/2021 14:50,FALSE,7,Good
+Affirmed,Redcar,11/05/2021 14:50,FALSE,5,Good
+Seattle Slew,Redcar,11/05/2021 14:50,FALSE,1,Good
+Isinglass,Redcar,11/05/2021 14:50,FALSE,4,Good
+Assault,Worcester,15/05/2021 14:00,FALSE,2,Firm
+Amberlee House,Worcester,15/05/2021 14:00,TRUE,9,Firm
+Bret Hanover,Worcester,15/05/2021 14:00,FALSE,3,Firm
+Sunday Silence,Worcester,15/05/2021 14:00,FALSE,7,Firm
+Alysheba,Worcester,15/05/2021 14:00,FALSE,5,Firm
+Spectacular Bid,Worcester,15/05/2021 14:00,FALSE,8,Firm
+Exterminator,Worcester,15/05/2021 14:00,TRUE,6,Firm
+Isinglass,Worcester,15/05/2021 14:00,FALSE,4,Firm
+Seattle Slew,Worcester,15/05/2021 14:00,FALSE,1,Firm
+Native Dancer,Kempton,16/05/2021 15:05,FALSE,7,Good
+Kincsem,Kempton,16/05/2021 15:05,FALSE,8,Good
+Bahram,Kempton,16/05/2021 15:05,FALSE,6,Good
+Whirlaway,Kempton,16/05/2021 15:05,FALSE,1,Good
+Red Fox,Kempton,16/05/2021 15:05,FALSE,3,Good
+War Emblem,Kempton,16/05/2021 15:05,FALSE,4,Good
+Nevele Pride,Kempton,16/05/2021 15:05,TRUE,10,Good
+Bret Hanover,Kempton,16/05/2021 15:05,FALSE,2,Good
+Fifinella,Kempton,16/05/2021 15:05,TRUE,9,Good
+Exterminator,Kempton,16/05/2021 15:05,FALSE,5,Good
+Carry Back,Chepstow,20/05/2021 12:25,FALSE,6,Firm
+Omaha,Chepstow,20/05/2021 12:25,FALSE,9,Firm
+Kincsem,Chepstow,20/05/2021 12:25,FALSE,8,Firm
+Dan Patch,Chepstow,20/05/2021 12:25,FALSE,2,Firm
+Swaps,Chepstow,20/05/2021 12:25,FALSE,3,Firm
+Charismatic,Chepstow,20/05/2021 12:25,FALSE,10,Firm
+Native Dancer,Chepstow,20/05/2021 12:25,FALSE,7,Firm
+Party Politics,Chepstow,20/05/2021 12:25,TRUE,1,Firm
+Majestic Prince,Chepstow,20/05/2021 12:25,FALSE,4,Firm
+Alysheba,Chepstow,20/05/2021 12:25,TRUE,5,Firm
+Amberlee House,Wolverhapton,20/05/2021 13:30,FALSE,9,Good
+Exterminator,Wolverhapton,20/05/2021 13:30,FALSE,6,Good
+Alysheba,Wolverhapton,20/05/2021 13:30,FALSE,4,Good
+Pleasant Colony,Wolverhapton,20/05/2021 13:30,TRUE,8,Good
+Slow Dance,Wolverhapton,20/05/2021 13:30,TRUE,2,Good
+Seabiscuit,Wolverhapton,20/05/2021 13:30,FALSE,7,Good
+Messenger,Wolverhapton,20/05/2021 13:30,FALSE,1,Good
+Isinglass,Wolverhapton,20/05/2021 13:30,FALSE,3,Good
+Admiral Pete,Wolverhapton,20/05/2021 13:30,TRUE,5,Good
+War Admiral,Huntingdon,20/05/2021 14:45,TRUE,4,Good
+Funny Cide,Huntingdon,20/05/2021 14:45,FALSE,8,Good
+Blue Peter,Huntingdon,20/05/2021 14:45,FALSE,1,Good
+Real Quiet,Huntingdon,20/05/2021 14:45,FALSE,2,Good
+Red Fox,Huntingdon,20/05/2021 14:45,FALSE,5,Good
+Red Rum,Huntingdon,20/05/2021 14:45,FALSE,6,Good
+Greyhound,Huntingdon,20/05/2021 14:45,FALSE,7,Good
+Majestic Prince,Huntingdon,20/05/2021 14:45,TRUE,3,Good
+Bret Hanover,Haydock,24/05/2021 12:45,FALSE,2,Good
+Last Orders,Haydock,24/05/2021 12:45,FALSE,5,Good
+Silver Charm,Haydock,24/05/2021 12:45,FALSE,9,Good
+Gallant Fox,Haydock,24/05/2021 12:45,FALSE,7,Good
+Brigadier Gerard,Haydock,24/05/2021 12:45,FALSE,4,Good
+Majestic Prince,Haydock,24/05/2021 12:45,FALSE,1,Good
+Secretariat,Haydock,24/05/2021 12:45,FALSE,8,Good
+Greyhound,Haydock,24/05/2021 12:45,FALSE,6,Good
+Red Rum,Haydock,24/05/2021 12:45,FALSE,3,Good
+Admiral Pete,Huntingdon,24/05/2021 12:50,FALSE,6,Firm
+Pretty Polly,Huntingdon,24/05/2021 12:50,FALSE,8,Firm
+Seabiscuit,Huntingdon,24/05/2021 12:50,FALSE,9,Firm
+Real Quiet,Huntingdon,24/05/2021 12:50,FALSE,2,Firm
+Canonero II,Huntingdon,24/05/2021 12:50,FALSE,4,Firm
+Isinglass,Huntingdon,24/05/2021 12:50,FALSE,5,Firm
+Hambletonian,Huntingdon,24/05/2021 12:50,FALSE,7,Firm
+Count Fleet,Huntingdon,24/05/2021 12:50,FALSE,1,Firm
+War Admiral,Huntingdon,24/05/2021 12:50,TRUE,3,Firm
+Citation,Huntingdon,25/05/2021 12:55,FALSE,2,Firm
+Pleasant Colony,Huntingdon,25/05/2021 12:55,FALSE,6,Firm
+Carry Back,Huntingdon,25/05/2021 12:55,FALSE,3,Firm
+Fairway,Huntingdon,25/05/2021 12:55,TRUE,1,Firm
+Omaha,Huntingdon,25/05/2021 12:55,FALSE,5,Firm
+Charismatic,Huntingdon,25/05/2021 12:55,FALSE,8,Firm
+Pensive,Huntingdon,25/05/2021 12:55,FALSE,4,Firm
+Amberlee House,Huntingdon,25/05/2021 12:55,FALSE,7,Firm
+Kincsem,Huntingdon,28/05/2021 12:15,FALSE,4,Firm
+Alysheba,Huntingdon,28/05/2021 12:15,TRUE,3,Firm
+Gallant Fox,Huntingdon,28/05/2021 12:15,FALSE,5,Firm
+Blue Peter,Huntingdon,28/05/2021 12:15,FALSE,1,Firm
+Izanami,Huntingdon,28/05/2021 12:15,FALSE,6,Firm
+Real Quiet,Huntingdon,28/05/2021 12:15,FALSE,2,Firm
+Greyhound,Worcester,01/06/2021 14:15,FALSE,4,Firm
+Affirmed,Worcester,01/06/2021 14:15,TRUE,3,Firm
+Amberlee House,Worcester,01/06/2021 14:15,FALSE,8,Firm
+Last Orders,Worcester,01/06/2021 14:15,FALSE,5,Firm
+Bret Hanover,Worcester,01/06/2021 14:15,FALSE,1,Firm
+Izanami,Worcester,01/06/2021 14:15,TRUE,7,Firm
+Fifinella,Worcester,01/06/2021 14:15,FALSE,6,Firm
+War Emblem,Worcester,01/06/2021 14:15,FALSE,2,Firm
+Izanami,Sedgefield,01/06/2021 14:15,FALSE,5,Firm
+Nevele Pride,Sedgefield,01/06/2021 14:15,TRUE,6,Firm
+Mahmoud,Sedgefield,01/06/2021 14:15,FALSE,2,Firm
+Count Fleet,Sedgefield,01/06/2021 14:15,FALSE,1,Firm
+Citation,Sedgefield,01/06/2021 14:15,TRUE,3,Firm
+Last Orders,Sedgefield,01/06/2021 14:15,FALSE,4,Firm
+Silver Charm,Chepstow,01/06/2021 14:15,FALSE,10,Good
+Pensive,Chepstow,01/06/2021 14:15,FALSE,5,Good
+Gallant Fox,Chepstow,01/06/2021 14:15,FALSE,6,Good
+Sunday Silence,Chepstow,01/06/2021 14:15,FALSE,7,Good
+Mahmoud,Chepstow,01/06/2021 14:15,FALSE,1,Good
+Fifinella,Chepstow,01/06/2021 14:15,FALSE,8,Good
+Affirmed,Chepstow,01/06/2021 14:15,FALSE,4,Good
+Alysheba,Chepstow,01/06/2021 14:15,TRUE,3,Good
+Niatross,Chepstow,01/06/2021 14:15,FALSE,2,Good
+Gainsborough,Chepstow,01/06/2021 14:15,FALSE,9,Good
+Tim Tam,Doncaster,03/06/2021 13:35,TRUE,3,Good
+Seabiscuit,Doncaster,03/06/2021 13:35,FALSE,9,Good
+Izanami,Doncaster,03/06/2021 13:35,FALSE,10,Good
+Seattle Slew,Doncaster,03/06/2021 13:35,FALSE,2,Good
+Bahram,Doncaster,03/06/2021 13:35,FALSE,8,Good
+Majestic Prince,Doncaster,03/06/2021 13:35,FALSE,4,Good
+Spectacular Bid,Doncaster,03/06/2021 13:35,FALSE,11,Good
+Canonero II,Doncaster,03/06/2021 13:35,FALSE,6,Good
+Carry Back,Doncaster,03/06/2021 13:35,TRUE,7,Good
+Real Quiet,Doncaster,03/06/2021 13:35,FALSE,1,Good
+Slow Dance,Doncaster,03/06/2021 13:35,FALSE,5,Good
+Tim Tam,Uttoxeter,03/06/2021 14:45,FALSE,2,Firm
+Bret Hanover,Uttoxeter,03/06/2021 14:45,FALSE,3,Firm
+Last Orders,Uttoxeter,03/06/2021 14:45,FALSE,4,Firm
+Real Quiet,Uttoxeter,03/06/2021 14:45,FALSE,1,Firm
+Izanami,Uttoxeter,03/06/2021 14:45,FALSE,6,Firm
+Pleasant Colony,Uttoxeter,03/06/2021 14:45,FALSE,7,Firm
+Exterminator,Uttoxeter,03/06/2021 14:45,FALSE,5,Firm
+Sunday Silence,Beverley,07/06/2021 13:05,TRUE,7,Good
+Assault,Beverley,07/06/2021 13:05,TRUE,1,Good
+Nevele Pride,Beverley,07/06/2021 13:05,FALSE,9,Good
+Isinglass,Beverley,07/06/2021 13:05,FALSE,6,Good
+Red Marauder,Beverley,07/06/2021 13:05,TRUE,2,Good
+Slow Dance,Beverley,07/06/2021 13:05,TRUE,4,Good
+War Admiral,Beverley,07/06/2021 13:05,FALSE,3,Good
+Canonero II,Beverley,07/06/2021 13:05,TRUE,5,Good
+Izanami,Beverley,07/06/2021 13:05,FALSE,8,Good
+Niatross,Newcastle,08/06/2021 14:05,FALSE,3,Firm
+Smarty Jones,Newcastle,08/06/2021 14:05,FALSE,5,Firm
+Count Fleet,Newcastle,08/06/2021 14:05,FALSE,1,Firm
+Affirmed,Newcastle,08/06/2021 14:05,FALSE,4,Firm
+Charismatic,Newcastle,08/06/2021 14:05,TRUE,8,Firm
+Tim Tam,Newcastle,08/06/2021 14:05,TRUE,2,Firm
+Last Orders,Newcastle,08/06/2021 14:05,TRUE,6,Firm
+Northern Dancer,Newcastle,08/06/2021 14:05,FALSE,7,Firm
+Sir Barton,Huntingdon,11/06/2021 12:10,FALSE,6,Good
+Dan Patch,Huntingdon,11/06/2021 12:10,TRUE,1,Good
+Gallant Fox,Huntingdon,11/06/2021 12:10,TRUE,4,Good
+Party Politics,Huntingdon,11/06/2021 12:10,FALSE,2,Good
+Amberlee House,Huntingdon,11/06/2021 12:10,FALSE,7,Good
+Sunday Silence,Huntingdon,11/06/2021 12:10,TRUE,5,Good
+Majestic Prince,Huntingdon,11/06/2021 12:10,FALSE,3,Good
+Charismatic,Haydock,12/06/2021 12:30,FALSE,9,Good
+Dan Patch,Haydock,12/06/2021 12:30,FALSE,2,Good
+Affirmed,Haydock,12/06/2021 12:30,FALSE,6,Good
+Mahmoud,Haydock,12/06/2021 12:30,FALSE,3,Good
+Party Politics,Haydock,12/06/2021 12:30,FALSE,1,Good
+Gallant Fox,Haydock,12/06/2021 12:30,FALSE,8,Good
+Whirlaway,Haydock,12/06/2021 12:30,FALSE,4,Good
+Hambletonian,Haydock,12/06/2021 12:30,FALSE,7,Good
+Admiral Pete,Haydock,12/06/2021 12:30,TRUE,5,Good
+Funny Cide,Redcar,14/06/2021 13:30,FALSE,10,Good
+Fairway,Redcar,14/06/2021 13:30,FALSE,1,Good
+Carry Back,Redcar,14/06/2021 13:30,FALSE,5,Good
+Nevele Pride,Redcar,14/06/2021 13:30,FALSE,8,Good
+Secretariat,Redcar,14/06/2021 13:30,FALSE,7,Good
+Pleasant Colony,Redcar,14/06/2021 13:30,FALSE,9,Good
+Slow Dance,Redcar,14/06/2021 13:30,TRUE,4,Good
+Niatross,Redcar,14/06/2021 13:30,FALSE,3,Good
+Swaps,Redcar,14/06/2021 13:30,FALSE,2,Good
+Northern Dancer,Redcar,14/06/2021 13:30,TRUE,6,Good
+Party Politics,Beverley,14/06/2021 13:45,TRUE,2,Good
+Sir Barton,Beverley,14/06/2021 13:45,FALSE,9,Good
+Pretty Polly,Beverley,14/06/2021 13:45,FALSE,7,Good
+Gainsborough,Beverley,14/06/2021 13:45,FALSE,8,Good
+Amberlee House,Beverley,14/06/2021 13:45,FALSE,10,Good
+Seattle Slew,Beverley,14/06/2021 13:45,FALSE,3,Good
+Admiral Pete,Beverley,14/06/2021 13:45,FALSE,6,Good
+Blue Peter,Beverley,14/06/2021 13:45,FALSE,1,Good
+Whirlaway,Beverley,14/06/2021 13:45,FALSE,4,Good
+Red Fox,Beverley,14/06/2021 13:45,FALSE,5,Good
+Alysheba,Wolverhapton,14/06/2021 14:55,FALSE,4,Firm
+Tim Tam,Wolverhapton,14/06/2021 14:55,FALSE,1,Firm
+Bahram,Wolverhapton,14/06/2021 14:55,FALSE,5,Firm
+Pretty Polly,Wolverhapton,14/06/2021 14:55,FALSE,6,Firm
+Bret Hanover,Wolverhapton,14/06/2021 14:55,FALSE,3,Firm
+Silver Charm,Wolverhapton,14/06/2021 14:55,TRUE,7,Firm
+War Admiral,Wolverhapton,14/06/2021 14:55,FALSE,2,Firm
+Fairway,Chester,15/06/2021 16:00,FALSE,3,Firm
+Real Quiet,Chester,15/06/2021 16:00,FALSE,1,Firm
+Blue Peter,Chester,15/06/2021 16:00,FALSE,2,Firm
+Pleasant Colony,Chester,15/06/2021 16:00,FALSE,6,Firm
+Alysheba,Chester,15/06/2021 16:00,FALSE,5,Firm
+Swaps,Chester,15/06/2021 16:00,FALSE,4,Firm
+Seabiscuit,Beverley,17/06/2021 14:05,TRUE,6,Firm
+Amberlee House,Beverley,17/06/2021 14:05,FALSE,7,Firm
+Smarty Jones,Beverley,17/06/2021 14:05,FALSE,4,Firm
+Citation,Beverley,17/06/2021 14:05,FALSE,3,Firm
+Last Orders,Beverley,17/06/2021 14:05,TRUE,5,Firm
+Swaps,Beverley,17/06/2021 14:05,FALSE,2,Firm
+Fairway,Beverley,17/06/2021 14:05,FALSE,1,Firm
+Carry Back,Huntingdon,21/06/2021 15:25,FALSE,5,Firm
+Isinglass,Huntingdon,21/06/2021 15:25,FALSE,3,Firm
+Bret Hanover,Huntingdon,21/06/2021 15:25,FALSE,1,Firm
+Secretariat,Huntingdon,21/06/2021 15:25,FALSE,6,Firm
+Niatross,Huntingdon,21/06/2021 15:25,FALSE,2,Firm
+Alysheba,Huntingdon,21/06/2021 15:25,FALSE,4,Firm
+Gainsborough,Huntingdon,21/06/2021 15:25,FALSE,7,Firm
+Seabiscuit,Chester,21/06/2021 12:25,FALSE,6,Firm
+Sir Barton,Chester,21/06/2021 12:25,FALSE,9,Firm
+Sunday Silence,Chester,21/06/2021 12:25,TRUE,4,Firm
+Canonero II,Chester,21/06/2021 12:25,FALSE,2,Firm
+Silver Charm,Chester,21/06/2021 12:25,FALSE,8,Firm
+Secretariat,Chester,21/06/2021 12:25,TRUE,5,Firm
+Blue Peter,Chester,21/06/2021 12:25,FALSE,1,Firm
+Kauai King,Chester,21/06/2021 12:25,FALSE,3,Firm
+Nevele Pride,Chester,21/06/2021 12:25,FALSE,7,Firm
+War Emblem,Newcastle,23/06/2021 13:25,FALSE,5,Firm
+Carry Back,Newcastle,23/06/2021 13:25,FALSE,8,Firm
+Fairway,Newcastle,23/06/2021 13:25,TRUE,2,Firm
+Exterminator,Newcastle,23/06/2021 13:25,FALSE,9,Firm
+Gainsborough,Newcastle,23/06/2021 13:25,TRUE,12,Firm
+Affirmed,Newcastle,23/06/2021 13:25,FALSE,7,Firm
+Count Fleet,Newcastle,23/06/2021 13:25,FALSE,1,Firm
+Gallant Fox,Newcastle,23/06/2021 13:25,TRUE,10,Firm
+Isinglass,Newcastle,23/06/2021 13:25,FALSE,6,Firm
+Sunday Silence,Newcastle,23/06/2021 13:25,TRUE,11,Firm
+War Admiral,Newcastle,23/06/2021 13:25,TRUE,3,Firm
+Niatross,Newcastle,23/06/2021 13:25,FALSE,4,Firm
+Kauai King,Epsom Downs,26/06/2021 12:30,FALSE,4,Good
+Exterminator,Epsom Downs,26/06/2021 12:30,FALSE,5,Good
+Funny Cide,Epsom Downs,26/06/2021 12:30,FALSE,7,Good
+Red Rum,Epsom Downs,26/06/2021 12:30,FALSE,2,Good
+Gainsborough,Epsom Downs,26/06/2021 12:30,FALSE,6,Good
+Greyhound,Epsom Downs,26/06/2021 12:30,TRUE,3,Good
+Mahmoud,Epsom Downs,26/06/2021 12:30,TRUE,1,Good
+Secretariat,Kempton,30/06/2021 13:50,FALSE,7,Firm
+Funny Cide,Kempton,30/06/2021 13:50,FALSE,8,Firm
+Brigadier Gerard,Kempton,30/06/2021 13:50,FALSE,4,Firm
+Hambletonian,Kempton,30/06/2021 13:50,TRUE,6,Firm
+Carry Back,Kempton,30/06/2021 13:50,TRUE,5,Firm
+Mahmoud,Kempton,30/06/2021 13:50,TRUE,2,Firm
+Red Fox,Kempton,30/06/2021 13:50,FALSE,3,Firm
+Count Fleet,Kempton,30/06/2021 13:50,FALSE,1,Firm
+Last Orders,Chester,03/07/2021 13:10,FALSE,5,Firm
+Slow Dance,Chester,03/07/2021 13:10,FALSE,2,Firm
+Amberlee House,Chester,03/07/2021 13:10,FALSE,8,Firm
+Pensive,Chester,03/07/2021 13:10,FALSE,6,Firm
+Canonero II,Chester,03/07/2021 13:10,FALSE,3,Firm
+Pretty Polly,Chester,03/07/2021 13:10,FALSE,7,Firm
+Smarty Jones,Chester,03/07/2021 13:10,FALSE,4,Firm
+Niatross,Chester,03/07/2021 13:10,FALSE,1,Firm
+Mahmoud,Worcester,04/07/2021 13:20,FALSE,2,Good
+Niatross,Worcester,04/07/2021 13:20,TRUE,3,Good
+Kincsem,Worcester,04/07/2021 13:20,TRUE,5,Good
+Spectacular Bid,Worcester,04/07/2021 13:20,FALSE,6,Good
+Citation,Worcester,04/07/2021 13:20,TRUE,4,Good
+Party Politics,Worcester,04/07/2021 13:20,FALSE,1,Good
+Smarty Jones,Beverley,06/07/2021 14:25,FALSE,6,Firm
+Seattle Slew,Beverley,06/07/2021 14:25,FALSE,1,Firm
+Admiral Pete,Beverley,06/07/2021 14:25,TRUE,4,Firm
+Pretty Polly,Beverley,06/07/2021 14:25,FALSE,9,Firm
+Bahram,Beverley,06/07/2021 14:25,TRUE,8,Firm
+Charismatic,Beverley,06/07/2021 14:25,FALSE,11,Firm
+Citation,Beverley,06/07/2021 14:25,FALSE,5,Firm
+Secretariat,Beverley,06/07/2021 14:25,TRUE,10,Firm
+Greyhound,Beverley,06/07/2021 14:25,FALSE,7,Firm
+Niatross,Beverley,06/07/2021 14:25,FALSE,2,Firm
+Isinglass,Beverley,06/07/2021 14:25,FALSE,3,Firm
+Kauai King,Chepstow,07/07/2021 12:45,TRUE,8,Firm
+Kincsem,Chepstow,07/07/2021 12:45,FALSE,10,Firm
+Smarty Jones,Chepstow,07/07/2021 12:45,FALSE,9,Firm
+Seabiscuit,Chepstow,07/07/2021 12:45,FALSE,11,Firm
+Messenger,Chepstow,07/07/2021 12:45,FALSE,4,Firm
+Count Fleet,Chepstow,07/07/2021 12:45,FALSE,1,Firm
+Admiral Pete,Chepstow,07/07/2021 12:45,FALSE,7,Firm
+Assault,Chepstow,07/07/2021 12:45,FALSE,3,Firm
+Isinglass,Chepstow,07/07/2021 12:45,FALSE,5,Firm
+Alysheba,Chepstow,07/07/2021 12:45,FALSE,6,Firm
+Seattle Slew,Chepstow,07/07/2021 12:45,FALSE,2,Firm
+War Emblem,Worcester,07/07/2021 13:00,FALSE,2,Good
+Affirmed,Worcester,07/07/2021 13:00,FALSE,4,Good
+Hambletonian,Worcester,07/07/2021 13:00,FALSE,6,Good
+Carry Back,Worcester,07/07/2021 13:00,FALSE,5,Good
+Whirlaway,Worcester,07/07/2021 13:00,FALSE,1,Good
+Isinglass,Worcester,07/07/2021 13:00,FALSE,3,Good
+Nevele Pride,Doncaster,07/07/2021 12:05,FALSE,7,Good
+Messenger,Doncaster,07/07/2021 12:05,FALSE,3,Good
+War Admiral,Doncaster,07/07/2021 12:05,TRUE,2,Good
+Admiral Pete,Doncaster,07/07/2021 12:05,TRUE,4,Good
+Count Fleet,Doncaster,07/07/2021 12:05,FALSE,1,Good
+Affirmed,Doncaster,07/07/2021 12:05,FALSE,5,Good
+Sir Barton,Doncaster,07/07/2021 12:05,FALSE,8,Good
+Gainsborough,Doncaster,07/07/2021 12:05,FALSE,6,Good
+Dan Patch,Aintree,07/07/2021 13:20,TRUE,2,Firm
+Assault,Aintree,07/07/2021 13:20,FALSE,3,Firm
+Bahram,Aintree,07/07/2021 13:20,FALSE,8,Firm
+Affirmed,Aintree,07/07/2021 13:20,FALSE,6,Firm
+War Admiral,Aintree,07/07/2021 13:20,FALSE,4,Firm
+Alysheba,Aintree,07/07/2021 13:20,TRUE,5,Firm
+Greyhound,Aintree,07/07/2021 13:20,FALSE,7,Firm
+Real Quiet,Aintree,07/07/2021 13:20,FALSE,1,Firm
+Amberlee House,Uttoxeter,07/07/2021 14:20,FALSE,8,Good
+Bahram,Uttoxeter,07/07/2021 14:20,FALSE,6,Good
+Bret Hanover,Uttoxeter,07/07/2021 14:20,FALSE,4,Good
+Slow Dance,Uttoxeter,07/07/2021 14:20,FALSE,5,Good
+Pleasant Colony,Uttoxeter,07/07/2021 14:20,TRUE,7,Good
+Majestic Prince,Uttoxeter,07/07/2021 14:20,FALSE,3,Good
+Assault,Uttoxeter,07/07/2021 14:20,FALSE,1,Good
+Red Marauder,Uttoxeter,07/07/2021 14:20,FALSE,2,Good
+Tim Tam,Sedgefield,10/07/2021 15:20,FALSE,4,Firm
+Assault,Sedgefield,10/07/2021 15:20,FALSE,2,Firm
+Greyhound,Sedgefield,10/07/2021 15:20,FALSE,7,Firm
+Admiral Pete,Sedgefield,10/07/2021 15:20,FALSE,6,Firm
+Red Fox,Sedgefield,10/07/2021 15:20,FALSE,5,Firm
+Seattle Slew,Sedgefield,10/07/2021 15:20,TRUE,1,Firm
+Dan Patch,Sedgefield,10/07/2021 15:20,FALSE,3,Firm
+Brigadier Gerard,Kempton,12/07/2021 12:20,FALSE,5,Good
+Isinglass,Kempton,12/07/2021 12:20,FALSE,4,Good
+Swaps,Kempton,12/07/2021 12:20,FALSE,1,Good
+Northern Dancer,Kempton,12/07/2021 12:20,TRUE,6,Good
+Bahram,Kempton,12/07/2021 12:20,FALSE,7,Good
+Niatross,Kempton,12/07/2021 12:20,TRUE,2,Good
+Red Fox,Kempton,12/07/2021 12:20,FALSE,3,Good
+Gallant Fox,Kempton,12/07/2021 12:20,FALSE,8,Good
+Seabiscuit,Sedgefield,15/07/2021 12:20,FALSE,5,Good
+Swaps,Sedgefield,15/07/2021 12:20,TRUE,1,Good
+Silver Charm,Sedgefield,15/07/2021 12:20,FALSE,6,Good
+Brigadier Gerard,Sedgefield,15/07/2021 12:20,FALSE,3,Good
+Messenger,Sedgefield,15/07/2021 12:20,TRUE,2,Good
+Exterminator,Sedgefield,15/07/2021 12:20,TRUE,4,Good
+Smarty Jones,Sedgefield,16/07/2021 13:20,FALSE,4,Firm
+Omaha,Sedgefield,16/07/2021 13:20,FALSE,7,Firm
+Kincsem,Sedgefield,16/07/2021 13:20,FALSE,5,Firm
+Fifinella,Sedgefield,16/07/2021 13:20,TRUE,8,Firm
+Count Fleet,Sedgefield,16/07/2021 13:20,FALSE,1,Firm
+Canonero II,Sedgefield,16/07/2021 13:20,TRUE,3,Firm
+Northern Dancer,Sedgefield,16/07/2021 13:20,FALSE,6,Firm
+Gainsborough,Sedgefield,16/07/2021 13:20,TRUE,9,Firm
+Real Quiet,Sedgefield,16/07/2021 13:20,FALSE,2,Firm
+Spectacular Bid,Kempton,16/07/2021 14:25,FALSE,5,Good
+Charismatic,Kempton,16/07/2021 14:25,FALSE,7,Good
+Native Dancer,Kempton,16/07/2021 14:25,FALSE,4,Good
+Slow Dance,Kempton,16/07/2021 14:25,FALSE,2,Good
+Fairway,Kempton,16/07/2021 14:25,FALSE,1,Good
+Funny Cide,Kempton,16/07/2021 14:25,FALSE,6,Good
+Brigadier Gerard,Kempton,16/07/2021 14:25,FALSE,3,Good
+Tim Tam,Worcester,16/07/2021 15:40,TRUE,2,Firm
+Sunday Silence,Worcester,16/07/2021 15:40,FALSE,5,Firm
+Exterminator,Worcester,16/07/2021 15:40,TRUE,4,Firm
+Carry Back,Worcester,16/07/2021 15:40,FALSE,3,Firm
+Messenger,Worcester,16/07/2021 15:40,FALSE,1,Firm
+Count Fleet,Chepstow,19/07/2021 16:55,FALSE,1,Good
+Pleasant Colony,Chepstow,19/07/2021 16:55,FALSE,8,Good
+Niatross,Chepstow,19/07/2021 16:55,FALSE,2,Good
+Sunday Silence,Chepstow,19/07/2021 16:55,FALSE,6,Good
+Gainsborough,Chepstow,19/07/2021 16:55,FALSE,7,Good
+Bret Hanover,Chepstow,19/07/2021 16:55,FALSE,3,Good
+Red Rum,Chepstow,19/07/2021 16:55,TRUE,5,Good
+Slow Dance,Chepstow,19/07/2021 16:55,FALSE,4,Good
+Greyhound,Redcar,19/07/2021 13:10,FALSE,4,Firm
+War Admiral,Redcar,19/07/2021 13:10,FALSE,2,Firm
+Tim Tam,Redcar,19/07/2021 13:10,FALSE,1,Firm
+Gainsborough,Redcar,19/07/2021 13:10,FALSE,6,Firm
+Funny Cide,Redcar,19/07/2021 13:10,FALSE,7,Firm
+Brigadier Gerard,Redcar,19/07/2021 13:10,TRUE,3,Firm
+Fifinella,Redcar,19/07/2021 13:10,FALSE,5,Firm
+Gainsborough,Beverley,19/07/2021 12:20,FALSE,7,Good
+Real Quiet,Beverley,19/07/2021 12:20,FALSE,1,Good
+Omaha,Beverley,19/07/2021 12:20,FALSE,5,Good
+Tim Tam,Beverley,19/07/2021 12:20,FALSE,2,Good
+Isinglass,Beverley,19/07/2021 12:20,TRUE,3,Good
+Fifinella,Beverley,19/07/2021 12:20,FALSE,6,Good
+Last Orders,Beverley,19/07/2021 12:20,FALSE,4,Good
+Funny Cide,Doncaster,21/07/2021 13:20,TRUE,11,Good
+Bret Hanover,Doncaster,21/07/2021 13:20,TRUE,2,Good
+Pensive,Doncaster,21/07/2021 13:20,FALSE,7,Good
+Kincsem,Doncaster,21/07/2021 13:20,FALSE,8,Good
+Red Rum,Doncaster,21/07/2021 13:20,TRUE,5,Good
+Pleasant Colony,Doncaster,21/07/2021 13:20,FALSE,10,Good
+Party Politics,Doncaster,21/07/2021 13:20,FALSE,1,Good
+Seabiscuit,Doncaster,21/07/2021 13:20,FALSE,9,Good
+Greyhound,Doncaster,21/07/2021 13:20,FALSE,6,Good
+Slow Dance,Doncaster,21/07/2021 13:20,FALSE,4,Good
+Niatross,Doncaster,21/07/2021 13:20,FALSE,3,Good
+Affirmed,Kempton,21/07/2021 13:40,FALSE,4,Firm
+Pretty Polly,Kempton,21/07/2021 13:40,FALSE,6,Firm
+Blue Peter,Kempton,21/07/2021 13:40,FALSE,1,Firm
+Kauai King,Kempton,21/07/2021 13:40,FALSE,5,Firm
+War Admiral,Kempton,21/07/2021 13:40,FALSE,2,Firm
+Isinglass,Kempton,21/07/2021 13:40,TRUE,3,Firm
+Citation,Aintree,21/07/2021 12:45,FALSE,4,Firm
+Nevele Pride,Aintree,21/07/2021 12:45,FALSE,7,Firm
+Red Rum,Aintree,21/07/2021 12:45,FALSE,2,Firm
+Sunday Silence,Aintree,21/07/2021 12:45,FALSE,5,Firm
+Brigadier Gerard,Aintree,21/07/2021 12:45,FALSE,3,Firm
+War Admiral,Aintree,21/07/2021 12:45,TRUE,1,Firm
+Izanami,Aintree,21/07/2021 12:45,FALSE,6,Firm
+War Emblem,Beverley,22/07/2021 14:50,TRUE,2,Good
+Alysheba,Beverley,22/07/2021 14:50,FALSE,3,Good
+Kauai King,Beverley,22/07/2021 14:50,FALSE,4,Good
+Greyhound,Beverley,22/07/2021 14:50,FALSE,5,Good
+Nevele Pride,Beverley,22/07/2021 14:50,FALSE,7,Good
+Seabiscuit,Beverley,22/07/2021 14:50,FALSE,6,Good
+Real Quiet,Beverley,22/07/2021 14:50,FALSE,1,Good
+War Admiral,Beverley,26/07/2021 15:50,FALSE,3,Firm
+Dan Patch,Beverley,26/07/2021 15:50,FALSE,1,Firm
+Red Marauder,Beverley,26/07/2021 15:50,FALSE,2,Firm
+Bahram,Beverley,26/07/2021 15:50,TRUE,8,Firm
+Last Orders,Beverley,26/07/2021 15:50,FALSE,7,Firm
+Alysheba,Beverley,26/07/2021 15:50,FALSE,5,Firm
+Sir Barton,Beverley,26/07/2021 15:50,TRUE,9,Firm
+Kauai King,Beverley,26/07/2021 15:50,FALSE,6,Firm
+Niatross,Beverley,26/07/2021 15:50,FALSE,4,Firm
+Charismatic,Worcester,30/07/2021 13:50,FALSE,8,Firm
+Isinglass,Worcester,30/07/2021 13:50,TRUE,3,Firm
+Native Dancer,Worcester,30/07/2021 13:50,FALSE,6,Firm
+Bret Hanover,Worcester,30/07/2021 13:50,FALSE,2,Firm
+Admiral Pete,Worcester,30/07/2021 13:50,TRUE,4,Firm
+Pensive,Worcester,30/07/2021 13:50,FALSE,5,Firm
+Count Fleet,Worcester,30/07/2021 13:50,FALSE,1,Firm
+Nevele Pride,Worcester,30/07/2021 13:50,FALSE,7,Firm
+Red Marauder,Wolverhapton,03/08/2021 13:50,TRUE,2,Firm
+Real Quiet,Wolverhapton,03/08/2021 13:50,FALSE,1,Firm
+Bret Hanover,Wolverhapton,03/08/2021 13:50,TRUE,5,Firm
+Pensive,Wolverhapton,03/08/2021 13:50,FALSE,7,Firm
+Majestic Prince,Wolverhapton,03/08/2021 13:50,FALSE,4,Firm
+Omaha,Wolverhapton,03/08/2021 13:50,TRUE,9,Firm
+Sunday Silence,Wolverhapton,03/08/2021 13:50,FALSE,8,Firm
+Exterminator,Wolverhapton,03/08/2021 13:50,FALSE,6,Firm
+Swaps,Wolverhapton,03/08/2021 13:50,TRUE,3,Firm
+Amberlee House,Wolverhapton,03/08/2021 13:50,FALSE,10,Firm
+Party Politics,Doncaster,07/08/2021 14:50,FALSE,1,Firm
+Dan Patch,Doncaster,07/08/2021 14:50,FALSE,2,Firm
+Exterminator,Doncaster,07/08/2021 14:50,FALSE,4,Firm
+Kauai King,Doncaster,07/08/2021 14:50,FALSE,3,Firm
+Pleasant Colony,Doncaster,07/08/2021 14:50,FALSE,5,Firm
+Gainsborough,Newcastle,08/08/2021 12:50,FALSE,7,Good
+Red Rum,Newcastle,08/08/2021 12:50,FALSE,5,Good
+Count Fleet,Newcastle,08/08/2021 12:50,TRUE,1,Good
+Red Marauder,Newcastle,08/08/2021 12:50,FALSE,2,Good
+Kauai King,Newcastle,08/08/2021 12:50,FALSE,6,Good
+Alysheba,Newcastle,08/08/2021 12:50,TRUE,3,Good
+Silver Charm,Newcastle,08/08/2021 12:50,FALSE,8,Good
+Isinglass,Newcastle,08/08/2021 12:50,FALSE,4,Good
+Admiral Pete,Sedgefield,10/08/2021 14:00,FALSE,4,Firm
+Pretty Polly,Sedgefield,10/08/2021 14:00,FALSE,7,Firm
+Gallant Fox,Sedgefield,10/08/2021 14:00,FALSE,8,Firm
+Bahram,Sedgefield,10/08/2021 14:00,TRUE,6,Firm
+Greyhound,Sedgefield,10/08/2021 14:00,FALSE,5,Firm
+Seabiscuit,Sedgefield,10/08/2021 14:00,FALSE,9,Firm
+Tim Tam,Sedgefield,10/08/2021 14:00,FALSE,2,Firm
+Dan Patch,Sedgefield,10/08/2021 14:00,TRUE,1,Firm
+Amberlee House,Sedgefield,10/08/2021 14:00,FALSE,10,Firm
+War Admiral,Sedgefield,10/08/2021 14:00,FALSE,3,Firm
+Exterminator,Redcar,10/08/2021 14:15,TRUE,5,Firm
+Greyhound,Redcar,10/08/2021 14:15,FALSE,4,Firm
+Bahram,Redcar,10/08/2021 14:15,FALSE,6,Firm
+Nevele Pride,Redcar,10/08/2021 14:15,FALSE,8,Firm
+Red Marauder,Redcar,10/08/2021 14:15,FALSE,2,Firm
+Real Quiet,Redcar,10/08/2021 14:15,FALSE,1,Firm
+Amberlee House,Redcar,10/08/2021 14:15,TRUE,9,Firm
+Brigadier Gerard,Redcar,10/08/2021 14:15,FALSE,3,Firm
+Omaha,Redcar,10/08/2021 14:15,TRUE,7,Firm
+Assault,Huntingdon,14/08/2021 14:20,FALSE,2,Firm
+Red Rum,Huntingdon,14/08/2021 14:20,FALSE,6,Firm
+Admiral Pete,Huntingdon,14/08/2021 14:20,TRUE,7,Firm
+Blue Peter,Huntingdon,14/08/2021 14:20,FALSE,1,Firm
+War Emblem,Huntingdon,14/08/2021 14:20,FALSE,5,Firm
+Swaps,Huntingdon,14/08/2021 14:20,FALSE,3,Firm
+War Admiral,Huntingdon,14/08/2021 14:20,TRUE,4,Firm
+Secretariat,Newcastle,18/08/2021 14:25,FALSE,10,Firm
+Greyhound,Newcastle,18/08/2021 14:25,FALSE,7,Firm
+Assault,Newcastle,18/08/2021 14:25,FALSE,2,Firm
+Silver Charm,Newcastle,18/08/2021 14:25,FALSE,11,Firm
+Smarty Jones,Newcastle,18/08/2021 14:25,FALSE,6,Firm
+Citation,Newcastle,18/08/2021 14:25,TRUE,5,Firm
+Seattle Slew,Newcastle,18/08/2021 14:25,FALSE,1,Firm
+Pensive,Newcastle,18/08/2021 14:25,FALSE,8,Firm
+Fairway,Newcastle,18/08/2021 14:25,FALSE,3,Firm
+Whirlaway,Newcastle,18/08/2021 14:25,FALSE,4,Firm
+Gallant Fox,Newcastle,18/08/2021 14:25,FALSE,9,Firm
+Swaps,Ludlow,19/08/2021 15:45,FALSE,3,Good
+Fifinella,Ludlow,19/08/2021 15:45,FALSE,9,Good
+Affirmed,Ludlow,19/08/2021 15:45,FALSE,6,Good
+War Emblem,Ludlow,19/08/2021 15:45,FALSE,5,Good
+Native Dancer,Ludlow,19/08/2021 15:45,FALSE,7,Good
+Bret Hanover,Ludlow,19/08/2021 15:45,FALSE,4,Good
+Red Marauder,Ludlow,19/08/2021 15:45,FALSE,2,Good
+Party Politics,Ludlow,19/08/2021 15:45,FALSE,1,Good
+Northern Dancer,Ludlow,19/08/2021 15:45,TRUE,8,Good
+Seattle Slew,Newcastle,22/08/2021 14:50,TRUE,1,Firm
+Niatross,Newcastle,22/08/2021 14:50,FALSE,3,Firm
+Slow Dance,Newcastle,22/08/2021 14:50,FALSE,4,Firm
+Last Orders,Newcastle,22/08/2021 14:50,TRUE,8,Firm
+Isinglass,Newcastle,22/08/2021 14:50,FALSE,5,Firm
+Fairway,Newcastle,22/08/2021 14:50,TRUE,2,Firm
+Seabiscuit,Newcastle,22/08/2021 14:50,TRUE,10,Firm
+Greyhound,Newcastle,22/08/2021 14:50,TRUE,9,Firm
+Citation,Newcastle,22/08/2021 14:50,FALSE,7,Firm
+Affirmed,Newcastle,22/08/2021 14:50,FALSE,6,Firm
+Nevele Pride,Newcastle,22/08/2021 14:50,FALSE,11,Firm
+Alysheba,Wolverhapton,25/08/2021 14:55,FALSE,5,Firm
+Funny Cide,Wolverhapton,25/08/2021 14:55,FALSE,10,Firm
+Hambletonian,Wolverhapton,25/08/2021 14:55,FALSE,6,Firm
+Blue Peter,Wolverhapton,25/08/2021 14:55,FALSE,2,Firm
+Count Fleet,Wolverhapton,25/08/2021 14:55,FALSE,1,Firm
+Spectacular Bid,Wolverhapton,25/08/2021 14:55,FALSE,8,Firm
+Pleasant Colony,Wolverhapton,25/08/2021 14:55,TRUE,9,Firm
+Slow Dance,Wolverhapton,25/08/2021 14:55,FALSE,4,Firm
+Exterminator,Wolverhapton,25/08/2021 14:55,FALSE,7,Firm
+Seattle Slew,Wolverhapton,25/08/2021 14:55,FALSE,3,Firm
+Bret Hanover,Worcester,27/08/2021 14:15,TRUE,3,Good
+Spectacular Bid,Worcester,27/08/2021 14:15,FALSE,6,Good
+Amberlee House,Worcester,27/08/2021 14:15,FALSE,9,Good
+Exterminator,Worcester,27/08/2021 14:15,FALSE,5,Good
+Alysheba,Worcester,27/08/2021 14:15,FALSE,4,Good
+Nevele Pride,Worcester,27/08/2021 14:15,FALSE,7,Good
+Party Politics,Worcester,27/08/2021 14:15,FALSE,1,Good
+Swaps,Worcester,27/08/2021 14:15,TRUE,2,Good
+Silver Charm,Worcester,27/08/2021 14:15,FALSE,8,Good
+Tim Tam,Chepstow,28/08/2021 12:30,FALSE,5,Good
+Swaps,Chepstow,28/08/2021 12:30,TRUE,2,Good
+Seattle Slew,Chepstow,28/08/2021 12:30,FALSE,3,Good
+Omaha,Chepstow,28/08/2021 12:30,FALSE,10,Good
+Native Dancer,Chepstow,28/08/2021 12:30,FALSE,8,Good
+Pensive,Chepstow,28/08/2021 12:30,FALSE,7,Good
+Seabiscuit,Chepstow,28/08/2021 12:30,FALSE,9,Good
+Real Quiet,Chepstow,28/08/2021 12:30,FALSE,1,Good
+Admiral Pete,Chepstow,28/08/2021 12:30,FALSE,6,Good
+Red Marauder,Chepstow,28/08/2021 12:30,FALSE,4,Good
+Assault,Huntingdon,29/08/2021 13:35,TRUE,1,Good
+Pensive,Huntingdon,29/08/2021 13:35,FALSE,6,Good
+Isinglass,Huntingdon,29/08/2021 13:35,FALSE,4,Good
+Northern Dancer,Huntingdon,29/08/2021 13:35,FALSE,7,Good
+Seabiscuit,Huntingdon,29/08/2021 13:35,TRUE,8,Good
+Swaps,Huntingdon,29/08/2021 13:35,FALSE,2,Good
+Amberlee House,Huntingdon,29/08/2021 13:35,FALSE,9,Good
+Whirlaway,Huntingdon,29/08/2021 13:35,FALSE,3,Good
+Last Orders,Huntingdon,29/08/2021 13:35,FALSE,5,Good
+Real Quiet,Doncaster,31/08/2021 12:50,FALSE,1,Firm
+Red Rum,Doncaster,31/08/2021 12:50,FALSE,6,Firm
+Dan Patch,Doncaster,31/08/2021 12:50,FALSE,2,Firm
+War Admiral,Doncaster,31/08/2021 12:50,FALSE,5,Firm
+Canonero II,Doncaster,31/08/2021 12:50,TRUE,4,Firm
+Tim Tam,Doncaster,31/08/2021 12:50,TRUE,3,Firm
+Gainsborough,Doncaster,31/08/2021 12:50,FALSE,8,Firm
+Last Orders,Doncaster,31/08/2021 12:50,FALSE,7,Firm
+Seabiscuit,Redcar,31/08/2021 12:00,TRUE,8,Good
+Assault,Redcar,31/08/2021 12:00,FALSE,1,Good
+Citation,Redcar,31/08/2021 12:00,FALSE,6,Good
+Native Dancer,Redcar,31/08/2021 12:00,TRUE,7,Good
+Pretty Polly,Redcar,31/08/2021 12:00,FALSE,9,Good
+Majestic Prince,Redcar,31/08/2021 12:00,FALSE,4,Good
+Red Rum,Redcar,31/08/2021 12:00,TRUE,5,Good
+Mahmoud,Redcar,31/08/2021 12:00,FALSE,3,Good
+Whirlaway,Redcar,31/08/2021 12:00,TRUE,2,Good
+Count Fleet,Chepstow,03/09/2021 13:10,FALSE,1,Firm
+Pleasant Colony,Chepstow,03/09/2021 13:10,FALSE,10,Firm
+Gainsborough,Chepstow,03/09/2021 13:10,TRUE,7,Firm
+Mahmoud,Chepstow,03/09/2021 13:10,TRUE,3,Firm
+Spectacular Bid,Chepstow,03/09/2021 13:10,FALSE,8,Firm
+Bret Hanover,Chepstow,03/09/2021 13:10,FALSE,5,Firm
+Nevele Pride,Chepstow,03/09/2021 13:10,FALSE,9,Firm
+Carry Back,Chepstow,03/09/2021 13:10,FALSE,6,Firm
+Assault,Chepstow,03/09/2021 13:10,TRUE,2,Firm
+War Admiral,Chepstow,03/09/2021 13:10,FALSE,4,Firm
+Fairway,Worcester,05/09/2021 14:10,FALSE,3,Firm
+Dan Patch,Worcester,05/09/2021 14:10,FALSE,2,Firm
+Alysheba,Worcester,05/09/2021 14:10,FALSE,6,Firm
+Isinglass,Worcester,05/09/2021 14:10,FALSE,5,Firm
+Sir Barton,Worcester,05/09/2021 14:10,FALSE,8,Firm
+Secretariat,Worcester,05/09/2021 14:10,FALSE,7,Firm
+Seattle Slew,Worcester,05/09/2021 14:10,FALSE,1,Firm
+War Admiral,Worcester,05/09/2021 14:10,TRUE,4,Firm
+Dan Patch,Epsom Downs,08/09/2021 13:10,FALSE,2,Good
+Brigadier Gerard,Epsom Downs,08/09/2021 13:10,FALSE,3,Good
+Gainsborough,Epsom Downs,08/09/2021 13:10,FALSE,5,Good
+Blue Peter,Epsom Downs,08/09/2021 13:10,TRUE,1,Good
+Pretty Polly,Epsom Downs,08/09/2021 13:10,TRUE,4,Good
+Isinglass,Ludlow,08/09/2021 13:20,FALSE,2,Firm
+Sunday Silence,Ludlow,08/09/2021 13:20,FALSE,7,Firm
+Admiral Pete,Ludlow,08/09/2021 13:20,FALSE,3,Firm
+Silver Charm,Ludlow,08/09/2021 13:20,FALSE,8,Firm
+Greyhound,Ludlow,08/09/2021 13:20,FALSE,4,Firm
+Hambletonian,Ludlow,08/09/2021 13:20,TRUE,5,Firm
+War Emblem,Ludlow,08/09/2021 13:20,FALSE,1,Firm
+Northern Dancer,Ludlow,08/09/2021 13:20,FALSE,6,Firm
+Spectacular Bid,Kempton,11/09/2021 13:20,FALSE,8,Good
+Fifinella,Kempton,11/09/2021 13:20,FALSE,7,Good
+Greyhound,Kempton,11/09/2021 13:20,FALSE,5,Good
+Pensive,Kempton,11/09/2021 13:20,FALSE,6,Good
+Niatross,Kempton,11/09/2021 13:20,FALSE,2,Good
+Amberlee House,Kempton,11/09/2021 13:20,TRUE,9,Good
+Seattle Slew,Kempton,11/09/2021 13:20,TRUE,1,Good
+Bret Hanover,Kempton,11/09/2021 13:20,FALSE,3,Good
+Red Rum,Kempton,11/09/2021 13:20,FALSE,4,Good
+Majestic Prince,Worcester,15/09/2021 13:30,FALSE,2,Good
+Brigadier Gerard,Worcester,15/09/2021 13:30,FALSE,3,Good
+Swaps,Worcester,15/09/2021 13:30,FALSE,1,Good
+Hambletonian,Worcester,15/09/2021 13:30,TRUE,6,Good
+Kauai King,Worcester,15/09/2021 13:30,FALSE,5,Good
+Smarty Jones,Worcester,15/09/2021 13:30,FALSE,4,Good
+Amberlee House,Worcester,15/09/2021 13:30,FALSE,7,Good
+Izanami,Chester,15/09/2021 13:40,FALSE,9,Firm
+Smarty Jones,Chester,15/09/2021 13:40,FALSE,8,Firm
+Citation,Chester,15/09/2021 13:40,FALSE,7,Firm
+Bret Hanover,Chester,15/09/2021 13:40,FALSE,3,Firm
+Gainsborough,Chester,15/09/2021 13:40,FALSE,10,Firm
+Affirmed,Chester,15/09/2021 13:40,FALSE,6,Firm
+Red Marauder,Chester,15/09/2021 13:40,FALSE,1,Firm
+Canonero II,Chester,15/09/2021 13:40,TRUE,4,Firm
+Majestic Prince,Chester,15/09/2021 13:40,FALSE,2,Firm
+Alysheba,Chester,15/09/2021 13:40,FALSE,5,Firm
+Gainsborough,Worcester,19/09/2021 14:40,TRUE,4,Good
+Sunday Silence,Worcester,19/09/2021 14:40,FALSE,2,Good
+Pleasant Colony,Worcester,19/09/2021 14:40,FALSE,5,Good
+Slow Dance,Worcester,19/09/2021 14:40,FALSE,1,Good
+Seabiscuit,Worcester,19/09/2021 14:40,FALSE,3,Good
+Sir Barton,Worcester,19/09/2021 14:40,FALSE,6,Good
+Northern Dancer,Chester,22/09/2021 13:45,FALSE,7,Firm
+Whirlaway,Chester,22/09/2021 13:45,FALSE,4,Firm
+Assault,Chester,22/09/2021 13:45,FALSE,2,Firm
+Slow Dance,Chester,22/09/2021 13:45,FALSE,5,Firm
+Citation,Chester,22/09/2021 13:45,FALSE,6,Firm
+Omaha,Chester,22/09/2021 13:45,FALSE,8,Firm
+Count Fleet,Chester,22/09/2021 13:45,FALSE,1,Firm
+Tim Tam,Chester,22/09/2021 13:45,FALSE,3,Firm
+Isinglass,Sedgefield,26/09/2021 12:45,FALSE,4,Firm
+Smarty Jones,Sedgefield,26/09/2021 12:45,FALSE,6,Firm
+Greyhound,Sedgefield,26/09/2021 12:45,FALSE,7,Firm
+Niatross,Sedgefield,26/09/2021 12:45,FALSE,3,Firm
+Citation,Sedgefield,26/09/2021 12:45,FALSE,5,Firm
+Hambletonian,Sedgefield,26/09/2021 12:45,FALSE,8,Firm
+Count Fleet,Sedgefield,26/09/2021 12:45,FALSE,1,Firm
+Assault,Sedgefield,26/09/2021 12:45,FALSE,2,Firm
+Nevele Pride,Worcester,29/09/2021 14:00,TRUE,7,Firm
+Mahmoud,Worcester,29/09/2021 14:00,FALSE,3,Firm
+Sunday Silence,Worcester,29/09/2021 14:00,FALSE,6,Firm
+Whirlaway,Worcester,29/09/2021 14:00,FALSE,4,Firm
+Assault,Worcester,29/09/2021 14:00,FALSE,1,Firm
+Charismatic,Worcester,29/09/2021 14:00,FALSE,8,Firm
+Red Marauder,Worcester,29/09/2021 14:00,FALSE,2,Firm
+Exterminator,Worcester,29/09/2021 14:00,FALSE,5,Firm
+Brigadier Gerard,Uttoxeter,01/10/2021 12:00,FALSE,5,Firm
+Citation,Uttoxeter,01/10/2021 12:00,FALSE,6,Firm
+Mahmoud,Uttoxeter,01/10/2021 12:00,FALSE,2,Firm
+Exterminator,Uttoxeter,01/10/2021 12:00,FALSE,8,Firm
+Spectacular Bid,Uttoxeter,01/10/2021 12:00,FALSE,10,Firm
+Nevele Pride,Uttoxeter,01/10/2021 12:00,TRUE,9,Firm
+Hambletonian,Uttoxeter,01/10/2021 12:00,FALSE,7,Firm
+Red Rum,Uttoxeter,01/10/2021 12:00,TRUE,3,Firm
+Swaps,Uttoxeter,01/10/2021 12:00,FALSE,1,Firm
+Charismatic,Uttoxeter,01/10/2021 12:00,FALSE,11,Firm
+Slow Dance,Uttoxeter,01/10/2021 12:00,FALSE,4,Firm
+Red Rum,Sedgefield,02/10/2021 12:15,FALSE,3,Firm
+Fifinella,Sedgefield,02/10/2021 12:15,TRUE,10,Firm
+Admiral Pete,Sedgefield,02/10/2021 12:15,TRUE,2,Firm
+Kincsem,Sedgefield,02/10/2021 12:15,FALSE,9,Firm
+Bahram,Sedgefield,02/10/2021 12:15,FALSE,6,Firm
+Last Orders,Sedgefield,02/10/2021 12:15,FALSE,5,Firm
+Native Dancer,Sedgefield,02/10/2021 12:15,FALSE,7,Firm
+Smarty Jones,Sedgefield,02/10/2021 12:15,FALSE,4,Firm
+Pretty Polly,Sedgefield,02/10/2021 12:15,FALSE,8,Firm
+Red Fox,Sedgefield,02/10/2021 12:15,TRUE,1,Firm
+Red Marauder,Epsom Downs,05/10/2021 12:30,FALSE,1,Firm
+Bret Hanover,Epsom Downs,05/10/2021 12:30,TRUE,2,Firm
+Northern Dancer,Epsom Downs,05/10/2021 12:30,FALSE,4,Firm
+Exterminator,Epsom Downs,05/10/2021 12:30,FALSE,3,Firm
+Pleasant Colony,Epsom Downs,05/10/2021 12:30,FALSE,6,Firm
+Sir Barton,Epsom Downs,05/10/2021 12:30,FALSE,7,Firm
+Gallant Fox,Epsom Downs,05/10/2021 12:30,FALSE,5,Firm
+Carry Back,Wolverhapton,09/10/2021 13:50,TRUE,3,Firm
+Dan Patch,Wolverhapton,09/10/2021 13:50,FALSE,2,Firm
+Kincsem,Wolverhapton,09/10/2021 13:50,FALSE,5,Firm
+Nevele Pride,Wolverhapton,09/10/2021 13:50,FALSE,8,Firm
+Count Fleet,Wolverhapton,09/10/2021 13:50,FALSE,1,Firm
+Omaha,Wolverhapton,09/10/2021 13:50,FALSE,7,Firm
+Hambletonian,Wolverhapton,09/10/2021 13:50,FALSE,4,Firm
+Gallant Fox,Wolverhapton,09/10/2021 13:50,FALSE,6,Firm
+Nevele Pride,Chepstow,11/10/2021 14:05,FALSE,6,Good
+Gainsborough,Chepstow,11/10/2021 14:05,FALSE,4,Good
+Secretariat,Chepstow,11/10/2021 14:05,FALSE,2,Good
+Spectacular Bid,Chepstow,11/10/2021 14:05,FALSE,7,Good
+Seabiscuit,Chepstow,11/10/2021 14:05,FALSE,3,Good
+Izanami,Chepstow,11/10/2021 14:05,TRUE,5,Good
+Swaps,Chepstow,11/10/2021 14:05,FALSE,1,Good
+Spectacular Bid,Sedgefield,11/10/2021 13:25,FALSE,7,Firm
+Sir Barton,Sedgefield,11/10/2021 13:25,FALSE,9,Firm
+Kauai King,Sedgefield,11/10/2021 13:25,FALSE,3,Firm
+Silver Charm,Sedgefield,11/10/2021 13:25,TRUE,8,Firm
+Messenger,Sedgefield,11/10/2021 13:25,FALSE,1,Firm
+Izanami,Sedgefield,11/10/2021 13:25,FALSE,6,Firm
+Red Rum,Sedgefield,11/10/2021 13:25,FALSE,2,Firm
+Bahram,Sedgefield,11/10/2021 13:25,FALSE,4,Firm
+Sunday Silence,Sedgefield,11/10/2021 13:25,TRUE,5,Firm
+Slow Dance,Huntingdon,11/10/2021 12:35,FALSE,4,Firm
+Brigadier Gerard,Huntingdon,11/10/2021 12:35,FALSE,5,Firm
+Red Marauder,Huntingdon,11/10/2021 12:35,FALSE,2,Firm
+Assault,Huntingdon,11/10/2021 12:35,TRUE,1,Firm
+Gainsborough,Huntingdon,11/10/2021 12:35,FALSE,6,Firm
+Majestic Prince,Huntingdon,11/10/2021 12:35,FALSE,3,Firm
+Red Rum,Newcastle,13/10/2021 12:35,FALSE,5,Good
+Count Fleet,Newcastle,13/10/2021 12:35,FALSE,1,Good
+Gainsborough,Newcastle,13/10/2021 12:35,FALSE,7,Good
+Fairway,Newcastle,13/10/2021 12:35,FALSE,2,Good
+Kauai King,Newcastle,13/10/2021 12:35,FALSE,6,Good
+Swaps,Newcastle,13/10/2021 12:35,FALSE,3,Good
+Majestic Prince,Newcastle,13/10/2021 12:35,FALSE,4,Good
+Silver Charm,Newcastle,13/10/2021 12:35,FALSE,8,Good
+Red Fox,Beverley,14/10/2021 12:40,FALSE,5,Good
+Party Politics,Beverley,14/10/2021 12:40,TRUE,1,Good
+Tim Tam,Beverley,14/10/2021 12:40,FALSE,3,Good
+Pleasant Colony,Beverley,14/10/2021 12:40,FALSE,7,Good
+Mahmoud,Beverley,14/10/2021 12:40,FALSE,2,Good
+Slow Dance,Beverley,14/10/2021 12:40,FALSE,4,Good
+Charismatic,Beverley,14/10/2021 12:40,TRUE,6,Good
+Red Fox,Sedgefield,16/10/2021 12:55,FALSE,3,Firm
+Fairway,Sedgefield,16/10/2021 12:55,TRUE,1,Firm
+Gainsborough,Sedgefield,16/10/2021 12:55,FALSE,8,Firm
+Carry Back,Sedgefield,16/10/2021 12:55,TRUE,5,Firm
+Canonero II,Sedgefield,16/10/2021 12:55,FALSE,4,Firm
+Izanami,Sedgefield,16/10/2021 12:55,FALSE,9,Firm
+Mahmoud,Sedgefield,16/10/2021 12:55,TRUE,2,Firm
+Brigadier Gerard,Sedgefield,16/10/2021 12:55,FALSE,6,Firm
+Bahram,Sedgefield,16/10/2021 12:55,TRUE,7,Firm
+Nevele Pride,Sedgefield,16/10/2021 12:55,FALSE,10,Firm
+Silver Charm,Worcester,17/10/2021 13:55,FALSE,8,Firm
+Native Dancer,Worcester,17/10/2021 13:55,FALSE,6,Firm
+Seattle Slew,Worcester,17/10/2021 13:55,FALSE,3,Firm
+Pleasant Colony,Worcester,17/10/2021 13:55,FALSE,9,Firm
+Pensive,Worcester,17/10/2021 13:55,FALSE,5,Firm
+Party Politics,Worcester,17/10/2021 13:55,FALSE,2,Firm
+Charismatic,Worcester,17/10/2021 13:55,FALSE,10,Firm
+Kincsem,Worcester,17/10/2021 13:55,FALSE,7,Firm
+Tim Tam,Worcester,17/10/2021 13:55,FALSE,4,Firm
+Count Fleet,Worcester,17/10/2021 13:55,FALSE,1,Firm
+Red Rum,Chester,20/10/2021 13:05,FALSE,4,Good
+Nevele Pride,Chester,20/10/2021 13:05,FALSE,6,Good
+Fairway,Chester,20/10/2021 13:05,FALSE,2,Good
+Pensive,Chester,20/10/2021 13:05,FALSE,5,Good
+Majestic Prince,Chester,20/10/2021 13:05,FALSE,3,Good
+Seattle Slew,Chester,20/10/2021 13:05,FALSE,1,Good
+Pensive,Newcastle,24/10/2021 13:15,FALSE,6,Firm
+Amberlee House,Newcastle,24/10/2021 13:15,TRUE,8,Firm
+Brigadier Gerard,Newcastle,24/10/2021 13:15,FALSE,4,Firm
+Affirmed,Newcastle,24/10/2021 13:15,FALSE,5,Firm
+Sunday Silence,Newcastle,24/10/2021 13:15,FALSE,7,Firm
+Blue Peter,Newcastle,24/10/2021 13:15,FALSE,1,Firm
+Fairway,Newcastle,24/10/2021 13:15,FALSE,2,Firm
+Mahmoud,Newcastle,24/10/2021 13:15,FALSE,3,Firm
+Hambletonian,Chepstow,24/10/2021 14:25,TRUE,4,Firm
+Bret Hanover,Chepstow,24/10/2021 14:25,FALSE,2,Firm
+Fifinella,Chepstow,24/10/2021 14:25,FALSE,8,Firm
+Carry Back,Chepstow,24/10/2021 14:25,FALSE,3,Firm
+Bahram,Chepstow,24/10/2021 14:25,FALSE,6,Firm
+Pensive,Chepstow,24/10/2021 14:25,FALSE,5,Firm
+Mahmoud,Chepstow,24/10/2021 14:25,FALSE,1,Firm
+Sunday Silence,Chepstow,24/10/2021 14:25,FALSE,7,Firm
+Gainsborough,Chepstow,24/10/2021 14:25,FALSE,9,Firm
+Canonero II,Kempton,25/10/2021 13:40,FALSE,4,Good
+Native Dancer,Kempton,25/10/2021 13:40,FALSE,7,Good
+Seattle Slew,Kempton,25/10/2021 13:40,FALSE,1,Good
+Isinglass,Kempton,25/10/2021 13:40,FALSE,5,Good
+Hambletonian,Kempton,25/10/2021 13:40,FALSE,6,Good
+Kincsem,Kempton,25/10/2021 13:40,FALSE,8,Good
+Tim Tam,Kempton,25/10/2021 13:40,FALSE,2,Good
+Majestic Prince,Kempton,25/10/2021 13:40,FALSE,3,Good
+Amberlee House,Kempton,25/10/2021 13:40,FALSE,9,Good
+Red Rum,Chester,29/10/2021 14:55,FALSE,4,Good
+Fifinella,Chester,29/10/2021 14:55,TRUE,10,Good
+Hambletonian,Chester,29/10/2021 14:55,TRUE,8,Good
+Smarty Jones,Chester,29/10/2021 14:55,FALSE,7,Good
+Mahmoud,Chester,29/10/2021 14:55,FALSE,1,Good
+Carry Back,Chester,29/10/2021 14:55,FALSE,6,Good
+Red Fox,Chester,29/10/2021 14:55,FALSE,3,Good
+Affirmed,Chester,29/10/2021 14:55,FALSE,5,Good
+Majestic Prince,Chester,29/10/2021 14:55,FALSE,2,Good
+Gallant Fox,Chester,29/10/2021 14:55,FALSE,9,Good
+Admiral Pete,Wolverhapton,31/10/2021 12:10,FALSE,3,Good
+Gallant Fox,Wolverhapton,31/10/2021 12:10,TRUE,4,Good
+Seabiscuit,Wolverhapton,31/10/2021 12:10,FALSE,5,Good
+War Admiral,Wolverhapton,31/10/2021 12:10,FALSE,2,Good
+Dan Patch,Wolverhapton,31/10/2021 12:10,FALSE,1,Good
+Red Fox,Chester,31/10/2021 13:20,TRUE,3,Good
+Gallant Fox,Chester,31/10/2021 13:20,FALSE,4,Good
+Pleasant Colony,Chester,31/10/2021 13:20,FALSE,5,Good
+Swaps,Chester,31/10/2021 13:20,FALSE,2,Good
+Fairway,Chester,31/10/2021 13:20,TRUE,1,Good
+Sunday Silence,Aintree,01/11/2021 13:40,FALSE,5,Heavy
+Spectacular Bid,Aintree,01/11/2021 13:40,FALSE,9,Heavy
+Gainsborough,Aintree,01/11/2021 13:40,FALSE,8,Heavy
+Real Quiet,Aintree,01/11/2021 13:40,FALSE,1,Heavy
+Brigadier Gerard,Aintree,01/11/2021 13:40,TRUE,4,Heavy
+Fifinella,Aintree,01/11/2021 13:40,FALSE,7,Heavy
+Sir Barton,Aintree,01/11/2021 13:40,FALSE,10,Heavy
+Seattle Slew,Aintree,01/11/2021 13:40,FALSE,2,Heavy
+Canonero II,Aintree,01/11/2021 13:40,FALSE,3,Heavy
+Omaha,Aintree,01/11/2021 13:40,FALSE,6,Heavy
+Pleasant Colony,Epsom Downs,05/11/2021 12:50,TRUE,8,Heavy
+Seabiscuit,Epsom Downs,05/11/2021 12:50,TRUE,7,Heavy
+War Emblem,Epsom Downs,05/11/2021 12:50,FALSE,4,Heavy
+Slow Dance,Epsom Downs,05/11/2021 12:50,FALSE,3,Heavy
+Tim Tam,Epsom Downs,05/11/2021 12:50,FALSE,2,Heavy
+Messenger,Epsom Downs,05/11/2021 12:50,TRUE,1,Heavy
+Pensive,Epsom Downs,05/11/2021 12:50,FALSE,6,Heavy
+Amberlee House,Epsom Downs,05/11/2021 12:50,TRUE,9,Heavy
+Smarty Jones,Epsom Downs,05/11/2021 12:50,TRUE,5,Heavy
+Slow Dance,Chepstow,09/11/2021 12:55,FALSE,2,Good
+War Emblem,Chepstow,09/11/2021 12:55,TRUE,1,Good
+Spectacular Bid,Chepstow,09/11/2021 12:55,FALSE,5,Good
+Hambletonian,Chepstow,09/11/2021 12:55,FALSE,3,Good
+Northern Dancer,Chepstow,09/11/2021 12:55,FALSE,4,Good
+Funny Cide,Sedgefield,09/11/2021 13:15,FALSE,9,Good
+Last Orders,Sedgefield,09/11/2021 13:15,FALSE,6,Good
+Secretariat,Sedgefield,09/11/2021 13:15,TRUE,8,Good
+Blue Peter,Sedgefield,09/11/2021 13:15,FALSE,1,Good
+Admiral Pete,Sedgefield,09/11/2021 13:15,FALSE,5,Good
+Kincsem,Sedgefield,09/11/2021 13:15,TRUE,7,Good
+Majestic Prince,Sedgefield,09/11/2021 13:15,TRUE,3,Good
+Niatross,Sedgefield,09/11/2021 13:15,FALSE,4,Good
+Party Politics,Sedgefield,09/11/2021 13:15,FALSE,2,Good
+Red Rum,Redcar,10/11/2021 14:25,FALSE,4,Heavy
+Spectacular Bid,Redcar,10/11/2021 14:25,TRUE,9,Heavy
+Carry Back,Redcar,10/11/2021 14:25,TRUE,5,Heavy
+Hambletonian,Redcar,10/11/2021 14:25,FALSE,7,Heavy
+Dan Patch,Redcar,10/11/2021 14:25,TRUE,2,Heavy
+Real Quiet,Redcar,10/11/2021 14:25,FALSE,1,Heavy
+Swaps,Redcar,10/11/2021 14:25,TRUE,3,Heavy
+Northern Dancer,Redcar,10/11/2021 14:25,FALSE,8,Heavy
+Greyhound,Redcar,10/11/2021 14:25,FALSE,6,Heavy
+Brigadier Gerard,Worcester,12/11/2021 13:35,FALSE,6,Good
+Fifinella,Worcester,12/11/2021 13:35,FALSE,8,Good
+Nevele Pride,Worcester,12/11/2021 13:35,FALSE,9,Good
+Tim Tam,Worcester,12/11/2021 13:35,FALSE,4,Good
+Blue Peter,Worcester,12/11/2021 13:35,FALSE,1,Good
+Pensive,Worcester,12/11/2021 13:35,TRUE,7,Good
+Messenger,Worcester,12/11/2021 13:35,TRUE,3,Good
+Admiral Pete,Worcester,12/11/2021 13:35,TRUE,5,Good
+Assault,Worcester,12/11/2021 13:35,FALSE,2,Good
+Exterminator,Kempton,13/11/2021 12:45,FALSE,6,Good
+Pleasant Colony,Kempton,13/11/2021 12:45,FALSE,8,Good
+Whirlaway,Kempton,13/11/2021 12:45,FALSE,3,Good
+Carry Back,Kempton,13/11/2021 12:45,FALSE,5,Good
+Isinglass,Kempton,13/11/2021 12:45,FALSE,4,Good
+Majestic Prince,Kempton,13/11/2021 12:45,FALSE,2,Good
+Kincsem,Kempton,13/11/2021 12:45,TRUE,7,Good
+Count Fleet,Kempton,13/11/2021 12:45,FALSE,1,Good
+Exterminator,Huntingdon,16/11/2021 12:50,FALSE,6,Good
+Gainsborough,Huntingdon,16/11/2021 12:50,FALSE,9,Good
+Canonero II,Huntingdon,16/11/2021 12:50,TRUE,3,Good
+War Emblem,Huntingdon,16/11/2021 12:50,FALSE,4,Good
+Admiral Pete,Huntingdon,16/11/2021 12:50,FALSE,5,Good
+Majestic Prince,Huntingdon,16/11/2021 12:50,FALSE,2,Good
+Swaps,Huntingdon,16/11/2021 12:50,FALSE,1,Good
+Pretty Polly,Huntingdon,16/11/2021 12:50,FALSE,7,Good
+Sir Barton,Huntingdon,16/11/2021 12:50,TRUE,8,Good
+Niatross,Newcastle,17/11/2021 13:55,FALSE,4,Good
+Whirlaway,Newcastle,17/11/2021 13:55,FALSE,3,Good
+Citation,Newcastle,17/11/2021 13:55,FALSE,5,Good
+Tim Tam,Newcastle,17/11/2021 13:55,FALSE,2,Good
+Secretariat,Newcastle,17/11/2021 13:55,FALSE,9,Good
+Pensive,Newcastle,17/11/2021 13:55,FALSE,7,Good
+Kauai King,Newcastle,17/11/2021 13:55,FALSE,6,Good
+Count Fleet,Newcastle,17/11/2021 13:55,FALSE,1,Good
+Gallant Fox,Newcastle,17/11/2021 13:55,TRUE,8,Good
+Spectacular Bid,Newcastle,19/11/2021 12:05,FALSE,7,Heavy
+Red Rum,Newcastle,19/11/2021 12:05,FALSE,3,Heavy
+Bahram,Newcastle,19/11/2021 12:05,FALSE,6,Heavy
+Exterminator,Newcastle,19/11/2021 12:05,FALSE,5,Heavy
+Assault,Newcastle,19/11/2021 12:05,FALSE,1,Heavy
+Hambletonian,Newcastle,19/11/2021 12:05,FALSE,4,Heavy
+War Admiral,Newcastle,19/11/2021 12:05,FALSE,2,Heavy
+Funny Cide,Newcastle,19/11/2021 12:05,FALSE,8,Heavy
+Whirlaway,Kempton,21/11/2021 12:15,FALSE,3,Good
+Seabiscuit,Kempton,21/11/2021 12:15,FALSE,8,Good
+Seattle Slew,Kempton,21/11/2021 12:15,TRUE,1,Good
+Dan Patch,Kempton,21/11/2021 12:15,TRUE,2,Good
+Omaha,Kempton,21/11/2021 12:15,TRUE,7,Good
+Brigadier Gerard,Kempton,21/11/2021 12:15,TRUE,4,Good
+Kincsem,Kempton,21/11/2021 12:15,FALSE,6,Good
+Citation,Kempton,21/11/2021 12:15,TRUE,5,Good
+Pretty Polly,Aintree,21/11/2021 12:25,FALSE,5,Good
+Secretariat,Aintree,21/11/2021 12:25,FALSE,7,Good
+Fairway,Aintree,21/11/2021 12:25,TRUE,1,Good
+War Emblem,Aintree,21/11/2021 12:25,FALSE,4,Good
+Swaps,Aintree,21/11/2021 12:25,FALSE,3,Good
+Kincsem,Aintree,21/11/2021 12:25,FALSE,6,Good
+Count Fleet,Aintree,21/11/2021 12:25,FALSE,2,Good
+Canonero II,Wolverhapton,22/11/2021 12:25,FALSE,6,Soft
+Fairway,Wolverhapton,22/11/2021 12:25,FALSE,2,Soft
+Swaps,Wolverhapton,22/11/2021 12:25,FALSE,4,Soft
+Majestic Prince,Wolverhapton,22/11/2021 12:25,TRUE,3,Soft
+Native Dancer,Wolverhapton,22/11/2021 12:25,FALSE,7,Soft
+Tim Tam,Wolverhapton,22/11/2021 12:25,FALSE,5,Soft
+Blue Peter,Wolverhapton,22/11/2021 12:25,FALSE,1,Soft
+Silver Charm,Wolverhapton,22/11/2021 12:25,FALSE,8,Soft
+Fairway,Ludlow,25/11/2021 14:35,TRUE,2,Good
+Messenger,Ludlow,25/11/2021 14:35,FALSE,3,Good
+Affirmed,Ludlow,25/11/2021 14:35,FALSE,5,Good
+Izanami,Ludlow,25/11/2021 14:35,FALSE,8,Good
+Fifinella,Ludlow,25/11/2021 14:35,FALSE,7,Good
+Count Fleet,Ludlow,25/11/2021 14:35,FALSE,1,Good
+Tim Tam,Ludlow,25/11/2021 14:35,TRUE,4,Good
+Bahram,Ludlow,25/11/2021 14:35,FALSE,6,Good
+Citation,Kempton,29/11/2021 14:45,FALSE,3,Soft
+Fifinella,Kempton,29/11/2021 14:45,FALSE,5,Soft
+Charismatic,Kempton,29/11/2021 14:45,TRUE,7,Soft
+Omaha,Kempton,29/11/2021 14:45,FALSE,4,Soft
+War Emblem,Kempton,29/11/2021 14:45,FALSE,1,Soft
+Alysheba,Kempton,29/11/2021 14:45,TRUE,2,Soft
+Funny Cide,Kempton,29/11/2021 14:45,FALSE,6,Soft
+Pleasant Colony,Doncaster,01/12/2021 13:50,FALSE,7,Good
+Red Rum,Doncaster,01/12/2021 13:50,FALSE,3,Good
+Isinglass,Doncaster,01/12/2021 13:50,FALSE,2,Good
+Native Dancer,Doncaster,01/12/2021 13:50,FALSE,6,Good
+Smarty Jones,Doncaster,01/12/2021 13:50,FALSE,5,Good
+Niatross,Doncaster,01/12/2021 13:50,FALSE,1,Good
+Sir Barton,Doncaster,01/12/2021 13:50,FALSE,8,Good
+Admiral Pete,Doncaster,01/12/2021 13:50,FALSE,4,Good
+Izanami,Newcastle,01/12/2021 13:00,FALSE,6,Heavy
+Red Marauder,Newcastle,01/12/2021 13:00,FALSE,2,Heavy
+Party Politics,Newcastle,01/12/2021 13:00,FALSE,1,Heavy
+Majestic Prince,Newcastle,01/12/2021 13:00,FALSE,3,Heavy
+Pensive,Newcastle,01/12/2021 13:00,FALSE,5,Heavy
+Amberlee House,Newcastle,01/12/2021 13:00,FALSE,7,Heavy
+Affirmed,Newcastle,01/12/2021 13:00,TRUE,4,Heavy
+Last Orders,Doncaster,02/12/2021 12:20,FALSE,3,Soft
+Exterminator,Doncaster,02/12/2021 12:20,FALSE,5,Soft
+Bret Hanover,Doncaster,02/12/2021 12:20,FALSE,2,Soft
+Mahmoud,Doncaster,02/12/2021 12:20,TRUE,1,Soft
+Greyhound,Doncaster,02/12/2021 12:20,FALSE,4,Soft
+Pensive,Doncaster,02/12/2021 12:20,FALSE,6,Soft
+Nevele Pride,Doncaster,02/12/2021 12:20,FALSE,7,Soft
+Charismatic,Doncaster,02/12/2021 12:20,FALSE,8,Soft
+Red Fox,Kempton,04/12/2021 12:25,FALSE,5,Good
+Assault,Kempton,04/12/2021 12:25,FALSE,3,Good
+Blue Peter,Kempton,04/12/2021 12:25,FALSE,1,Good
+Party Politics,Kempton,04/12/2021 12:25,FALSE,2,Good
+Majestic Prince,Kempton,04/12/2021 12:25,FALSE,4,Good
+Izanami,Kempton,04/12/2021 12:25,FALSE,6,Good
+Gainsborough,Kempton,04/12/2021 12:25,FALSE,7,Good
+Mahmoud,Chepstow,07/12/2021 13:25,FALSE,2,Good
+Kincsem,Chepstow,07/12/2021 13:25,FALSE,6,Good
+Red Marauder,Chepstow,07/12/2021 13:25,FALSE,1,Good
+Exterminator,Chepstow,07/12/2021 13:25,FALSE,5,Good
+Canonero II,Chepstow,07/12/2021 13:25,TRUE,3,Good
+Red Fox,Chepstow,07/12/2021 13:25,FALSE,4,Good
+Gainsborough,Worcester,08/12/2021 13:45,FALSE,6,Soft
+Greyhound,Worcester,08/12/2021 13:45,FALSE,4,Soft
+Nevele Pride,Worcester,08/12/2021 13:45,FALSE,7,Soft
+Northern Dancer,Worcester,08/12/2021 13:45,TRUE,5,Soft
+Majestic Prince,Worcester,08/12/2021 13:45,FALSE,2,Soft
+Amberlee House,Worcester,08/12/2021 13:45,FALSE,8,Soft
+Bret Hanover,Worcester,08/12/2021 13:45,FALSE,3,Soft
+Real Quiet,Worcester,08/12/2021 13:45,FALSE,1,Soft
+Charismatic,Doncaster,11/12/2021 12:55,FALSE,9,Soft
+Secretariat,Doncaster,11/12/2021 12:55,FALSE,8,Soft
+Kauai King,Doncaster,11/12/2021 12:55,FALSE,6,Soft
+Fairway,Doncaster,11/12/2021 12:55,FALSE,2,Soft
+Last Orders,Doncaster,11/12/2021 12:55,FALSE,7,Soft
+Party Politics,Doncaster,11/12/2021 12:55,TRUE,1,Soft
+Exterminator,Doncaster,11/12/2021 12:55,TRUE,5,Soft
+Tim Tam,Doncaster,11/12/2021 12:55,TRUE,3,Soft
+Bret Hanover,Doncaster,11/12/2021 12:55,FALSE,4,Soft
+Seabiscuit,Epsom Downs,15/12/2021 12:00,FALSE,7,Heavy
+Sir Barton,Epsom Downs,15/12/2021 12:00,FALSE,9,Heavy
+Last Orders,Epsom Downs,15/12/2021 12:00,FALSE,6,Heavy
+Charismatic,Epsom Downs,15/12/2021 12:00,TRUE,8,Heavy
+Messenger,Epsom Downs,15/12/2021 12:00,FALSE,2,Heavy
+Whirlaway,Epsom Downs,15/12/2021 12:00,FALSE,4,Heavy
+Dan Patch,Epsom Downs,15/12/2021 12:00,FALSE,1,Heavy
+Mahmoud,Epsom Downs,15/12/2021 12:00,FALSE,3,Heavy
+Pensive,Epsom Downs,15/12/2021 12:00,TRUE,5,Heavy
+Smarty Jones,Epsom Downs,16/12/2021 12:10,TRUE,3,Heavy
+Seattle Slew,Epsom Downs,16/12/2021 12:10,FALSE,2,Heavy
+Pleasant Colony,Epsom Downs,16/12/2021 12:10,FALSE,9,Heavy
+Blue Peter,Epsom Downs,16/12/2021 12:10,FALSE,1,Heavy
+Nevele Pride,Epsom Downs,16/12/2021 12:10,FALSE,8,Heavy
+Omaha,Epsom Downs,16/12/2021 12:10,TRUE,7,Heavy
+Northern Dancer,Epsom Downs,16/12/2021 12:10,TRUE,6,Heavy
+Last Orders,Epsom Downs,16/12/2021 12:10,FALSE,5,Heavy
+Funny Cide,Epsom Downs,16/12/2021 12:10,FALSE,10,Heavy
+Affirmed,Epsom Downs,16/12/2021 12:10,FALSE,4,Heavy
+Kauai King,Wolverhapton,19/12/2021 12:15,FALSE,2,Good
+Secretariat,Wolverhapton,19/12/2021 12:15,FALSE,4,Good
+Party Politics,Wolverhapton,19/12/2021 12:15,TRUE,1,Good
+Funny Cide,Wolverhapton,19/12/2021 12:15,FALSE,5,Good
+Gallant Fox,Wolverhapton,19/12/2021 12:15,FALSE,3,Good
+Sir Barton,Epsom Downs,21/12/2021 12:15,FALSE,7,Soft
+Charismatic,Epsom Downs,21/12/2021 12:15,FALSE,8,Soft
+Nevele Pride,Epsom Downs,21/12/2021 12:15,FALSE,6,Soft
+Mahmoud,Epsom Downs,21/12/2021 12:15,FALSE,3,Soft
+Blue Peter,Epsom Downs,21/12/2021 12:15,FALSE,1,Soft
+Fifinella,Epsom Downs,21/12/2021 12:15,TRUE,5,Soft
+Seattle Slew,Epsom Downs,21/12/2021 12:15,FALSE,2,Soft
+Red Fox,Epsom Downs,21/12/2021 12:15,FALSE,4,Soft
+Northern Dancer,Ludlow,25/12/2021 12:30,TRUE,4,Soft
+Seabiscuit,Ludlow,25/12/2021 12:30,FALSE,6,Soft
+Funny Cide,Ludlow,25/12/2021 12:30,FALSE,8,Soft
+Seattle Slew,Ludlow,25/12/2021 12:30,FALSE,1,Soft
+Brigadier Gerard,Ludlow,25/12/2021 12:30,TRUE,2,Soft
+Pretty Polly,Ludlow,25/12/2021 12:30,FALSE,5,Soft
+Silver Charm,Ludlow,25/12/2021 12:30,TRUE,7,Soft
+Pensive,Ludlow,25/12/2021 12:30,FALSE,3,Soft
+Hambletonian,Worcester,27/12/2021 12:35,TRUE,3,Good
+Red Fox,Worcester,27/12/2021 12:35,FALSE,2,Good
+Smarty Jones,Worcester,27/12/2021 12:35,FALSE,4,Good
+Sir Barton,Worcester,27/12/2021 12:35,FALSE,5,Good
+Party Politics,Worcester,27/12/2021 12:35,TRUE,1,Good
+Pretty Polly,Kempton,30/12/2021 12:55,FALSE,6,Soft
+Affirmed,Kempton,30/12/2021 12:55,FALSE,5,Soft
+War Admiral,Kempton,30/12/2021 12:55,FALSE,2,Soft
+Northern Dancer,Kempton,30/12/2021 12:55,FALSE,7,Soft
+Fifinella,Kempton,30/12/2021 12:55,FALSE,8,Soft
+Carry Back,Kempton,30/12/2021 12:55,TRUE,4,Soft
+Canonero II,Kempton,30/12/2021 12:55,FALSE,3,Soft
+Assault,Kempton,30/12/2021 12:55,FALSE,1,Soft
+Dan Patch,Beverley,03/01/2022 13:55,FALSE,2,Good
+Kincsem,Beverley,03/01/2022 13:55,FALSE,5,Good
+Blue Peter,Beverley,03/01/2022 13:55,FALSE,1,Good
+Red Rum,Beverley,03/01/2022 13:55,FALSE,4,Good
+Funny Cide,Beverley,03/01/2022 13:55,FALSE,7,Good
+Nevele Pride,Beverley,03/01/2022 13:55,FALSE,6,Good
+Amberlee House,Beverley,03/01/2022 13:55,FALSE,8,Good
+Fairway,Beverley,03/01/2022 13:55,FALSE,3,Good
+Omaha,Wolverhapton,04/01/2022 14:05,FALSE,8,Good
+Spectacular Bid,Wolverhapton,04/01/2022 14:05,FALSE,9,Good
+Whirlaway,Wolverhapton,04/01/2022 14:05,FALSE,2,Good
+Niatross,Wolverhapton,04/01/2022 14:05,TRUE,3,Good
+Fairway,Wolverhapton,04/01/2022 14:05,FALSE,1,Good
+Smarty Jones,Wolverhapton,04/01/2022 14:05,FALSE,4,Good
+Pretty Polly,Wolverhapton,04/01/2022 14:05,TRUE,6,Good
+Bahram,Wolverhapton,04/01/2022 14:05,FALSE,5,Good
+Secretariat,Wolverhapton,04/01/2022 14:05,FALSE,7,Good
+Pensive,Uttoxeter,07/01/2022 13:10,FALSE,7,Heavy
+Exterminator,Uttoxeter,07/01/2022 13:10,FALSE,6,Heavy
+Smarty Jones,Uttoxeter,07/01/2022 13:10,TRUE,5,Heavy
+Brigadier Gerard,Uttoxeter,07/01/2022 13:10,FALSE,4,Heavy
+Northern Dancer,Uttoxeter,07/01/2022 13:10,FALSE,8,Heavy
+Gallant Fox,Uttoxeter,07/01/2022 13:10,FALSE,9,Heavy
+Count Fleet,Uttoxeter,07/01/2022 13:10,FALSE,1,Heavy
+Sir Barton,Uttoxeter,07/01/2022 13:10,FALSE,11,Heavy
+Nevele Pride,Uttoxeter,07/01/2022 13:10,FALSE,10,Heavy
+Seattle Slew,Uttoxeter,07/01/2022 13:10,FALSE,2,Heavy
+Fairway,Uttoxeter,07/01/2022 13:10,FALSE,3,Heavy
+Sunday Silence,Sedgefield,10/01/2022 12:20,TRUE,5,Soft
+Northern Dancer,Sedgefield,10/01/2022 12:20,TRUE,4,Soft
+Sir Barton,Sedgefield,10/01/2022 12:20,FALSE,7,Soft
+Mahmoud,Sedgefield,10/01/2022 12:20,TRUE,1,Soft
+Izanami,Sedgefield,10/01/2022 12:20,FALSE,6,Soft
+Assault,Sedgefield,10/01/2022 12:20,FALSE,2,Soft
+Smarty Jones,Sedgefield,10/01/2022 12:20,FALSE,3,Soft
+Slow Dance,Kempton,13/01/2022 12:40,FALSE,4,Heavy
+Messenger,Kempton,13/01/2022 12:40,FALSE,3,Heavy
+Fifinella,Kempton,13/01/2022 12:40,FALSE,8,Heavy
+Exterminator,Kempton,13/01/2022 12:40,FALSE,6,Heavy
+Count Fleet,Kempton,13/01/2022 12:40,FALSE,1,Heavy
+Pensive,Kempton,13/01/2022 12:40,FALSE,7,Heavy
+Last Orders,Kempton,13/01/2022 12:40,FALSE,5,Heavy
+Charismatic,Kempton,13/01/2022 12:40,FALSE,9,Heavy
+Fairway,Kempton,13/01/2022 12:40,FALSE,2,Heavy
+Seabiscuit,Haydock,17/01/2022 12:00,TRUE,3,Soft
+Omaha,Haydock,17/01/2022 12:00,FALSE,4,Soft
+Seattle Slew,Haydock,17/01/2022 12:00,FALSE,1,Soft
+Sir Barton,Haydock,17/01/2022 12:00,FALSE,5,Soft
+Whirlaway,Haydock,17/01/2022 12:00,FALSE,2,Soft
+Funny Cide,Haydock,17/01/2022 12:00,FALSE,6,Soft
+Admiral Pete,Aintree,21/01/2022 14:20,TRUE,2,Good
+Swaps,Aintree,21/01/2022 14:20,TRUE,1,Good
+Funny Cide,Aintree,21/01/2022 14:20,FALSE,5,Good
+Exterminator,Aintree,21/01/2022 14:20,FALSE,3,Good
+Sir Barton,Aintree,21/01/2022 14:20,FALSE,4,Good
+Real Quiet,Doncaster,25/01/2022 13:35,FALSE,1,Good
+Sir Barton,Doncaster,25/01/2022 13:35,TRUE,5,Good
+Alysheba,Doncaster,25/01/2022 13:35,FALSE,3,Good
+Gainsborough,Doncaster,25/01/2022 13:35,FALSE,4,Good
+Isinglass,Doncaster,25/01/2022 13:35,FALSE,2,Good
+Isinglass,Aintree,25/01/2022 13:50,TRUE,3,Good
+Count Fleet,Aintree,25/01/2022 13:50,FALSE,1,Good
+Izanami,Aintree,25/01/2022 13:50,FALSE,7,Good
+Secretariat,Aintree,25/01/2022 13:50,FALSE,6,Good
+Bahram,Aintree,25/01/2022 13:50,FALSE,5,Good
+Admiral Pete,Aintree,25/01/2022 13:50,FALSE,4,Good
+Amberlee House,Aintree,25/01/2022 13:50,FALSE,8,Good
+Messenger,Aintree,25/01/2022 13:50,FALSE,2,Good
+Bret Hanover,Wolverhapton,28/01/2022 14:05,FALSE,5,Soft
+Seattle Slew,Wolverhapton,28/01/2022 14:05,TRUE,1,Soft
+Mahmoud,Wolverhapton,28/01/2022 14:05,FALSE,2,Soft
+Isinglass,Wolverhapton,28/01/2022 14:05,TRUE,6,Soft
+Native Dancer,Wolverhapton,28/01/2022 14:05,TRUE,9,Soft
+Hambletonian,Wolverhapton,28/01/2022 14:05,FALSE,8,Soft
+Citation,Wolverhapton,28/01/2022 14:05,FALSE,7,Soft
+War Admiral,Wolverhapton,28/01/2022 14:05,FALSE,4,Soft
+Majestic Prince,Wolverhapton,28/01/2022 14:05,FALSE,3,Soft
+Tim Tam,Doncaster,31/01/2022 14:05,TRUE,2,Soft
+Niatross,Doncaster,31/01/2022 14:05,TRUE,3,Soft
+Real Quiet,Doncaster,31/01/2022 14:05,FALSE,1,Soft
+Red Fox,Doncaster,31/01/2022 14:05,FALSE,5,Soft
+Sunday Silence,Doncaster,31/01/2022 14:05,FALSE,8,Soft
+Nevele Pride,Doncaster,31/01/2022 14:05,TRUE,9,Soft
+Native Dancer,Doncaster,31/01/2022 14:05,FALSE,6,Soft
+Gallant Fox,Doncaster,31/01/2022 14:05,FALSE,7,Soft
+Bret Hanover,Doncaster,31/01/2022 14:05,FALSE,4,Soft
+Omaha,Wolverhapton,04/02/2022 15:10,FALSE,5,Good
+Mahmoud,Wolverhapton,04/02/2022 15:10,FALSE,3,Good
+Assault,Wolverhapton,04/02/2022 15:10,TRUE,1,Good
+Funny Cide,Wolverhapton,04/02/2022 15:10,FALSE,6,Good
+Greyhound,Wolverhapton,04/02/2022 15:10,FALSE,4,Good
+Red Marauder,Wolverhapton,04/02/2022 15:10,FALSE,2,Good
+Hambletonian,Chester,05/02/2022 13:15,FALSE,5,Soft
+Citation,Chester,05/02/2022 13:15,FALSE,4,Soft
+War Admiral,Chester,05/02/2022 13:15,TRUE,2,Soft
+Alysheba,Chester,05/02/2022 13:15,FALSE,3,Soft
+Party Politics,Chester,05/02/2022 13:15,FALSE,1,Soft
+Kincsem,Chester,05/02/2022 13:15,FALSE,6,Soft
+Silver Charm,Chester,05/02/2022 13:15,FALSE,7,Soft
+Tim Tam,Chester,06/02/2022 12:20,FALSE,3,Good
+Amberlee House,Chester,06/02/2022 12:20,FALSE,8,Good
+Hambletonian,Chester,06/02/2022 12:20,FALSE,5,Good
+Pensive,Chester,06/02/2022 12:20,FALSE,6,Good
+Assault,Chester,06/02/2022 12:20,FALSE,1,Good
+Fifinella,Chester,06/02/2022 12:20,FALSE,7,Good
+Swaps,Chester,06/02/2022 12:20,FALSE,2,Good
+Affirmed,Chester,06/02/2022 12:20,FALSE,4,Good
+Charismatic,Sedgefield,08/02/2022 12:40,FALSE,7,Soft
+Fairway,Sedgefield,08/02/2022 12:40,FALSE,2,Soft
+Pleasant Colony,Sedgefield,08/02/2022 12:40,FALSE,6,Soft
+Last Orders,Sedgefield,08/02/2022 12:40,FALSE,4,Soft
+Gainsborough,Sedgefield,08/02/2022 12:40,FALSE,5,Soft
+Seattle Slew,Sedgefield,08/02/2022 12:40,TRUE,1,Soft
+Tim Tam,Sedgefield,08/02/2022 12:40,FALSE,3,Soft
+Niatross,Newcastle,12/02/2022 12:45,FALSE,1,Soft
+Seabiscuit,Newcastle,12/02/2022 12:45,FALSE,5,Soft
+Citation,Newcastle,12/02/2022 12:45,FALSE,3,Soft
+Red Fox,Newcastle,12/02/2022 12:45,FALSE,2,Soft
+Pensive,Newcastle,12/02/2022 12:45,FALSE,4,Soft
+Spectacular Bid,Newcastle,12/02/2022 12:45,FALSE,6,Soft
+Charismatic,Newcastle,12/02/2022 12:45,FALSE,7,Soft
+Northern Dancer,Kempton,15/02/2022 13:45,FALSE,7,Heavy
+Seattle Slew,Kempton,15/02/2022 13:45,FALSE,1,Heavy
+Alysheba,Kempton,15/02/2022 13:45,FALSE,5,Heavy
+Canonero II,Kempton,15/02/2022 13:45,FALSE,3,Heavy
+Affirmed,Kempton,15/02/2022 13:45,FALSE,6,Heavy
+Red Rum,Kempton,15/02/2022 13:45,FALSE,4,Heavy
+Messenger,Kempton,15/02/2022 13:45,FALSE,2,Heavy
+Tim Tam,Worcester,15/02/2022 13:05,FALSE,2,Heavy
+Smarty Jones,Worcester,15/02/2022 13:05,FALSE,4,Heavy
+Brigadier Gerard,Worcester,15/02/2022 13:05,FALSE,3,Heavy
+Last Orders,Worcester,15/02/2022 13:05,TRUE,5,Heavy
+Party Politics,Worcester,15/02/2022 13:05,FALSE,1,Heavy
+Whirlaway,Kempton,16/02/2022 13:10,FALSE,3,Good
+Sir Barton,Kempton,16/02/2022 13:10,FALSE,7,Good
+Spectacular Bid,Kempton,16/02/2022 13:10,FALSE,6,Good
+Red Marauder,Kempton,16/02/2022 13:10,FALSE,1,Good
+Majestic Prince,Kempton,16/02/2022 13:10,FALSE,2,Good
+Red Fox,Kempton,16/02/2022 13:10,FALSE,4,Good
+Omaha,Kempton,16/02/2022 13:10,FALSE,5,Good
+Kauai King,Beverley,18/02/2022 14:20,FALSE,5,Good
+Dan Patch,Beverley,18/02/2022 14:20,FALSE,2,Good
+Bret Hanover,Beverley,18/02/2022 14:20,TRUE,4,Good
+Mahmoud,Beverley,18/02/2022 14:20,FALSE,3,Good
+Blue Peter,Beverley,18/02/2022 14:20,FALSE,1,Good
+Sunday Silence,Beverley,18/02/2022 14:20,FALSE,6,Good
+Amberlee House,Beverley,18/02/2022 14:20,TRUE,9,Good
+Secretariat,Beverley,18/02/2022 14:20,FALSE,7,Good
+Sir Barton,Beverley,18/02/2022 14:20,FALSE,8,Good
+Admiral Pete,Ludlow,19/02/2022 14:30,FALSE,4,Soft
+Seabiscuit,Ludlow,19/02/2022 14:30,TRUE,6,Soft
+Niatross,Ludlow,19/02/2022 14:30,FALSE,3,Soft
+Fairway,Ludlow,19/02/2022 14:30,FALSE,2,Soft
+Seattle Slew,Ludlow,19/02/2022 14:30,FALSE,1,Soft
+Omaha,Ludlow,19/02/2022 14:30,FALSE,7,Soft
+Pleasant Colony,Ludlow,19/02/2022 14:30,FALSE,8,Soft
+Sunday Silence,Ludlow,19/02/2022 14:30,FALSE,5,Soft
+Admiral Pete,Beverley,21/02/2022 12:35,FALSE,4,Heavy
+Funny Cide,Beverley,21/02/2022 12:35,TRUE,6,Heavy
+Canonero II,Beverley,21/02/2022 12:35,FALSE,3,Heavy
+Pleasant Colony,Beverley,21/02/2022 12:35,FALSE,8,Heavy
+Smarty Jones,Beverley,21/02/2022 12:35,TRUE,5,Heavy
+Count Fleet,Beverley,21/02/2022 12:35,FALSE,1,Heavy
+Silver Charm,Beverley,21/02/2022 12:35,FALSE,7,Heavy
+Swaps,Beverley,21/02/2022 12:35,TRUE,2,Heavy
+Omaha,Kempton,21/02/2022 12:50,FALSE,4,Soft
+Fairway,Kempton,21/02/2022 12:50,TRUE,1,Soft
+Count Fleet,Kempton,21/02/2022 12:50,FALSE,2,Soft
+Messenger,Kempton,21/02/2022 12:50,TRUE,3,Soft
+Pleasant Colony,Kempton,21/02/2022 12:50,FALSE,5,Soft
+Red Rum,Haydock,22/02/2022 12:50,FALSE,4,Good
+Carry Back,Haydock,22/02/2022 12:50,FALSE,5,Good
+Gainsborough,Haydock,22/02/2022 12:50,FALSE,7,Good
+Canonero II,Haydock,22/02/2022 12:50,TRUE,3,Good
+Blue Peter,Haydock,22/02/2022 12:50,FALSE,1,Good
+Pensive,Haydock,22/02/2022 12:50,FALSE,6,Good
+Seattle Slew,Haydock,22/02/2022 12:50,FALSE,2,Good
+Pensive,Uttoxeter,24/02/2022 13:00,TRUE,5,Good
+Red Fox,Uttoxeter,24/02/2022 13:00,FALSE,3,Good
+Blue Peter,Uttoxeter,24/02/2022 13:00,FALSE,1,Good
+Slow Dance,Uttoxeter,24/02/2022 13:00,TRUE,2,Good
+Pleasant Colony,Uttoxeter,24/02/2022 13:00,FALSE,7,Good
+Kincsem,Uttoxeter,24/02/2022 13:00,FALSE,6,Good
+Carry Back,Uttoxeter,24/02/2022 13:00,FALSE,4,Good
+Northern Dancer,Wolverhapton,25/02/2022 13:20,FALSE,5,Good
+Red Fox,Wolverhapton,25/02/2022 13:20,FALSE,3,Good
+Real Quiet,Wolverhapton,25/02/2022 13:20,TRUE,1,Good
+War Admiral,Wolverhapton,25/02/2022 13:20,FALSE,2,Good
+Citation,Wolverhapton,25/02/2022 13:20,FALSE,4,Good
+Mahmoud,Chester,28/02/2022 14:20,FALSE,2,Heavy
+Last Orders,Chester,28/02/2022 14:20,FALSE,5,Heavy
+Sunday Silence,Chester,28/02/2022 14:20,FALSE,6,Heavy
+War Admiral,Chester,28/02/2022 14:20,FALSE,3,Heavy
+Funny Cide,Chester,28/02/2022 14:20,TRUE,7,Heavy
+Amberlee House,Chester,28/02/2022 14:20,TRUE,8,Heavy
+Smarty Jones,Chester,28/02/2022 14:20,FALSE,4,Heavy
+Assault,Chester,28/02/2022 14:20,TRUE,1,Heavy
+Sunday Silence,Newcastle,04/03/2022 12:30,FALSE,5,Good
+Pensive,Newcastle,04/03/2022 12:30,TRUE,3,Good
+Blue Peter,Newcastle,04/03/2022 12:30,FALSE,1,Good
+Carry Back,Newcastle,04/03/2022 12:30,FALSE,2,Good
+Secretariat,Newcastle,04/03/2022 12:30,TRUE,4,Good
+Seabiscuit,Worcester,04/03/2022 12:40,FALSE,4,Good
+Dan Patch,Worcester,04/03/2022 12:40,FALSE,1,Good
+Carry Back,Worcester,04/03/2022 12:40,FALSE,3,Good
+Tim Tam,Worcester,04/03/2022 12:40,FALSE,2,Good
+Izanami,Worcester,04/03/2022 12:40,FALSE,5,Good
+War Emblem,Chepstow,08/03/2022 14:50,FALSE,3,Good
+Smarty Jones,Chepstow,08/03/2022 14:50,FALSE,5,Good
+Hambletonian,Chepstow,08/03/2022 14:50,FALSE,6,Good
+Red Fox,Chepstow,08/03/2022 14:50,FALSE,2,Good
+Secretariat,Chepstow,08/03/2022 14:50,FALSE,7,Good
+Party Politics,Chepstow,08/03/2022 14:50,FALSE,1,Good
+Brigadier Gerard,Chepstow,08/03/2022 14:50,FALSE,4,Good
+Canonero II,Chester,10/03/2022 13:50,FALSE,2,Firm
+Admiral Pete,Chester,10/03/2022 13:50,FALSE,4,Firm
+Last Orders,Chester,10/03/2022 13:50,FALSE,5,Firm
+Isinglass,Chester,10/03/2022 13:50,FALSE,3,Firm
+Messenger,Chester,10/03/2022 13:50,FALSE,1,Firm
+Secretariat,Chester,10/03/2022 13:50,FALSE,6,Firm
+Red Fox,Haydock,10/03/2022 13:05,FALSE,3,Good
+Messenger,Haydock,10/03/2022 13:05,FALSE,2,Good
+Brigadier Gerard,Haydock,10/03/2022 13:05,FALSE,5,Good
+Dan Patch,Haydock,10/03/2022 13:05,FALSE,1,Good
+Seabiscuit,Haydock,10/03/2022 13:05,FALSE,6,Good
+Alysheba,Haydock,10/03/2022 13:05,FALSE,4,Good
+Count Fleet,Worcester,12/03/2022 13:05,FALSE,1,Good
+Gallant Fox,Worcester,12/03/2022 13:05,FALSE,4,Good
+Fifinella,Worcester,12/03/2022 13:05,FALSE,6,Good
+Funny Cide,Worcester,12/03/2022 13:05,FALSE,7,Good
+Red Rum,Worcester,12/03/2022 13:05,FALSE,3,Good
+Messenger,Worcester,12/03/2022 13:05,FALSE,2,Good
+Seabiscuit,Worcester,12/03/2022 13:05,FALSE,5,Good
+Carry Back,Wolverhapton,13/03/2022 12:10,FALSE,4,Firm
+Slow Dance,Wolverhapton,13/03/2022 12:10,TRUE,2,Firm
+Admiral Pete,Wolverhapton,13/03/2022 12:10,FALSE,3,Firm
+Assault,Wolverhapton,13/03/2022 12:10,FALSE,1,Firm
+Kincsem,Wolverhapton,13/03/2022 12:10,FALSE,5,Firm
+Admiral Pete,Haydock,13/03/2022 13:30,FALSE,2,Firm
+Kauai King,Haydock,13/03/2022 13:30,FALSE,4,Firm
+Canonero II,Haydock,13/03/2022 13:30,FALSE,1,Firm
+Gallant Fox,Haydock,13/03/2022 13:30,TRUE,5,Firm
+Carry Back,Haydock,13/03/2022 13:30,FALSE,3,Firm
+Secretariat,Haydock,13/03/2022 13:30,FALSE,6,Firm
+Charismatic,Haydock,13/03/2022 13:30,FALSE,7,Firm
+Sir Barton,Epsom Downs,15/03/2022 14:45,FALSE,5,Firm
+Citation,Epsom Downs,15/03/2022 14:45,FALSE,4,Firm
+Assault,Epsom Downs,15/03/2022 14:45,FALSE,1,Firm
+Canonero II,Epsom Downs,15/03/2022 14:45,TRUE,2,Firm
+Alysheba,Epsom Downs,15/03/2022 14:45,FALSE,3,Firm
+Whirlaway,Redcar,18/03/2022 13:50,TRUE,2,Firm
+Bahram,Redcar,18/03/2022 13:50,TRUE,5,Firm
+Canonero II,Redcar,18/03/2022 13:50,FALSE,3,Firm
+Fifinella,Redcar,18/03/2022 13:50,FALSE,6,Firm
+Red Fox,Redcar,18/03/2022 13:50,FALSE,4,Firm
+Assault,Redcar,18/03/2022 13:50,FALSE,1,Firm
+Red Marauder,Huntingdon,22/03/2022 12:50,FALSE,1,Firm
+Bret Hanover,Huntingdon,22/03/2022 12:50,FALSE,4,Firm
+Northern Dancer,Huntingdon,22/03/2022 12:50,FALSE,7,Firm
+Tim Tam,Huntingdon,22/03/2022 12:50,FALSE,3,Firm
+Funny Cide,Huntingdon,22/03/2022 12:50,FALSE,9,Firm
+Admiral Pete,Huntingdon,22/03/2022 12:50,FALSE,5,Firm
+Seabiscuit,Huntingdon,22/03/2022 12:50,FALSE,8,Firm
+Swaps,Huntingdon,22/03/2022 12:50,FALSE,2,Firm
+Hambletonian,Huntingdon,22/03/2022 12:50,FALSE,6,Firm
+Red Rum,Newcastle,22/03/2022 12:55,TRUE,2,Good
+Alysheba,Newcastle,22/03/2022 12:55,FALSE,3,Good
+Carry Back,Newcastle,22/03/2022 12:55,FALSE,5,Good
+Smarty Jones,Newcastle,22/03/2022 12:55,FALSE,6,Good
+Admiral Pete,Newcastle,22/03/2022 12:55,FALSE,4,Good
+Real Quiet,Newcastle,22/03/2022 12:55,TRUE,1,Good
+Northern Dancer,Newcastle,22/03/2022 12:55,FALSE,8,Good
+Pensive,Newcastle,22/03/2022 12:55,FALSE,7,Good
+Party Politics,Worcester,23/03/2022 13:10,FALSE,2,Good
+Blue Peter,Worcester,23/03/2022 13:10,TRUE,1,Good
+Majestic Prince,Worcester,23/03/2022 13:10,TRUE,3,Good
+Bahram,Worcester,23/03/2022 13:10,FALSE,5,Good
+Northern Dancer,Worcester,23/03/2022 13:10,FALSE,6,Good
+Canonero II,Worcester,23/03/2022 13:10,TRUE,4,Good
+Whirlaway,Worcester,23/03/2022 14:10,TRUE,3,Good
+Affirmed,Worcester,23/03/2022 14:10,FALSE,4,Good
+Assault,Worcester,23/03/2022 14:10,FALSE,1,Good
+Red Marauder,Worcester,23/03/2022 14:10,FALSE,2,Good
+Citation,Worcester,23/03/2022 14:10,FALSE,5,Good
+Carry Back,Worcester,26/03/2022 13:25,FALSE,6,Firm
+Silver Charm,Worcester,26/03/2022 13:25,FALSE,8,Firm
+Pleasant Colony,Worcester,26/03/2022 13:25,FALSE,9,Firm
+Dan Patch,Worcester,26/03/2022 13:25,FALSE,1,Firm
+Brigadier Gerard,Worcester,26/03/2022 13:25,FALSE,5,Firm
+Fairway,Worcester,26/03/2022 13:25,FALSE,2,Firm
+Omaha,Worcester,26/03/2022 13:25,FALSE,7,Firm
+Admiral Pete,Worcester,26/03/2022 13:25,FALSE,4,Firm
+Canonero II,Worcester,26/03/2022 13:25,FALSE,3,Firm
+Pensive,Haydock,29/03/2022 13:30,FALSE,7,Good
+Messenger,Haydock,29/03/2022 13:30,FALSE,3,Good
+Sunday Silence,Haydock,29/03/2022 13:30,FALSE,8,Good
+Seattle Slew,Haydock,29/03/2022 13:30,FALSE,1,Good
+Exterminator,Haydock,29/03/2022 13:30,FALSE,6,Good
+Mahmoud,Haydock,29/03/2022 13:30,FALSE,4,Good
+Red Marauder,Haydock,29/03/2022 13:30,TRUE,2,Good
+Charismatic,Haydock,29/03/2022 13:30,FALSE,9,Good
+Isinglass,Haydock,29/03/2022 13:30,FALSE,5,Good
+Slow Dance,Doncaster,31/03/2022 13:30,FALSE,4,Firm
+Charismatic,Doncaster,31/03/2022 13:30,FALSE,8,Firm
+Real Quiet,Doncaster,31/03/2022 13:30,FALSE,1,Firm
+Last Orders,Doncaster,31/03/2022 13:30,TRUE,6,Firm
+Majestic Prince,Doncaster,31/03/2022 13:30,FALSE,3,Firm
+Admiral Pete,Doncaster,31/03/2022 13:30,FALSE,5,Firm
+Seattle Slew,Doncaster,31/03/2022 13:30,FALSE,2,Firm
+Hambletonian,Doncaster,31/03/2022 13:30,TRUE,7,Firm
+Northern Dancer,Huntingdon,03/04/2022 13:50,FALSE,8,Good
+Red Rum,Huntingdon,03/04/2022 13:50,FALSE,5,Good
+Secretariat,Huntingdon,03/04/2022 13:50,FALSE,10,Good
+Pensive,Huntingdon,03/04/2022 13:50,FALSE,7,Good
+Majestic Prince,Huntingdon,03/04/2022 13:50,TRUE,2,Good
+War Emblem,Huntingdon,03/04/2022 13:50,FALSE,4,Good
+Funny Cide,Huntingdon,03/04/2022 13:50,FALSE,12,Good
+Canonero II,Huntingdon,03/04/2022 13:50,FALSE,3,Good
+Sunday Silence,Huntingdon,03/04/2022 13:50,FALSE,9,Good
+Affirmed,Huntingdon,03/04/2022 13:50,FALSE,6,Good
+Assault,Huntingdon,03/04/2022 13:50,TRUE,1,Good
+Gainsborough,Huntingdon,03/04/2022 13:50,TRUE,11,Good
+Pensive,Sedgefield,03/04/2022 13:00,TRUE,7,Firm
+Hambletonian,Sedgefield,03/04/2022 13:00,TRUE,6,Firm
+Gainsborough,Sedgefield,03/04/2022 13:00,FALSE,10,Firm
+Party Politics,Sedgefield,03/04/2022 13:00,FALSE,1,Firm
+Red Rum,Sedgefield,03/04/2022 13:00,FALSE,5,Firm
+Native Dancer,Sedgefield,03/04/2022 13:00,TRUE,8,Firm
+Dan Patch,Sedgefield,03/04/2022 13:00,FALSE,2,Firm
+Seabiscuit,Sedgefield,03/04/2022 13:00,FALSE,9,Firm
+Mahmoud,Sedgefield,03/04/2022 13:00,TRUE,4,Firm
+Assault,Sedgefield,03/04/2022 13:00,FALSE,3,Firm
+Isinglass,Huntingdon,06/04/2022 14:15,FALSE,2,Firm
+Mahmoud,Huntingdon,06/04/2022 14:15,FALSE,1,Firm
+Izanami,Huntingdon,06/04/2022 14:15,TRUE,5,Firm
+Pensive,Huntingdon,06/04/2022 14:15,FALSE,3,Firm
+Kincsem,Huntingdon,06/04/2022 14:15,FALSE,4,Firm
+Real Quiet,Huntingdon,06/04/2022 12:15,FALSE,2,Good
+Assault,Huntingdon,06/04/2022 12:15,FALSE,3,Good
+Count Fleet,Huntingdon,06/04/2022 12:15,FALSE,1,Good
+Northern Dancer,Huntingdon,06/04/2022 12:15,FALSE,8,Good
+Citation,Huntingdon,06/04/2022 12:15,FALSE,6,Good
+Fairway,Huntingdon,06/04/2022 12:15,FALSE,4,Good
+Affirmed,Huntingdon,06/04/2022 12:15,FALSE,5,Good
+Secretariat,Huntingdon,06/04/2022 12:15,TRUE,7,Good
+Nevele Pride,Huntingdon,06/04/2022 12:15,FALSE,9,Good
+Tim Tam,Haydock,06/04/2022 13:35,TRUE,2,Firm
+Fifinella,Haydock,06/04/2022 13:35,FALSE,8,Firm
+Charismatic,Haydock,06/04/2022 13:35,FALSE,10,Firm
+Carry Back,Haydock,06/04/2022 13:35,TRUE,5,Firm
+Messenger,Haydock,06/04/2022 13:35,FALSE,1,Firm
+Niatross,Haydock,06/04/2022 13:35,FALSE,3,Firm
+Pensive,Haydock,06/04/2022 13:35,FALSE,6,Firm
+Nevele Pride,Haydock,06/04/2022 13:35,FALSE,9,Firm
+Brigadier Gerard,Haydock,06/04/2022 13:35,TRUE,4,Firm
+Seabiscuit,Haydock,06/04/2022 13:35,FALSE,7,Firm
+Kincsem,Epsom Downs,10/04/2022 14:45,FALSE,9,Good
+Isinglass,Epsom Downs,10/04/2022 14:45,FALSE,4,Good
+Last Orders,Epsom Downs,10/04/2022 14:45,FALSE,7,Good
+Count Fleet,Epsom Downs,10/04/2022 14:45,FALSE,1,Good
+Nevele Pride,Epsom Downs,10/04/2022 14:45,TRUE,10,Good
+Real Quiet,Epsom Downs,10/04/2022 14:45,FALSE,2,Good
+Seattle Slew,Epsom Downs,10/04/2022 14:45,FALSE,3,Good
+Carry Back,Epsom Downs,10/04/2022 14:45,FALSE,6,Good
+Admiral Pete,Epsom Downs,10/04/2022 14:45,FALSE,5,Good
+Bahram,Epsom Downs,10/04/2022 14:45,TRUE,8,Good
+Seabiscuit,Worcester,14/04/2022 15:05,FALSE,6,Firm
+Amberlee House,Worcester,14/04/2022 15:05,FALSE,8,Firm
+Blue Peter,Worcester,14/04/2022 15:05,FALSE,1,Firm
+Smarty Jones,Worcester,14/04/2022 15:05,FALSE,3,Firm
+Last Orders,Worcester,14/04/2022 15:05,TRUE,4,Firm
+Gainsborough,Worcester,14/04/2022 15:05,FALSE,7,Firm
+Native Dancer,Worcester,14/04/2022 15:05,TRUE,5,Firm
+Admiral Pete,Worcester,14/04/2022 15:05,FALSE,2,Firm
+Brigadier Gerard,Kempton,17/04/2022 14:20,FALSE,3,Firm
+Tim Tam,Kempton,17/04/2022 14:20,FALSE,2,Firm
+Charismatic,Kempton,17/04/2022 14:20,FALSE,6,Firm
+Carry Back,Kempton,17/04/2022 14:20,FALSE,4,Firm
+Exterminator,Kempton,17/04/2022 14:20,TRUE,5,Firm
+Assault,Kempton,17/04/2022 14:20,FALSE,1,Firm
+Omaha,Sedgefield,20/04/2022 13:35,FALSE,4,Firm
+Amberlee House,Sedgefield,20/04/2022 13:35,FALSE,6,Firm
+Pensive,Sedgefield,20/04/2022 13:35,FALSE,3,Firm
+Gainsborough,Sedgefield,20/04/2022 13:35,FALSE,5,Firm
+Funny Cide,Sedgefield,20/04/2022 13:35,FALSE,7,Firm
+Red Rum,Sedgefield,20/04/2022 13:35,FALSE,2,Firm
+Canonero II,Sedgefield,20/04/2022 13:35,FALSE,1,Firm
+Fifinella,Chepstow,20/04/2022 13:45,TRUE,6,Firm
+Bret Hanover,Chepstow,20/04/2022 13:45,FALSE,3,Firm
+Last Orders,Chepstow,20/04/2022 13:45,FALSE,5,Firm
+Seattle Slew,Chepstow,20/04/2022 13:45,FALSE,2,Firm
+Izanami,Chepstow,20/04/2022 13:45,FALSE,7,Firm
+Affirmed,Chepstow,20/04/2022 13:45,FALSE,4,Firm
+Count Fleet,Chepstow,20/04/2022 13:45,FALSE,1,Firm
+Bret Hanover,Chepstow,24/04/2022 14:50,TRUE,2,Good
+Assault,Chepstow,24/04/2022 14:50,FALSE,1,Good
+Last Orders,Chepstow,24/04/2022 14:50,FALSE,4,Good
+Smarty Jones,Chepstow,24/04/2022 14:50,FALSE,3,Good
+Gainsborough,Chepstow,24/04/2022 14:50,TRUE,6,Good
+Silver Charm,Chepstow,24/04/2022 14:50,TRUE,7,Good
+Kincsem,Chepstow,24/04/2022 14:50,FALSE,5,Good
