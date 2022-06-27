@@ -1,0 +1,393 @@
+.legend {
+  left: 10vw;
+  font-size: larger;
+  font-weight: bold;
+  color: black;
+  top: 75vh;
+  position: absolute;
+}
+
+.grassgood, .grassfirm, .grassheavy, .grasssoft {
+  height: 70vh;
+  width: 200%;
+  position: absolute;
+  background-size: 50%;
+  background-position: repeat;
+  animation: grassmove 5s infinite;
+  animation-timing-function: linear;
+}
+
+.grassfirm {
+  background-image: url('grass/grassfirm.png');
+}
+
+.grasssoft {
+  background-image: url('grass/grasssoft.png');
+}
+
+.grassgood {
+  background-image: url('grass/grassgood.png');
+}
+
+.grassheavy {
+  background-image: url('grass/grassheavy.png');
+}
+
+@keyframes grassmove {
+  from {left: 0%;}
+  to {left: -100%;}
+}
+
+.horseandjockey1, .horseandjockey2, .horseandjockey3, .horseandjockey4, .horseandjockey5, .horseandjockey6 {
+  height: 1vh;
+  width: 1vh;
+  position: relative;
+  font-size:larger;
+  font-weight: bold;
+  color: white;
+}
+
+.horseandjockey1 {
+  top: 0vh;
+}
+.horseandjockey2 {
+  top: 10vh;
+}
+.horseandjockey3 {
+  top: 20vh;
+}
+.horseandjockey4 {
+  top: 30vh;
+}
+.horseandjockey5 {
+  top: 40vh;
+}
+.horseandjockey6 {
+  top: 50vh;
+}
+
+.placein1 {
+  animation: place1 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein2 {
+  animation: place2 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein3 {
+  animation: place3 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein4 {
+  animation: place4 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein5 {
+  animation: place5 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein6 {
+  animation: place6 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes place1 {
+  0% {left: 0%; }
+  10% {left : 10%; }
+  20% {left: 15%;}
+  30% {left: 22%;}
+  40% {left: 35%;}
+  50% {left: 38%;}
+  60% {left: 50%;}
+  70% {left: 65%;}
+  80% {left: 75%;}
+  90% {left: 90%;}
+  100% {left: 90%;}
+}
+
+@keyframes place2 {
+  0% {left: 0%; }
+  10% {left : 12%; }
+  20% {left: 19%;}
+  30% {left: 29%;}
+  40% {left: 35%;}
+  50% {left: 43%;}
+  60% {left: 52%;}
+  70% {left: 62%;}
+  80% {left: 74%;}
+  90% {left: 88%;}
+  92% {left: 90%;}
+  100% {left: 90%;}
+}
+
+@keyframes place3 {
+  0% {left: 0%; }
+  10% {left : 8%; }
+  20% {left: 16%;}
+  30% {left: 29%;}
+  40% {left: 32%;}
+  50% {left: 48%;}
+  60% {left: 57%;}
+  70% {left: 72%;}
+  80% {left: 79%;}
+  90% {left: 84%;}
+  94% {left: 90%;}
+  100% {left: 90%;}
+}
+
+@keyframes place4 {
+  0% {left: 0%; }
+  10% {left : 11%; }
+  20% {left: 17%;}
+  30% {left: 28%;}
+  40% {left: 38%;}
+  50% {left: 42%;}
+  60% {left: 52%;}
+  70% {left: 66%;}
+  80% {left: 73%;}
+  90% {left: 81%;}
+  96% {left: 90%;}
+  100% {left: 90%;}
+}
+
+@keyframes place5 {
+  0% {left: 0%; }
+  10% {left : 7%; }
+  20% {left: 14%;}
+  30% {left: 20%;}
+  40% {left: 32%;}
+  50% {left: 44%;}
+  60% {left: 49%;}
+  70% {left: 62%;}
+  80% {left: 71%;}
+  90% {left: 79%;}
+  98% {left: 90%;}
+  100% {left: 90%}
+}
+
+@keyframes place6 {
+  0% {left: 0%; }
+  10% {left : 6%; }
+  20% {left: 13%;}
+  30% {left: 22%;}
+  40% {left: 29%;}
+  50% {left: 41%;}
+  60% {left: 52%;}
+  70% {left: 60%;}
+  80% {left: 72%;}
+  90% {left: 77%;}
+  100% {left: 90%;}
+}
+
+
+.horse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 12vh;
+  background-image: url('horse.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+.jockey1, .jockey2, .jockey3, .jockey4, .jockey5, .jockey6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 12vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.jockey1 {
+  background-image: url('jockey/jockeyred.png');
+}
+
+.jockey2 {
+  background-image: url('jockey/jockeyblue.png');
+}
+
+.jockey3 {
+  background-image: url('jockey/jockeyyellow.png');
+}
+
+.jockey4 {
+  background-image: url('jockey/jockeypurple.png');
+}
+
+.jockey5 {
+  background-image: url('jockey/jockeyorange.png');
+}
+
+.jockey6 {
+  background-image: url('jockey/jockeycyan.png');
+}
+
+
+.map {
+    height: 100vh;
+    width: 150vh;
+    position: absolute;
+    background-image: url('worldmap.png');
+    background-size: cover;
+    background-position: center;
+    top:0;
+    left:0;
+}
+
+.bidder {
+    transform: perspective(40px) rotateX(20deg) rotateZ(-45deg);
+    transform-origin: 50% 50%;
+    border-radius: 50% 50% 50% 0;
+    padding: 0 3px 3px 0;
+    width: 40px;
+    height: 40px;
+    background: #ed1f34;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -2.2em 0 0 -1.3em;
+    -webkit-box-shadow: -1px 1px 4px rgba(0, 0, 0, .5);
+    -moz-box-shadow: -1px 1px 4px rgba(0, 0, 0, .5);
+    box-shadow: -1px 1px 4px rgba(0, 0, 0, .5);
+  }
+  
+  .bidder:after {
+    content: '';
+    width: 1em;
+    height: 1em;
+    margin: 1em 0 0 .7em;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+      -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    -moz-box-shadow: inset -2px 2px 4px hsla(0, 0, 0, .5);
+    -webkit-box-shadow: inset -2px 2px 4px hsla(0, 0, 0, .5);
+    box-shadow: inset -2px 2px 4px hsla(0, 0, 0, .5);
+  }
+
+.mapBlock {
+    background-color: red;
+    position: absolute;
+}
+
+
+
+
+/****
+#################
+Chat css
+*****/
+
+.chat {
+    position: fixed;
+  right: 85px;
+  bottom: 20px;
+  width: 400px;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  opacity: 1;
+  box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  -webkit-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.chat_header {
+    /* margin: 10px; */
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f3f3f3;
+  height: 55px;
+  background: #42a5f5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.chat_body {
+    background: #fff;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    overflow-y: auto;
+}
+
+#chat_body{
+    height: 450px;
+}
+
+.chat_body p {
+    padding: 20px;
+    color: #888
+}
+
+.chat_conversion {
+
+}
+
+.chat_msg_item {
+    padding: 4px;
+    margin: 4px;
+    position: relative;
+    max-width: 60%;
+    display: block;
+    word-wrap: break-word;
+    border-radius: 3px;
+    -webkit-animation: zoomIn .5s cubic-bezier(.42, 0, .58, 1);
+    animation: zoomIn .5s cubic-bezier(.42, 0, .58, 1);
+    clear: both;
+    z-index: 999;
+}
+
+.chat_converse {
+    position: relative;
+    background: #fff;
+    margin: 6px 0 0px 0;
+    height: 300px;
+    min-height: 0;
+    font-size: 16px;
+    line-height: 18px;
+    overflow-y: auto;
+    width: 100%;
+    float: right;
+    padding-bottom: 100px;
+}
+
+.chat_converse .chat_msg_item.chat_msg_item_admin {
+    margin-left: 60px;
+    float: left;
+    background: rgba(0, 0, 0, 0.03);
+    color: #666;
+    display: block;
+  }
+  
+  .chat_converse .chat_msg_item.chat_msg_item_user {
+    margin-right: 20px;
+    float: right;
+    background: #42a5f5;
+    color: #eceff1;
+    display: block;
+  }
