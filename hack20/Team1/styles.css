@@ -1,0 +1,238 @@
+.legend {
+  left: 10vw;
+  font-size: larger;
+  font-weight: bold;
+  color: black;
+  top: 75vh;
+  position: absolute;
+}
+
+.grassgood, .grassfirm, .grassheavy, .grasssoft {
+  height: 70vh;
+  width: 200%;
+  position: absolute;
+  background-size: 50%;
+  background-position: repeat;
+  animation: grassmove 5s infinite;
+  animation-timing-function: linear;
+}
+
+.grassfirm {
+  background-image: url('grass/grassfirm.png');
+}
+
+.grasssoft {
+  background-image: url('grass/grasssoft.png');
+}
+
+.grassgood {
+  background-image: url('grass/grassgood.png');
+}
+
+.grassheavy {
+  background-image: url('grass/grassheavy.png');
+}
+
+@keyframes grassmove {
+  from {left: 0%;}
+  to {left: -100%;}
+}
+
+.horseandjockey1, .horseandjockey2, .horseandjockey3, .horseandjockey4, .horseandjockey5, .horseandjockey6 {
+  height: 1vh;
+  width: 1vh;
+  position: relative;
+  font-size:larger;
+  font-weight: bold;
+  color: white;
+}
+
+.horseandjockey1 {
+  top: 0vh;
+}
+.horseandjockey2 {
+  top: 10vh;
+}
+.horseandjockey3 {
+  top: 20vh;
+}
+.horseandjockey4 {
+  top: 30vh;
+}
+.horseandjockey5 {
+  top: 40vh;
+}
+.horseandjockey6 {
+  top: 50vh;
+}
+
+.placein1 {
+  animation: place1 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein2 {
+  animation: place2 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein3 {
+  animation: place3 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein4 {
+  animation: place4 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein5 {
+  animation: place5 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.placein6 {
+  animation: place6 20s 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes place1 {
+  0% {left: 0%; }
+  10% {left : 10%; }
+  20% {left: 15%;}
+  30% {left: 22%;}
+  40% {left: 35%;}
+  50% {left: 38%;}
+  60% {left: 50%;}
+  70% {left: 65%;}
+  80% {left: 75%;}
+  90% {left: 90%;}
+  100% {left: 90%;}
+}
+
+@keyframes place2 {
+  0% {left: 0%; }
+  10% {left : 12%; }
+  20% {left: 19%;}
+  30% {left: 29%;}
+  40% {left: 35%;}
+  50% {left: 43%;}
+  60% {left: 52%;}
+  70% {left: 62%;}
+  80% {left: 74%;}
+  90% {left: 88%;}
+  92% {left: 90%;}
+  100% {left: 90%;}
+}
+
+@keyframes place3 {
+  0% {left: 0%; }
+  10% {left : 8%; }
+  20% {left: 16%;}
+  30% {left: 29%;}
+  40% {left: 32%;}
+  50% {left: 48%;}
+  60% {left: 57%;}
+  70% {left: 72%;}
+  80% {left: 79%;}
+  90% {left: 84%;}
+  94% {left: 90%;}
+  100% {left: 90%;}
+}
+
+@keyframes place4 {
+  0% {left: 0%; }
+  10% {left : 11%; }
+  20% {left: 17%;}
+  30% {left: 28%;}
+  40% {left: 38%;}
+  50% {left: 42%;}
+  60% {left: 52%;}
+  70% {left: 66%;}
+  80% {left: 73%;}
+  90% {left: 81%;}
+  96% {left: 90%;}
+  100% {left: 90%;}
+}
+
+@keyframes place5 {
+  0% {left: 0%; }
+  10% {left : 7%; }
+  20% {left: 14%;}
+  30% {left: 20%;}
+  40% {left: 32%;}
+  50% {left: 44%;}
+  60% {left: 49%;}
+  70% {left: 62%;}
+  80% {left: 71%;}
+  90% {left: 79%;}
+  98% {left: 90%;}
+  100% {left: 90%}
+}
+
+@keyframes place6 {
+  0% {left: 0%; }
+  10% {left : 6%; }
+  20% {left: 13%;}
+  30% {left: 22%;}
+  40% {left: 29%;}
+  50% {left: 41%;}
+  60% {left: 52%;}
+  70% {left: 60%;}
+  80% {left: 72%;}
+  90% {left: 77%;}
+  100% {left: 90%;}
+}
+
+
+.horse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 12vh;
+  background-image: url('horse.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+.jockey1, .jockey2, .jockey3, .jockey4, .jockey5, .jockey6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 12vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.jockey1 {
+  background-image: url('jockey/jockeyred.png');
+}
+
+.jockey2 {
+  background-image: url('jockey/jockeyblue.png');
+}
+
+.jockey3 {
+  background-image: url('jockey/jockeyyellow.png');
+}
+
+.jockey4 {
+  background-image: url('jockey/jockeypurple.png');
+}
+
+.jockey5 {
+  background-image: url('jockey/jockeyorange.png');
+}
+
+.jockey6 {
+  background-image: url('jockey/jockeycyan.png');
+}
+
