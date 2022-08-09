@@ -1,0 +1,19 @@
+.container {
+    width:100%;
+    position:relative;
+    left:0;
+    top:0;
+}
+
+.popup {
+    position: relative;
+    border: 1px solid #73AD21;
+    border-radius: 5px;
+    max-width: 50px;
+    max-height: 50px;
+    text-align: center;
+}
+
+.current-salary {
+    font-size: 28px;
+}
