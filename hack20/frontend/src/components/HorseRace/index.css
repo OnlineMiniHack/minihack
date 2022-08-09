@@ -1,0 +1,14 @@
+.location-time-box {
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* div {
+  border: 2px solid red;
+} */
+.material-icons {
+  font-size: 3rem;
+}
+

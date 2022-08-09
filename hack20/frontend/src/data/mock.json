@@ -1,0 +1,68 @@
+{
+  "races": [
+    {
+      "id": 1,
+      "location": "aintree",
+      "time": "15:00",
+      "entrants": [
+        {
+          "name": "jumper",
+          "position": 1
+        },
+        {
+          "name": "dumber",
+          "position": 3
+        },
+        {
+          "name": "petar",
+          "position": 2
+        }
+      ],
+      "going": "firm"
+    },
+    {
+      "id": 2,
+      "location": "formby",
+      "time": "18:00",
+      "entrants": [
+        {
+          "name": "epstein",
+          "position": 1
+        },
+        {
+          "name": "polly",
+          "position": 3
+        },
+        {
+          "name": "ludwig",
+          "position": 2
+        }
+      ],
+      "going": "firm"
+    },
+    {
+      "id": 3,
+      "location": "hull",
+      "time": "20:00",
+      "entrants": [
+        {
+          "name": "hull master",
+          "position": 1
+        },
+        {
+          "name": "wool",
+          "position": 2
+        },
+        {
+          "name": "full",
+          "position": 3
+        },
+        {
+          "name": "donkey",
+          "position": 4
+        }
+      ],
+      "going": "HARD"
+    }
+  ]
+}

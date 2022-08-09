@@ -1,0 +1,68 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="code.js"></script>
+    <script src="chat.js"></script>
+</head>
+
+<body>
+
+<div id="grass">
+
+</div>
+<div id="horse1" class="horseandjockey1 placein1">1
+    <div id="horse" class="horse"></div>
+    <div id="jockey" class="jockey1"></div>
+</div>
+
+<div id="horse2" class="horseandjockey2 placein2">2
+    <div id="horse" class="horse"></div>
+    <div id="jockey" class="jockey2"></div>
+</div>
+
+<div id="horse3" class="horseandjockey3 placein3">3
+    <div id="horse" class="horse"></div>
+    <div id="jockey" class="jockey3"></div>
+</div>
+
+<div id="horse4" class="horseandjockey4 placein4">4
+    <div id="horse" class="horse"></div>
+    <div id="jockey" class="jockey4"></div>
+</div>
+
+<div id="horse5" class="horseandjockey5 placein5">5
+    <div id="horse" class="horse"></div>
+    <div id="jockey" class="jockey5"></div>
+</div>
+
+<div id="horse6" class="horseandjockey6 placein6">6
+    <div id="horse" class="horse"></div>
+    <div id="jockey" class="jockey6"></div>
+</div>
+
+<div class="legend">
+    <span id="name1">1. Kauai King</span><br />
+    <span id="name2">2. Gallant Fox</span><br />
+    <span id="name3">3. Seabiscuit</span><br />
+    <span id="name4">4. Omaha</span><br />
+    <span id="name5">5. Greyhound</span><br />
+    <span id="name6">6. Messenger</span>
+</div>
+
+</body>
+
+<script>
+    var forms = ["grassgood", "grassfirm", "grassheavy", "grasssoft"];
+    var form = forms[Math.floor(Math.random()*forms.length)];   
+    var el1 = document.getElementById("grass");
+    el1.className=form;
+
+    var place=[1, 2, 3, 4, 5, 6];
+    for(var i=1; i<=6; i++) {
+        var el2 = document.getElementById("horse"+i);
+        var placein = place[Math.floor(Math.random()*place.length)];
+        el2.className="horseandjockey"+i+" placein"+placein;
+        place.splice(place.indexOf(placein), 1);
+    }
+    
+</script>
+
