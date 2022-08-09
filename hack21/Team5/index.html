@@ -1,0 +1,141 @@
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<style>
+    body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2vh;
+}
+.main {
+  margin: 10vh;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 2vh;
+}
+
+.main .statement {
+  padding: 1vh;
+  font-size: 1vh;
+}
+
+.main label {
+  font-size: 2vh;
+  padding: 1vh;
+}
+
+.main button {
+  padding: 2vh;
+  background-color: aqua;
+  margin: 2vh;
+  border-radius: 100px;
+  font-size: 2vh;
+}
+
+.main .result {
+    padding: 5vh;
+    font-size: 4vh;
+    color: red;
+}
+
+</style>
+
+<body>
+
+
+<div class="main">
+    <div class="statement">
+         <input type="checkbox" id="statement1" value="">
+        <label for="statement1" id="state1">Jockeys are at risk of accidents</label>
+    </div>
+    <div class="statement">
+        <input type="checkbox" id="statement2" value="">
+        <label for="statement2" id="state2">There are few races and not much of an opportunity to earn</label>
+    </div>
+    <div class="statement">
+        <input type="checkbox" id="statement3" value="">
+        <label for="statement3" id="state3">Horse racing provides income in other areas (drinks / food)</label>
+    </div>
+    <div class="statement">
+        <input type="checkbox" id="statement4" value="">
+        <label for="statement4" id="state4">Betting companies will pay well for stands with good races/jockeys</label>
+    </div>
+    <div class="statement">
+        <input type="checkbox" id="statement5" value="">
+        <label for="statement5" id="state5">Jockeys bring human interest to their races</label>
+    </div>
+    <div class="statement">
+        <input type="checkbox" id="statement6" value="">
+        <label for="statement6" id="state6">Jockeys are light and fast, but not as fast as a computer</label>
+    </div>
+    <div class="statement">
+        <input type="checkbox" id="statement7" value="">
+        <label for="statement7" id="state7">People like to watch horse racing</label>
+    </div>
+    <div class="statement">
+        <input type="checkbox" id="statement8" value="">
+        <label for="statement8" id="state8">The working life of a jockey is short</label>
+    </div>
+    <div class="statement">
+        <input type="checkbox" id="statement9" value="">
+        <label for="statement9" id="state9">A bad fall could result in paralysis or even death</label>
+    </div>
+    <button type="button" onclick="clickSubmit()">How much should jockeys be paid?</button>
+    <div class="result" id="result"></div>
+</div>
+
+</body>
+
+<script>
+    
+    let answer=0;
+    function clickSubmit() {
+        let query="";
+        for (let i=0; i<9; i++)        {
+            var check = document.getElementById("statement" + (i+1));
+            var el = document.getElementById("state"+(i+1));
+            var text = el.innerText;
+            if (check.checked) {
+                if (query != "") {
+                    query += "@@";
+                }
+                query += text;
+            }
+        }
+        console.log(query);
+        console.log(window.axios);
+
+        // Call API that use NLP to get the answer
+window.axios.get('https://minihack-contribution-genievot.cloud.okteto.net/playit?done='+query)
+  .then(function (response) {
+    // handle success
+    console.log(response);
+    answer = response.data.score*20000+10000;
+    var res = document.getElementById("result");
+        res.innerText="Jockeys should be paid £"+answer;
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
+
+
+        
+    }
+
+    window.onload=() => {
+        
+    }
+</script>
+
