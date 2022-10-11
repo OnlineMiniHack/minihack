@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <title>Document</title>
+  <script src="js/artyom.window.min.js"></script>
+</head>
+<body style="background-color: #ffec21;">
+  <div class="container center" >
+    <div class="row" style="padding-top: 1em;">
+      <a onclick="start_play()" class="waves-effect waves-light btn deep-purple darken-3">Play!</a>
+    </div>
+    <div class="row" id="_question"
+    style="padding-top: 4em; 
+    color: #313131; 
+    font-weight: bold;
+    font-size: 3rem;">
+      <span id="question">Hello How are you?</span>
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/anime.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script>
+
+var question_original = null
+async function start_play() {
+  var quest = document.getElementById("question");
+  console.log("starting")
+  var question = await axios.get('http://localhost:3031/question')
+  question_original = question.data
+  quest.textContent = question_original.split("&&")[0].replace('dash', ' ___')
+  artyom.say(quest.textContent.replace('___', ' dash'));
+  playAnime();
+}
+
+async function send_answer(answer) {
+  var quest = document.getElementById("question");
+  console.log("starting")
+  var question = await axios.get('http://localhost:3031/check_answer' , {
+    answer: answer
+  })
+  quest.textContent = question.data
+  artyom.say(quest.textContent);
+}
+
+
+
+const artyom = new Artyom();
+
+
+if (annyang) {
+  // Let's define a command.
+  const commands = {
+    'play': () => { start_play(); },
+    'shoe': () => { send_answer('Hello world!'); },
+    'south': () => { send_answer('Hello world!'); },
+    'round': () => { send_answer('Hello world!'); },
+    'a': () => { send_answer('Hello world!'); },
+    'wall': () => { send_answer('Hello world!'); }
+  };
+  // Add our commands to annyang
+  annyang.addCommands(commands);
+  // Start listening.
+  annyang.start();
+}
+
+var elements = document.getElementById("_question")
+function playAnime() {
+  anime({
+    targets: elements,
+    translateY: -100
+  });
+}
+
+  </script>
+</body>
+</html>
+
