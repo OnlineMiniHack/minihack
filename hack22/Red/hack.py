@@ -1,23 +1,83 @@
+import os
 from random import random
+from time import sleep
 import numpy as np
 import speech_recognition as sr
 
+ASCII_GOAL = """
+                             +---------------------------+    
+                              |\          O               |   
+                              | \    @  \_|_/             | 
+                              |  \  /     |               | o 
+______________________________|___|/_____/_\______________|-|\|__________________
+         /                   /    /              _ o     / /|_                /
+        /                   /  _o'------------- / / \ ----/                  /
+       /                   /  /|_                /\    /                    /
+      /                   /_ /\ _______________ / / __/                    /
+     /                      / /                                           /
+    /                                                                    /
+   /                                                                    /
+  /                                                                    /
+ /____________________________________________________________________/
+"""
+
+ASCII_SAVE = """
+                             +---------------------------+    
+                              |\                          |\   
+                              | \    @ \_    /            | 
+                              |  \  /  \_o--<_/           | o
+______________________________|___|/______________________|-|\|__________________
+         /                   /    /              _ o     / /|_                /
+        /                   /  _o'------------- / / \ ----/                  /
+       /                   /  /|_                /\    /                    /
+      /                   /_ /\ _______________ / / __/                    /
+     /                      / /                                           /
+    /                                                                    /
+   /                                                                    /
+  /                                                                    /
+ /____________________________________________________________________/
+"""
+
+ASCII_MISS = """
+                             +---------------------------+    
+                          @   |\                          |\  
+                           \  | \      \_    /            | 
+                            \ |  \     \_o--<_/           | o
+_____________________________\|___|_______________________|-|\|__________________
+         /                   /\                        / /|_                /
+        /                   /  o'-------------- / / \ ----/                  /
+       /                   /  /|_                /\    /                    /
+      /                   /_ /\ _______________ / / __/                    /
+     /                      / /                                           /
+    /                                                                    /
+   /                                                                    /
+  /                                                                    /
+ /____________________________________________________________________/
+"""
+
 
 def goalie():
-    num = np.random.randint(1, 10)
-    if num < 5:
-        return ('left')
-    else:
-        return ('right')
+    dir = ['right', 'top']
+    num_1 = np.random.randint(1, 10)
+    num_2 = np.random.randint(1, 10)
+    if num_1 <= 5:
+        dir[0] = 'left'
+    if num_2 <= 5:
+        dir[1] = 'bottom'
+    return dir
 
 
-def save(word, goalie_position):
-    save = True
-    if word == goalie_position:
+def save(word, dir):
+    saved = True
+    if word[0] == dir[0] and word[1] == dir[1]:
         saved = True
-    else:
+    elif word[0] != dir[0] and word[1] != dir[1]:
         saved = False
-    return (saved)
+    elif word[0] == dir[0] or word[1] == dir[1]:
+        num = np.random.randint(1, 10)
+        if num <= 5:
+            saved = False
+    return saved
 
 
 def recognize_speech_from_mic(recognizer, microphone):
@@ -55,7 +115,7 @@ def recognize_speech_from_mic(recognizer, microphone):
 
 
 # set the list of words, maxnumber of guesses, and prompt limit
-WORDS = ['left', 'right']
+WORDS = ['top left', 'top right', 'bottom left', 'bottom right']
 
 
 def choose_shot():
@@ -64,7 +124,7 @@ def choose_shot():
     recognizer = sr.Recognizer()
     microphone = sr.Microphone()
 
-    print("Choose where to shoot!")
+    print("Choose where to shoot! Top left, top right, bottom left or bottom right.")
 
     guess = recognize_speech_from_mic(recognizer, microphone)
 
@@ -72,27 +132,39 @@ def choose_shot():
     assert guess["transcription"] in WORDS, f"Invalid choice {guess['transcription']}!"
 
     # show the user the transcription
-    return guess["transcription"]
+    return guess["transcription"].split(' ')
+
+
+NUMBER_OF_ATTEMPTS = 5
+
+
+def clear_console(): return os.system(
+    'cls' if os.name in ('nt', 'dos') else 'clear')
 
 
 def run_game():
     goals = 0
-    while True:
+    for i in range(1, NUMBER_OF_ATTEMPTS + 1):
+        clear_console()
+        print(f"Attempt {i}")
         goalie_position = goalie()
         try:
             word = choose_shot()
             goal = not (save(word, goalie_position))
+            print(f"Goalie went... {goalie_position}")
             if goal:
                 print("Goal!")
+                print(ASCII_GOAL)
                 goals += 1
             else:
                 print("Saved! :(")
+                print(ASCII_SAVE)
             pass
         except Exception as e:
             print(e)
             print("Goal missed!")
-
-        break
+            print(ASCII_MISS)
+        sleep(3000)
     print("running")
 
 
