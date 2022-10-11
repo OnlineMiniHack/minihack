@@ -1,5 +1,6 @@
 from random import random
 import numpy as np
+import speech_recognition as sr
 
 
 def goalie():
@@ -68,10 +69,10 @@ def choose_shot():
     guess = recognize_speech_from_mic(recognizer, microphone)
 
     assert guess["success"], guess['error']
-    assert guess["transcription"] in WORDS, "Invalid choice!"
+    assert guess["transcription"] in WORDS, f"Invalid choice {guess['transcription']}!"
 
     # show the user the transcription
-    print(guess["transcription"])
+    return guess["transcription"]
 
 
 def run_game():
