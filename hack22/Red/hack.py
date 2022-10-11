@@ -54,7 +54,7 @@ def recognize_speech_from_mic(recognizer, microphone):
 
 
 # set the list of words, maxnumber of guesses, and prompt limit
-WORDS = ['top left', 'top right', 'bottom left', 'bottom right']
+WORDS = ['left', 'right']
 
 
 def choose_shot():
@@ -75,14 +75,20 @@ def choose_shot():
 
 
 def run_game():
+    goals = 0
     while True:
         goalie_position = goalie()
         try:
             word = choose_shot()
             goal = not (save(word, goalie_position))
-            print("Goal!" if goal else "Goal missed!")
+            if goal:
+                print("Goal!")
+                goals += 1
+            else:
+                print("Saved! :(")
             pass
-        except:
+        except Exception as e:
+            print(e)
             print("Goal missed!")
 
         break
