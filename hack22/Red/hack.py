@@ -92,7 +92,7 @@ def recognize_speech_from_mic(recognizer, microphone):
     # from the microphone
     with microphone as source:
         recognizer.adjust_for_ambient_noise(source)
-        audio = recognizer.listen(source)
+        audio = recognizer.listen(source, None, 2)
 
     # set up the response object
     response = {
@@ -129,7 +129,7 @@ def choose_shot():
     guess = recognize_speech_from_mic(recognizer, microphone)
 
     assert guess["success"], guess['error']
-    assert guess["transcription"] in WORDS, f"Invalid choice {guess['transcription']}!"
+    assert guess["transcription"] in WORDS, f"Invalid choice '{guess['transcription']}'!"
 
     # show the user the transcription
     return guess["transcription"].split(' ')
@@ -146,6 +146,7 @@ def run_game():
     goals = 0
     for i in range(1, NUMBER_OF_ATTEMPTS + 1):
         clear_console()
+        print(f"Current number of goals: {goals}")
         print(f"Attempt {i}")
         goalie_position = goalie()
         try:
@@ -164,8 +165,8 @@ def run_game():
             print(e)
             print("Goal missed!")
             print(ASCII_MISS)
-        sleep(3000)
-    print("running")
+        print(f"Current number of goals: {goals}")
+        sleep(4)
 
 
 if __name__ == "__main__":
