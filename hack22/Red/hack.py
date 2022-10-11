@@ -57,13 +57,13 @@ _____________________________\|___|_______________________|-|\|_________________
 
 
 def goalie():
-    dir = ['right', 'top']
+    dir = ['top', 'right']
     num_1 = np.random.randint(1, 10)
     num_2 = np.random.randint(1, 10)
     if num_1 <= 5:
-        dir[0] = 'left'
+        dir[0] = 'bottom'
     if num_2 <= 5:
-        dir[1] = 'bottom'
+        dir[1] = 'left'
     return dir
 
 
@@ -92,7 +92,7 @@ def recognize_speech_from_mic(recognizer, microphone):
     # from the microphone
     with microphone as source:
         recognizer.adjust_for_ambient_noise(source)
-        audio = recognizer.listen(source, None, 2)
+        audio = recognizer.listen(source, None, 1)
 
     # set up the response object
     response = {
@@ -151,10 +151,12 @@ def run_game():
         goalie_position = goalie()
         try:
             word = choose_shot()
+            print(f"Shooting {word[0]} {word[1]}")
             goal = not (save(word, goalie_position))
-            print(f"Goalie went... {goalie_position}")
+            print(f"Goalie went... {' '.join(goalie_position)}")
             if goal:
-                print("Goal!")
+                print(
+                    "GOOOOOOOOOOOOOOOAAAAAAAAAAAAAAAAAAAAAAAAALLLLLLLLLLLLLLLLLLLLLLLL")
                 print(ASCII_GOAL)
                 goals += 1
             else:
