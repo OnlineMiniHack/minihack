@@ -1,0 +1,68 @@
+body {
+  background-color: #404040;;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.win {
+  font-size: 20vw;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.board {
+  top: 10vw;
+  left: 10vw;
+  background-color: blue;
+  margin: auto;
+}
+
+.board tr {
+  height: 13vw;
+}
+
+.boardbottom td {
+  background-color: blue !important;
+  color: white;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.board td {
+  width: 12vw;
+  border: 0.5vw solid blue;
+  background-color: white;
+  border-radius: 10vw;
+}
+
+.token1, .token2 {
+  width: 10vw;
+  height: 10vw;
+  left: 0.5vw;
+  border-radius: 10vw;
+  position: relative;
+  animation-timing-function: linear;
+  border: 0.5vw solid #404040;
+}
+
+.token1 {
+  background-color: red;
+  animation: drop 0.5s;
+}
+
+.token2 {
+  background-color: yellow;
+  animation: drop2 1s;
+}
+
+@keyframes drop {
+from {top: -80vw;}
+to {top: 0;}
+}
+
+@keyframes drop2 {
+  from {top: -80vw;}
+  50% {top: -80vw;}
+  to {top: 0;}
+  }
+
