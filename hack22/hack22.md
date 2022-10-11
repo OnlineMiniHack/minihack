@@ -27,7 +27,3 @@ Create a game that fits within a smart-phone form factor, or on a device of a si
 
 
 # Resources
-
-
-
-
