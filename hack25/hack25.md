@@ -2,7 +2,7 @@
 
 ## Background
 
-You like in a dystopian near future where aliens have enslaved humanity.
+You live in a dystopian near future where aliens have enslaved humanity.
 
 
 ### Terminator
@@ -16,7 +16,7 @@ The aim of the first trip is to create something that will advance humanity by s
 
 ## The Task
 
-Create something that will advance humanity by simply showing that thing to a person in 1970.  You can show this to whomever you choose: the prime minister, the president, Lemmy, Stephen Hawking, Bill Gates, or anyone you choose.
+Create something that will advance humanity by simply showing that thing to a person in 1980.  You can show this to whomever you choose: the prime minister, the president, Lemmy, Stephen Hawking, Bill Gates, or anyone you choose.
 
 The only criteria is that, by seeing this, you change history such that humanity is better able to repel the alien invasion.
 
@@ -29,7 +29,7 @@ Since you're traveling back in time, you're not allowed to use any public APIs, 
 
 * Create a game simulates an alien invasion and show it to an army general so that they are ready for the attack.
 
-* A naughts and crosses game which, when showed to the aliens after they invade, will send them into a War Games style meltdown.
+* A noughts and crosses game which, when showed to the aliens after they invade, will send them into a War Games style meltdown.
 
 * A public information BBS that advises against hospitality to aliens.
 
